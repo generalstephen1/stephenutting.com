@@ -1,0 +1,22 @@
+
+/********** IN THE BEGINNING *********/
+
+.beginningModule-createDate h4{
+	display: inline;
+	margin:0;
+	font-size: 1em;
+}
+
+.beginningModule-createDate{
+	float:right;
+	margin-left: -0.8em;
+	margin-top: -1.9em;
+	text-align: center;
+	padding: 0.3em 0;
+}
+
+.alfryd_inTheBeginning{
+	height: 7em;
+	width: 100%;
+}
+
