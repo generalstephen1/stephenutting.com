@@ -1,0 +1,25 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background-color: #f6f6f6;
+}
+.default-primary-color {
+  background: #4f4c4c;
+}
+.accent-color {
+  background: #6a79f6;
+}
+#videoEdit {
+  display: none;
+}
+#logo-container {
+  color: #4f4c4c;
+}
+#captureHeader {
+  height: 30px;
+}
+#videoCaptureSection {
+  margin: 20px;
+}

@@ -1,0 +1,111 @@
+.text-shadow (@string: 0 1px 3px rgba(0, 0, 0, 0.25)) {
+	text-shadow: @string;
+}
+
+.box-shadow (@string) {
+	-webkit-box-shadow: @string;
+	-moz-box-shadow:    @string;
+	box-shadow:         @string;
+}
+
+.drop-shadow (@x: 0, @y: 1px, @blur: 2px, @spread: 0, @alpha: 0.25) {
+	-webkit-box-shadow:	@x @y @blur @spread rgba(0, 0, 0, @alpha);
+	-moz-box-shadow:	@x @y @blur @spread rgba(0, 0, 0, @alpha);
+	box-shadow:		@x @y @blur @spread rgba(0, 0, 0, @alpha);
+}
+
+.inner-shadow (@x: 0, @y: 1px, @blur: 2px, @spread: 0, @alpha: 0.25) {
+	-webkit-box-shadow: inset @x @y @blur @spread rgba(0, 0, 0, @alpha);
+	-moz-box-shadow:    inset @x @y @blur @spread rgba(0, 0, 0, @alpha);
+	box-shadow:         inset @x @y @blur @spread rgba(0, 0, 0, @alpha);
+}
+
+.box-sizing (@type: border-box) {
+	-webkit-box-sizing: @type;
+	-moz-box-sizing:    @type;
+	box-sizing:         @type;
+}
+
+.border-radius (@radius: 5px) {
+	border-radius:         @radius;
+}
+
+.border-radiuses (@topright: 0, @bottomright: 0, @bottomleft: 0, @topleft: 0) {
+	-moz-border-radius-topright:        @topright;
+	-moz-border-radius-bottomright:     @bottomright;
+	-moz-border-radius-bottomleft:      @bottomleft;
+	-moz-border-radius-topleft:         @topleft;
+
+	border-top-right-radius:            @topright;
+	border-bottom-right-radius:         @bottomright;
+	border-bottom-left-radius:          @bottomleft;
+	border-top-left-radius:             @topleft;
+}
+
+.opacity (@opacity: 0.5) {
+	-webkit-opacity: 	@opacity;
+	-moz-opacity: 		@opacity;
+	opacity: 		@opacity;
+}
+
+.gradient (@startColor: #eee, @endColor: #ffffff) {
+	background-color: @startColor;
+	background: -webkit-gradient(linear, left top, left bottom, from(@startColor), to(@endColor));
+	background: -webkit-linear-gradient(top, @startColor, @endColor);
+	background: linear-gradient(to bottom,  @startColor, @endColor);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr=@startColor, endColorstr=@endColor,GradientType=0 );
+}
+
+.horizontal-gradient (@startColor: #eee, @endColor: white) {
+ 	background-color: @startColor;
+	background-image: -webkit-gradient(linear, left top, right top, from(@startColor), to(@endColor));
+	background-image: -webkit-linear-gradient(left, @startColor, @endColor);
+}
+
+.transition(@duration:0.2s, @ease:ease-out) {
+  -webkit-transition: all @duration @ease;
+  -moz-transition: all @duration @ease;
+  -o-transition: all @duration @ease;
+  transition: all @duration @ease;
+}
+
+.transform (@string){
+	transform: @string;
+	-webkit-transform: @string;
+	-moz-transform: @string;
+	-ms-transform: @string;
+}
+
+
+.textStroke(@strokeWidth: 1px, @strokeColor: #000){
+	 text-shadow:
+		   -@strokeWidth -@strokeWidth 0 @strokeColor,
+		    @strokeWidth -@strokeWidth 0 @strokeColor,
+		   -@strokeWidth  @strokeWidth 0 @strokeColor,
+		    @strokeWidth  @strokeWidth 0 @strokeColor,
+		    0px 5px 2px rgba(63,107,169, 0.3);
+}
+
+
+.transition(@time: 2){
+	-webkit-transition: all @time; /* Safari */
+  transition: all @time;
+}
+
+
+/*
+.tada(){
+	@-webkit-keyframes tada {.tadaTransform(); }
+	    @-ms-keyframes tada {.tadaTransform(); }
+	   @-moz-keyframes tada {.tadaTransform(); }
+		 @-o-keyframes tada {.tadaTransform(); }
+		 	@keyframes tada {.tadaTransform(); }
+}
+.tadaTransform(){
+	  0% {  			    .transform('scale3d(1, 1, 1)');  }
+	  10%, 20% {     		.transform('scale3d(.9, .9, .9) rotate3d(0, 0, 1, -3deg)');  }
+	  30%, 50%, 70%, 90% {  .transform('scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, 3deg)')  }
+	  40%, 60%, 80% {    	.transform('scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, -3deg)')  }
+	  100% {     			.transform('scale3d(1, 1, 1)');  }
+}
+*/
