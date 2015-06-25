@@ -7,7 +7,19 @@ Site.siteMain.pageLoad = function(){
 	Site.log("siteMain.pageLoad");
 
 	Site.siteMain.loadDom();
+  Site.handlebars.init();
 
+}
+
+Site.siteMain.templateLoad = function(){
+  Site.log("siteMain.templateLoad");
+
+  for (var i = 0; i < Site.projectObj.length; i++){
+    var html = Site.handlebars.TEMPLATES[Site.projectObj[i].blockSize+"ProjectTemplate"](Site.projectObj[i]);
+    $('#projectCards').append(html);
+  }
+
+  //start masonry
 }
 
 
@@ -15,6 +27,7 @@ Site.siteMain.loadDom = function(){
 
 	var elems = [
 		"siteMain",
+    "projectCards",
 	]
 
 	//get global references to DOM objects
