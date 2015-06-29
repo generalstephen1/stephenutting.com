@@ -19,7 +19,33 @@ Site.siteMain.templateLoad = function(){
     $('#projectCards').append(html);
   }
 
-  //start masonry
+  var images = document.getElementsByTagName("img");
+  var numImages = images.length;
+  var imagesLoaded = 0;
+  for(var i = 0; i < numImages; i++){
+    var newSrc = images[i].getAttribute("data-src");
+        images[i].src = newSrc;
+        images[i].onload = function(){
+          imagesLoaded ++;
+          if (imagesLoaded == numImages){
+            Site.siteMain.imageLoad();
+          }
+        }
+  }
+}
+
+Site.siteMain.imageLoad = function(){
+  Site.log("siteMain.imageLoad");
+
+  var gridWidth = document.getElementsByClassName('projectCard')[0].offsetWidth;
+  Site.log(gridWidth)
+
+  var elem = document.querySelector('#projectCards');
+  var msnry = new Masonry( elem, {
+    // options
+    itemSelector: '.mGrid',
+    columnWidth: 10
+  });
 }
 
 
