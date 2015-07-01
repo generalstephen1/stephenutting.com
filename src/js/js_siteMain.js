@@ -3,6 +3,14 @@ var Site = Site || {};
     Site.dom = Site.dom || {};
 
 
+/* NOTES
+  image sizes:
+    HOME mob full width  reg 480x200
+         mob full width  sml 480x200
+
+*/
+
+
 Site.siteMain.pageLoad = function(){
 	Site.log("siteMain.pageLoad");
 
@@ -13,6 +21,20 @@ Site.siteMain.pageLoad = function(){
 
 Site.siteMain.templateLoad = function(){
   Site.log("siteMain.templateLoad");
+
+
+  $.ajax({
+    url: "projects.json",
+    success: function(data){
+      Site.log(data);
+      Site.projectObj = data.projects;
+      Site.siteMain.projectLoad();
+    }
+  });
+}
+
+Site.siteMain.projectLoad = function(){
+  Site.log("siteMain.projectLoad");
 
   for (var i = 0; i < Site.projectObj.length; i++){
     var html = Site.handlebars.TEMPLATES[Site.projectObj[i].blockSize+"ProjectTemplate"](Site.projectObj[i]);
@@ -32,26 +54,52 @@ Site.siteMain.templateLoad = function(){
           }
         }
   }
+
+  Site.dom.$projectCards = document.querySelector('#projectCards');
+  Site.msnry = new Masonry( Site.dom.$projectCards, {
+    itemSelector: '.mGrid',
+  });
+
 }
+
 
 Site.siteMain.imageLoad = function(){
   Site.log("siteMain.imageLoad");
 
-  var gridWidth = document.getElementsByClassName('projectCard')[0].offsetWidth;
-  Site.log(gridWidth)
+  Site.siteMain.doMasonry();
 
-  var elem = document.querySelector('#projectCards');
-  var msnry = new Masonry( elem, {
-    // options
+
+
+
+
+
+  //
+}
+
+Site.siteMain.doMasonry = function(){
+  Site.log("siteMain.doMasonry");
+
+  var columns    = 3,
+  setColumns = function() { columns = $( window ).width() > 640 ? 3 : $( window ).width() > 320 ? 2 : 1; };
+
+  //Site.dom.$projectCards = document.querySelector('#projectCards');
+  window.addEventListener("resize", setColumns);
+
+  Site.msnry = new Masonry( Site.dom.$projectCards, {
     itemSelector: '.mGrid',
-    columnWidth: 10,
-    
+    columnWidth:  function( containerWidth ) { return containerWidth / columns; }
   });
+
+/*
+  Site.dom.$projectCards = document.querySelector('#projectCards');
+  Site.msnry = new Masonry( Site.dom.$projectCards, {
+    itemSelector: '.mGrid',
+  });
+*/
 }
 
 
 Site.siteMain.loadDom = function(){
-
 	var elems = [
 		"siteMain",
     "projectCards",
@@ -61,7 +109,6 @@ Site.siteMain.loadDom = function(){
 	for(var i = 0; i < elems.length; i++){
 		Site.dom[elems[i]] = document.getElementById(elems[i])
 	}
-
 }
 
 
