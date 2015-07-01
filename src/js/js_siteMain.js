@@ -44,7 +44,8 @@ Site.siteMain.imageLoad = function(){
   var msnry = new Masonry( elem, {
     // options
     itemSelector: '.mGrid',
-    columnWidth: 10
+    columnWidth: 10,
+    
   });
 }
 

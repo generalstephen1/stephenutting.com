@@ -14,17 +14,21 @@ body {
 #focusArea{
   max-width: 1000px;
 }
-/*
-.mGrid-small { width: 200px; }
-.mGrid-wide { width: 400px; }
-.mGrid-tall { width: 200px; }
-.mGrid-big { width: 200px; }
-*/
-.mGrid-small { width: 20%; }
-.mGrid-wide { width: 40%; }
-.mGrid-tall { width: 20%; }
-.mGrid-big { width: 20%; }
 
+.mGrid-reg { width: 33%; }
+.mGrid-lrg { width: 66%; }
+
+@media only screen and (max-width: 940px) {
+  .mGrid-reg { width: 50%; }
+  .mGrid-lrg { width: 100%; }
+}
+
+@media only screen and (max-width: 480px) {
+  .mGrid-reg,
+  .mGrid-lrg {
+	width: 100%;
+	}
+}
 
 .mGrid{
   background-color: #fff;
