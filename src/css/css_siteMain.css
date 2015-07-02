@@ -14,7 +14,7 @@ body {
 #focusArea {
   max-width: 1000px;
 }
-#projectCards {
+.projectCards {
   background-color: grey;
 }
 /*

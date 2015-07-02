@@ -88,26 +88,40 @@
 .group {
   width: 103.125%;
   /* 990px */
-  overflow: hidden;
   margin-left: -1.562%;
   /* 15px */
   margin-bottom: -1.875em;
   /* 30px */
 }
 .mGrid {
-  width: 30.303%;
-  /* 300px */
   float: left;
   margin: 0 1.515% 1.875em;
   /* 15px 30px */
 }
+.mGrid img {
+  width: 100%;
+}
+.mGrid-reg {
+  width: 30.303%;
+  /* 300px */
+}
+.mGrid-lrg {
+  width: 60.606%;
+  /* 600px */
+}
 @media only screen and (max-width: 40em) {
   /* 640px */
   .mGrid {
-    width: 46.876%;
-    /* 305px */
     margin-bottom: 0.938em;
     /* 15px */
+  }
+  .mGrid-reg {
+    width: 46.876%;
+    /* 305px */
+  }
+  .mGrid-lrg {
+    width: 93.752%;
+    /* 600px */
   }
 }
 @media only screen and (max-width: 20em) {
