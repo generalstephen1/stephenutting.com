@@ -5,10 +5,10 @@
 			"projectID":"loremIpsum",
 			"title": "Lorem ipsum",
 			"summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-			"blockSize": "mGrid-lrg",
-			"homeImgL": "",
-			"homeImgM": "",
-			"homeImgS": "",
+			"blockSize": "mGrid-xLrg",
+			"homeImgL": "http://lorempixel.com/600/200/cats/",
+			"homeImgM": "http://lorempixel.com/400/200/cats/",
+			"homeImgS": "http://lorempixel.com/200/200/cats/",
 			"coverImg": "",
 			"pageOrder": [
 				{
@@ -31,6 +31,9 @@
 			"title": "Dolor Sit",
 			"summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
 			"blockSize": "mGrid-reg",
+			"homeImgL": "http://lorempixel.com/600/200/cats/",
+			"homeImgM": "http://lorempixel.com/400/200/cats/",
+			"homeImgS": "http://lorempixel.com/200/200/cats/",
 			"homeImg": "",
 			"coverImg": "",
 			"pageOrder": [
@@ -45,6 +48,9 @@
 			"title": "Consectetur",
 			"summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
 			"blockSize": "mGrid-reg",
+			"homeImgL": "http://lorempixel.com/600/200/cats/",
+			"homeImgM": "http://lorempixel.com/400/200/cats/",
+			"homeImgS": "http://lorempixel.com/200/200/cats/",
 			"homeImg": "",
 			"coverImg": "",
 			"pageOrder": [
@@ -58,7 +64,44 @@
 			"projectID":"adipiscingElit",
 			"title": "Hello Kelly",
 			"summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+			"blockSize": "mGrid-lrg",
+			"homeImgL": "http://lorempixel.com/600/200/cats/",
+			"homeImgM": "http://lorempixel.com/400/200/cats/",
+			"homeImgS": "http://lorempixel.com/200/200/cats/",
+			"homeImg": "",
+			"coverImg": "",
+			"pageOrder": [
+				{
+					"type": "copy",
+					"data": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+				}
+			]
+		},
+		{
+			"projectID":"adipiscingElit",
+			"title": "Hello",
+			"summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
 			"blockSize": "mGrid-reg",
+			"homeImgL": "http://lorempixel.com/600/200/cats/",
+			"homeImgM": "http://lorempixel.com/400/200/cats/",
+			"homeImgS": "http://lorempixel.com/200/200/cats/",
+			"homeImg": "",
+			"coverImg": "",
+			"pageOrder": [
+				{
+					"type": "copy",
+					"data": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+				}
+			]
+		},
+		{
+			"projectID":"adipiscingElit",
+			"title": "Hello",
+			"summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+			"blockSize": "mGrid-reg",
+			"homeImgL": "http://lorempixel.com/600/200/cats/",
+			"homeImgM": "http://lorempixel.com/400/200/cats/",
+			"homeImgS": "http://lorempixel.com/200/200/cats/",
 			"homeImg": "",
 			"coverImg": "",
 			"pageOrder": [

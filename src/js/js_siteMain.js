@@ -1,6 +1,11 @@
 var Site = Site || {};
     Site.siteMain = Site.siteMain || {};
-    Site.dom = Site.dom || {};
+
+    /**
+     * Main Site initialisation and control script
+     *
+     * @class Site.siteMain
+     */
 
 
 /* NOTES & TODO
@@ -10,70 +15,68 @@ var Site = Site || {};
 
 
 /**
- * Triggered on page load, starts loading DOM and handlebars
+ * Main load sequence, ajax template loader, populator and initialiser
+ *
+ * @method loadSeq
+ * @param {String} whatStep Command to enact
+ * @return {void}
  */
-Site.siteMain.pageLoad = function(){
-	Site.log("siteMain.pageLoad");
+Site.siteMain.loadSeq = function(whatStep){
+  Site.log("loadSeq "+whatStep);
+  switch(whatStep){
+    case "init":
+      Site.siteMain.loadDom();
+      Site.handlebars.init();
+      break;
 
-	Site.siteMain.loadDom();
-  Site.handlebars.init();
-}
-
-
-/**
- * Loading template file, setting current templates
- */
-Site.siteMain.templateLoad = function(){
-  Site.log("siteMain.templateLoad");
-  $.ajax({
-    url: "projects.json",
-    success: function(data){
-      Site.log(data);
-      Site.projectObj = data.projects;
-      Site.siteMain.projectLoad();
-    }
-  });
-}
-
-
-/**
- * Populate templates and put on page then initiate page-load
- */
-Site.siteMain.projectLoad = function(){
-  Site.log("siteMain.projectLoad");
-
-  for (var i = 0; i < Site.projectObj.length; i++){
-    var html = Site.handlebars.TEMPLATES[Site.projectObj[i].blockSize+"ProjectTemplate"](Site.projectObj[i]);
-    $('#projectCards').append(html);
-  }
-
-  var images = document.getElementsByTagName("img");
-  var numImages = images.length;
-  var imagesLoaded = 0;
-  for(var i = 0; i < numImages; i++){
-    var newSrc = images[i].getAttribute("data-src");
-        images[i].src = newSrc;
-        images[i].onload = function(){
-          imagesLoaded ++;
-          if (imagesLoaded == numImages){
-            Site.siteMain.doMasonry();
-          }
+    case "templates":
+      $.ajax({
+        url: "projects.json",
+        success: function(data){
+          Site.projectObj = data.projects;
+          Site.siteMain.loadSeq("projects");
         }
+      });
+      break;
+
+    case "projects":
+      for (var i = 0; i < Site.projectObj.length; i++){
+        var html = Site.handlebars.TEMPLATES[Site.projectObj[i].blockSize+"ProjectTemplate"](Site.projectObj[i]);
+        $('#projectCards').append(html);
+      }
+
+      var images = document.getElementsByTagName("img");
+      var numImages = images.length;
+      var imagesLoaded = 0;
+      for(var i = 0; i < numImages; i++){
+        var newSrc = images[i].getAttribute("data-src");
+          images[i].src = newSrc;
+          images[i].onload = function(){
+            imagesLoaded ++;
+            if (imagesLoaded == numImages){
+              Site.siteMain.doMasonry();
+            }
+          }
+      }
+      Site.siteMain.loadSeq("listeners");
+      break;
+
+    case "listeners":
+      //window.addEventListener("resize", Site.siteMain.scrollChange)
+      break;
   }
-
-  Site.dom.$projectCards = document.querySelector('#projectCards');
-  Site.msnry = new Masonry( Site.dom.$projectCards, {
-    itemSelector: '.mGrid',
-  });
-
 }
 
 
 /**
- * Once images have loaded initiate Masonry to place them
+ * Triggers Masonry
+ *
+ * @method doMasonry
+ * @return {void}
  */
 Site.siteMain.doMasonry = function(){
   Site.log("siteMain.doMasonry");
+  Site.dom.$projectCards = document.querySelector('#projectCards');
   Site.msnry = new Masonry( Site.dom.$projectCards, {
     itemSelector: '.mGrid',
     columnWidth: 1,
@@ -84,12 +87,29 @@ Site.siteMain.doMasonry = function(){
 
 /**
  * Gives a reference to DOM elements
+ *
+ * @method loadDom
+ * @return {void}
  */
 Site.siteMain.loadDom = function(){
+
+  Site.domClass = {}
+  Site.dom = {}
+
 	var elems = [
 		"siteMain",
     "projectCards",
 	]
+
+  var classes = [
+    "regImg",
+    "lrgImg",
+    "xLrgImg"
+  ]
+
+  for(var j = 0; j < classes.length; j++){
+    Site.domClass[classes[j]] = document.getElementsByClassName(classes[j])
+  }
 
 	//get global references to DOM objects
 	for(var i = 0; i < elems.length; i++){
@@ -98,5 +118,26 @@ Site.siteMain.loadDom = function(){
 }
 
 
+/**
+ * Once images have loaded initiate Masonry to place them
+ *
+ * @method scrollChange
+ * @return {void}
+ */
+Site.siteMain.scrollChange = function(){
+  var windowWidth = window.innerWidth;
+  if (windowWidth <= 640){
+    if (windowWidth <= 480){
 
-window.onload = Site.siteMain.pageLoad;
+    } else {
+      for(var i = 0; i < Site.domClass.regImg.length; i++){
+        //Site.domClass.regImg[i].src =
+      }
+    }
+  }
+}
+
+
+window.onload = function(){
+  Site.siteMain.loadSeq("init");
+}

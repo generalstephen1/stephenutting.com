@@ -34,26 +34,6 @@
 .s2 {  	width: 15.33%;}
 .s1 {  	width: 6.866%;}
 
-/*
-@media only screen and (max-width: 980px) {
-	.buffer {
-		width: 2%;
-	}
-	#focusArea{
-		width: 98%;
-	}
-}
-
-
-@media only screen and (max-width: 480px) {
-	.col {
-		margin: 1% 0 1% 0%;
-	}
-  .s1, .s2, .s3, .s4, .s5, .s6, .s7, .s8, .s9, .s10, .s11, .s12 {
-		width: 100%;
-	}
-}
-*/
 
 .section {
     max-width: 60em; /* 960 px */
@@ -67,28 +47,36 @@
 }
 .mGrid {
     float: left;
-    margin: 0 1.515% 1.875em; /* 15px 30px */
+    //margin: 0 1.515% 1.875em; /* 15px 30px */
+		background-color: white;
 
 		img{
 			width: 100%;
 		}
 }
 
-.mGrid-reg {	width: 30.303%; /* 300px */ }
-.mGrid-lrg {	width: 60.606%; /* 600px */ }
+.mGrid-reg {	width: 33.333%;  }/* 300px */
+.mGrid-lrg {	width: 66.666%;  }/* 600px */
 
 
 @media only screen and ( max-width: 40em ) {/* 640px */
-    .mGrid
-    {
-    //    width: 46.876%; /* 305px */
+    .mGrid {
         margin-bottom: 0.938em; /* 15px */
     }
+		.buffer{ width: 0}
+		#focusArea{width: 100%}
 
-		.mGrid-reg {	width: 46.876%; /* 305px */ }
-		.mGrid-lrg {	width: 93.752%; /* 600px */ }
+		.mGrid-reg {	width: 49.5%;  }/* 305px */
+		.mGrid-lrg {	width: 100%;  }/* 600px */
 }
-@media only screen and ( max-width: 20em ){ /* 640px */
+
+@media only screen and ( max-width: 30em ) {/* 480px */
+    .mGrid {
+        width: 100%;
+    }
+}
+
+@media only screen and ( max-width: 20em ){ /* 320px */
     #group
     {
         width: 100%;

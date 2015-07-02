@@ -16,7 +16,8 @@ Site.handlebars.init = function(){
 				templateName = $(this).attr('id');
 				Site.handlebars.TEMPLATES[templateName] = Handlebars.compile($(this).html());
 			});
-			Site.siteMain.templateLoad();
+			//Site.siteMain.templateLoad();
+      Site.siteMain.loadSeq("templates");
 		}
 	});
 }
