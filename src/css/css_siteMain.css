@@ -17,25 +17,22 @@ body {
 .projectCards {
   background-color: grey;
 }
-/*
-.mGrid-reg { width: 32%; }
-.mGrid-lrg { width: 62%; }
-.mGrid-xLrg { width: 100%; }
-
-@media only screen and (max-width: 940px) {
-  .mGrid-lrg { width: 400px; }
-  //.mGrid-lrg { width: 600px; }
+.projHover,
+.projTint {
+  opacity: 0;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: white;
 }
-
-@media only screen and (max-width: 480px) {
-  .mGrid-reg,
-  .mGrid-lrg {
-	width: 100%;
-	}
+.projTint {
+  background-color: black;
 }
-
-.mGrid{
-  background-color: #fff;
-  min-width: 300px;
+.mGrid:hover .projHover {
+  opacity: 1;
 }
-*/
+.mGrid:hover .projTint {
+  opacity: 0.5;
+}
