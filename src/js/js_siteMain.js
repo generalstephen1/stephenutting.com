@@ -62,7 +62,8 @@ Site.siteMain.loadSeq = function(whatStep){
       break;
 
     case "listeners":
-      //window.addEventListener("resize", Site.siteMain.scrollChange)
+      //window.addEventListener("resize", Site.siteMain.windowResize);
+      window.addEventListener("scroll", Site.siteMain.scrollChange);
       break;
   }
 }
@@ -99,6 +100,7 @@ Site.siteMain.loadDom = function(){
 	var elems = [
 		"siteMain",
     "projectCards",
+    "homepageHeader"
 	]
 
   var classes = [
@@ -119,12 +121,32 @@ Site.siteMain.loadDom = function(){
 
 
 /**
- * Once images have loaded initiate Masonry to place them
+ * When the user scrolls
  *
  * @method scrollChange
+ * @param {MouseEvent} e Event return
  * @return {void}
  */
-Site.siteMain.scrollChange = function(){
+Site.siteMain.scrollChange = function(e){
+  var doc = document.documentElement;
+  var top = (window.pageYOffset || doc.scrollTop)  - (doc.clientTop || 0);
+
+  if (top >= 50){
+    Site.dom.homepageHeader.style.height = "50px"
+  }
+  else {
+    Site.dom.homepageHeader.style.height = "400px"
+  }
+}
+
+
+/**
+ * Once images have loaded initiate Masonry to place them
+ *
+ * @method windowResize
+ * @return {void}
+ */
+Site.siteMain.windowResize = function(){
   var windowWidth = window.innerWidth;
   if (windowWidth <= 640){
     if (windowWidth <= 480){

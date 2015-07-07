@@ -6,41 +6,123 @@ body {
    padding:0;
    height:100%;
    background-color: @offWhiteCustom;
+   background-image: url("../img/global/bgTile.jpg");
+
 }
 
-.default-primary-color{         background: @default-primary-color; }
-.accent-color{                  background: @accent-color;          }
+
+@headerHeight: 400px;
 
 #focusArea{
   max-width: 1000px;
+}
+header{
+  height: @headerHeight;
+  position: fixed;
+  z-index: 100;
+  width: 100%;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+  color: white;
+  .transition(@duration:0.4s, @ease:ease-out);
+  background-image: url("http://lorempixel.com/1200/400/cats/");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+#siteMain{
+  margin-top: @headerHeight;
+}
+
+//.homepageHeaderImg,
+.homepageLogo {
+  //position: absolute;
+  //left: 10%;
+  //top: 30%;
+}
+.homepageHeaderImg{
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .projectCards{
   background-color: grey;
 }
 
-.projHover,
-.projTint{
-    opacity: 0;
+
+.projTint-home,
+.projCopy-home,
+.projHover-home {
     width: 100%;
     height: 100%;
     position: absolute;
     top: 0;
     left: 0;
     color: white;
+    .transition(@duration:0.4s, @ease:ease-out);
 }
-.projTint{
-  background-color: black;
+.projTint-home{
+  opacity: 0.5;
+}
+.projShortBlurb-home{
+  display: none;
+}
+
+.projHover-home {
+  left: 100%;
+  width: 50%;
+  .projTitle-home{
+    text-align: right;
+    width: auto;
+    padding: 2%;
+    white-space: nowrap;
+    position: absolute;
+    right: 100%;
+    top: 5%;
+  }
+  &.darkTheme{
+    .projTitle-home,
+    .projBlurb-home,
+    .projShortBlurb-home{    color: black; }
+    .projTint-home,
+    .projTitle-home{  background-color: white;}
+  }
+  &.lightTheme{
+    .projTitle-home,
+    .projBlurb-home,
+    .projShortBlurb-home { color: white; }
+    .projTint-home,
+    .projTitle-home{   background-color: black;}
+
+  }
+}
+
+.projHomeImg{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .mGrid{
+  overflow: hidden;
+
+  img{
+    width: 100%;
+  }
 
   &:hover {
-    .projHover{
-        opacity: 1;
+    .projHover-home {
+      left: 50%;
     }
-    .projTint{
-        opacity: 0.5;
-    }
+  }
+}
+
+@media only screen and ( max-width: 50em ) {/* 640px */
+
+  .projShortBlurb-home{    display: block;  }
+  .projBlurb-home{    display: none;  }
+  .projHover-home {
+    left: 60%;
+    width: 40%;
   }
 }

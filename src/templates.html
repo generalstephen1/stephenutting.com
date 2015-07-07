@@ -1,11 +1,14 @@
 <script id="mGrid-regProjectTemplate" type="text/x-handlebars-template">
 	<div class="mGrid mGrid-reg projectCard" id="{{projectID}}">
-		<img class="regImg" src="" data-src="{{homeImgS}}"/>
+		<img class="regImg projHomeImg" src="" data-src="{{homeImgReg}}"/>
 
-		<div class="projTint"></div>
-		<div class="projHover">
-			<h2>{{title}}</h2>
-			<p>{{summary}}</p>
+		<div class="projHover-home {{homeColorTheme}}">
+			<div class="projTint-home"></div>
+			<div class="projCopy-home">
+				<h2 class="projTitle-home">{{title}}</h2>
+				<p class="projBlurb-home">{{summary}}</p>
+				<p class="projShortBlurb-home">{{shortSummary}}</p>
+			</div>
 		</div>
 
 	</div>
@@ -13,12 +16,15 @@
 
 <script id="mGrid-lrgProjectTemplate" type="text/x-handlebars-template">
 	<div class="mGrid mGrid-lrg projectCard" id="{{projectID}}">
-		<img class="lrgImg" src="" data-src="{{homeImgM}}"/>
+		<img class="lrgImg projHomeImg" src="" data-src="{{homeImgLrg}}"/>
 
-		<div class="projTint"></div>
-		<div class="projHover">
-			<h2>{{title}}</h2>
-			<p>{{summary}}</p>
+		<div class="projHover-home {{homeColorTheme}}">
+			<div class="projTint-home"></div>
+			<div class="projCopy-home">
+				<h2 class="projTitle-home">{{title}}</h2>
+				<p class="projBlurb-home">{{summary}}</p>
+				<p class="projShortBlurb-home">{{shortSummary}}</p>
+			</div>
 		</div>
 
 	</div>
@@ -26,12 +32,15 @@
 
 <script id="mGrid-xLrgProjectTemplate" type="text/x-handlebars-template">
 	<div class="mGrid mGrid-xLrg projectCard" id="{{projectID}}">
-		<img class="xLrgImg" src="" data-src="{{homeImgL}}"/>
+		<img class="xLrgImg projHomeImg" src="" data-src="{{homeImgXLrg}}"/>
 
-		<div class="projTint"></div>
-		<div class="projHover">
-			<h2>{{title}}</h2>
-			<p>{{summary}}</p>
+		<div class="projHover-home {{homeColorTheme}}">
+			<div class="projTint-home"></div>
+			<div class="projCopy-home">
+				<h2 class="projTitle-home">{{title}}</h2>
+				<p class="projBlurb-home">{{summary}}</p>
+				<p class="projShortBlurb-home">{{shortSummary}}</p>
+			</div>
 		</div>
 
 	</div>
