@@ -100,7 +100,9 @@ Site.siteMain.loadDom = function(){
 	var elems = [
 		"siteMain",
     "projectCards",
-    "homepageHeader"
+    "homepageHeader",
+    "homepageLogoLrg",
+    "homepageLogoSml"
 	]
 
   var classes = [
@@ -133,9 +135,14 @@ Site.siteMain.scrollChange = function(e){
 
   if (top >= 50){
     Site.dom.homepageHeader.style.height = "50px"
+    Site.dom.homepageLogoLrg.style.opacity = "0"
+    Site.dom.homepageLogoSml.style.opacity = "1"
   }
   else {
     Site.dom.homepageHeader.style.height = "400px"
+    Site.dom.homepageLogoLrg.style.opacity = "1"
+    Site.dom.homepageLogoSml.style.opacity = "0"
+
   }
 }
 

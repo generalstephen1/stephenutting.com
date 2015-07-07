@@ -8,7 +8,7 @@
 .col {
   display: block;
   float: left;
-  margin: 1% 0 1% 1.6%;
+  margin: 1% 0 1% 1.2%;
 }
 /*  GROUPING  */
 .group:before,
@@ -60,6 +60,49 @@
 .s1 {
   width: 6.866%;
 }
+.offset-s12 {
+  margin-left: 100%;
+}
+.offset-s11 {
+  margin-left: 91.53%;
+}
+.offset-s10 {
+  margin-left: 83.06%;
+}
+.offset-s9 {
+  margin-left: 74.6%;
+}
+.offset-s8 {
+  margin-left: 66.13%;
+}
+.offset-s7 {
+  margin-left: 57.66%;
+}
+.offset-s6 {
+  margin-left: 49.2%;
+}
+.offset-s5 {
+  margin-left: 40.73%;
+}
+.offset-s4 {
+  margin-left: 32.26%;
+}
+.offset-s3 {
+  margin-left: 23.8%;
+}
+.offset-s2 {
+  margin-left: 15.33%;
+}
+.offset-s1 {
+  margin-left: 8.4%;
+}
+.topset-0 {
+  margin-top: 0;
+}
+.right {
+  float: right;
+  margin: 1% 1.2% 1% 0;
+}
 .section {
   max-width: 60em;
   /* 960 px */
@@ -75,6 +118,7 @@
 }
 .mGrid {
   float: left;
+  overflow: hidden;
   background-color: white;
 }
 .mGrid-reg {

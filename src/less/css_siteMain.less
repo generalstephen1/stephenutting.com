@@ -7,7 +7,7 @@ body {
    height:100%;
    background-color: @offWhiteCustom;
    background-image: url("../img/global/bgTile.jpg");
-
+   font-family: 'Open Sans', sans-serif;
 }
 
 
@@ -25,21 +25,48 @@ header{
   left: 0;
   overflow: hidden;
   color: white;
+  background-color: white;
   .transition(@duration:0.4s, @ease:ease-out);
   background-image: url("http://lorempixel.com/1200/400/cats/");
   background-repeat: no-repeat;
   background-position: center;
 }
+
+.menuBtn{
+  background-color: white;
+  height: 50px;
+  text-align: center;
+  line-height: 50px;
+  opacity: 0.5;
+
+  .transition(@duration:0.4s, @ease:ease-out);
+
+  &:hover {
+    opacity: 0.8;
+  }
+}
+
+
 #siteMain{
   margin-top: @headerHeight;
 }
 
 //.homepageHeaderImg,
-.homepageLogo {
-  //position: absolute;
-  //left: 10%;
-  //top: 30%;
+#homepageLogoLrg {
+  left: 50%;
+  margin-left: -90px;
+  position: relative;
+  .transition(@duration:0.4s, @ease:ease-out);
 }
+#homepageLogoSml {
+  left: 50%;
+  margin-left: -25px;
+  margin-top: 4px;
+  position: relative;
+  opacity: 0;
+  .transition(@duration:0.4s, @ease:ease-out);
+}
+
 .homepageHeaderImg{
   margin-left: auto;
   margin-right: auto;
@@ -104,8 +131,6 @@ header{
 }
 
 .mGrid{
-  overflow: hidden;
-
   img{
     width: 100%;
   }
