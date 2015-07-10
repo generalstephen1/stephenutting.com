@@ -1,9 +1,12 @@
-
-{
-	"projects" : [
+[
 			{
 			"projectID":"loremIpsum",
 			"title": "Lorem ipsum",
+			"tags": [
+				"tag1",
+				"tag2",
+				"tag3"
+			],
 			"summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
 			"shortSummary": "Lorem ipsum dolor sit amet. , consectetur adipiscing elit",
 			"blockSize": "mGrid-xLrg",
@@ -31,6 +34,11 @@
 		{
 			"projectID":"DolorSit",
 			"title": "Dolor Sit",
+			"tags": [
+				"tag1",
+				"tag2",
+				"tag3"
+			],
 			"summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
 			"shortSummary": "Lorem ipsum dolor sit amet. , consectetur adipiscing elit",
 			"blockSize": "mGrid-reg",
@@ -50,6 +58,11 @@
 		{
 			"projectID":"consectetur",
 			"title": "Consectetur",
+			"tags": [
+				"tag1",
+				"tag2",
+				"tag3"
+			],
 			"summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
 			"shortSummary": "Lorem ipsum dolor sit amet. , consectetur adipiscing elit",
 			"blockSize": "mGrid-reg",
@@ -68,7 +81,10 @@
 		},
 		{
 			"projectID":"adipiscingElit",
-			"title": "Hello Kelly",
+			"title": "Hello Again",
+			"tags": [
+				"tag3"
+			],
 			"summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
 			"shortSummary": "Lorem ipsum dolor sit amet. , consectetur adipiscing elit",
 			"blockSize": "mGrid-lrg",
@@ -88,6 +104,10 @@
 		{
 			"projectID":"adipiscingElit",
 			"title": "Hello",
+			"tags": [
+				"tag1",
+				"tag3"
+			],
 			"summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
 			"shortSummary": "Lorem ipsum dolor sit amet. , consectetur adipiscing elit",
 			"blockSize": "mGrid-reg",
@@ -107,6 +127,10 @@
 		{
 			"projectID":"adipiscingElit",
 			"title": "Hello",
+			"tags": [
+				"tag1",
+				"tag2",
+			],
 			"summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
 			"shortSummary": "Lorem ipsum dolor sit amet. , consectetur adipiscing elit",
 			"blockSize": "mGrid-reg",
@@ -124,4 +148,3 @@
 			]
 		}
 	]
-}

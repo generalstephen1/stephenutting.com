@@ -26,14 +26,14 @@ Site.siteMain.loadSeq = function(whatStep){
   switch(whatStep){
     case "init":
       Site.siteMain.loadDom();
-      Site.handlebars.init();
+      //Site.handlebars.init();
       break;
 
     case "templates":
       $.ajax({
         url: "projects.json",
         success: function(data){
-          Site.projectObj = data.projects;
+          Site.projectObj = data;
           Site.siteMain.loadSeq("projects");
         }
       });

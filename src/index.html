@@ -7,33 +7,43 @@
 
 	  <!-- CSS  -->
 		<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300' rel='stylesheet' type='text/css'>
-		<link href="css/css_grid.css" type="text/css" rel="stylesheet"/>
+		<link href="css/lib/skeleton.css" type="text/css" rel="stylesheet"/>
+		<link href="css/css_projects.css" type="text/css" rel="stylesheet"/>
 		<link href="css/css_siteMain.css" type="text/css" rel="stylesheet"/>
 
 	</head>
 	<body>
 		<header id="homepageHeader">
-			<div class="menuBtn col s2 topset-0">Menu1</div>
-			<div class="menuBtn col s2 topset-0">Menu2</div>
-			<div class="col s4 topset-0">
-				<img id="homepageLogoSml" src="" data-src="img/global/logo-51x44.png"/>
+			<div class="container">
+				<div class="menuBtn col s2 topset-0">Menu1</div>
+				<div class="menuBtn col s2 topset-0">Menu2</div>
+				<div class="col s4 topset-0">
+					<img id="homepageLogoSml" src="" data-src="img/global/logo-51x44.png"/>
+				</div>
+				<div class="menuBtn col s2 topset-0">Menu2</div>
+				<div class="menuBtn col s2 topset-0">Menu2</div>
 			</div>
-			<div class="menuBtn col s2 topset-0">Menu2</div>
-			<div class="menuBtn col s2 topset-0">Menu2</div>
 			<div class="headerLockup col s8 offset-s2">
 				<img id="homepageLogoLrg" src="" data-src="img/global/logo.png"/>
 
-				<div class="introduction">
-					<h1>Steve!</h1>
-					<h4>Steve Steve Steve Steve Steve Steve Steve Steve Steve Steve Steve Steve Steve Steve Steve Steve Steve Steve Steve Steve Steve </h4>
-				</div>
+
 			</div>
 		</header>
 
 		<div id="siteMain" class="section">
 
-			<div id="focusArea" class="col s10 offset-s1">
-				<div id="projectCards" class="group"></div>
+			<div id="focusArea" class="s10 container">
+				<div class="introduction">
+					<h1>Steve!</h1>
+					<h3>Develop</h3>
+					<h5>Design</h5>
+					<h6>Repeat</h6>
+				</div>
+
+				<div id="projectCards"></div>
+
+				<!--(bake templates/index_work_item.html _foreach="work_item:work_items")-->
+
 			</div>
 
 		</div>
