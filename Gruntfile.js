@@ -38,7 +38,7 @@ module.exports = function(grunt){
           {
             expand: true,
             cwd: "src",
-            src: ['assets/css/**', 'assets/js/**','images/fulls/**', 'images/thumbs/**', 'LICENSE.txt', 'README.txt'],
+            src: ['css/**', 'js/**','img/**/*.jpg'],
             dest: 'build/'
           },
         ]
@@ -47,7 +47,9 @@ module.exports = function(grunt){
 
     pngmin: {
       compile: {
-        options: {},
+        options: {
+          ext: ".png"
+        },
         files: [
           {
             expand: true,

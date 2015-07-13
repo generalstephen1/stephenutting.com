@@ -8,10 +8,7 @@ var Site = Site || {};
      */
 
 
-/* NOTES & TODO
-     breakpoints @ 480, 640, 960
 
-*/
 
 
 /**
@@ -26,28 +23,15 @@ Site.siteMain.loadSeq = function(whatStep){
   switch(whatStep){
     case "init":
       Site.siteMain.loadDom();
-      //Site.handlebars.init();
+      Site.siteMain.loadSeq("imageLoad");
       break;
 
-    case "templates":
-      $.ajax({
-        url: "projects.json",
-        success: function(data){
-          Site.projectObj = data;
-          Site.siteMain.loadSeq("projects");
-        }
-      });
-      break;
-
-    case "projects":
-      for (var i = 0; i < Site.projectObj.length; i++){
-        var html = Site.handlebars.TEMPLATES[Site.projectObj[i].blockSize+"ProjectTemplate"](Site.projectObj[i]);
-        $('#projectCards').append(html);
-      }
+    case "imageLoad":
 
       var images = document.getElementsByTagName("img");
       var numImages = images.length;
       var imagesLoaded = 0;
+
       for(var i = 0; i < numImages; i++){
         var newSrc = images[i].getAttribute("data-src");
           images[i].src = newSrc;
@@ -58,6 +42,8 @@ Site.siteMain.loadSeq = function(whatStep){
             }
           }
       }
+
+
       Site.siteMain.loadSeq("listeners");
       break;
 
@@ -78,7 +64,7 @@ Site.siteMain.loadSeq = function(whatStep){
 Site.siteMain.doMasonry = function(){
   Site.log("siteMain.doMasonry");
   Site.dom.$projectCards = document.querySelector('#projectCards');
-  Site.msnry = new Masonry( Site.dom.$projectCards, {
+  Site.msnry = new Masonry(Site.dom.$projectCards, {
     itemSelector: '.mGrid',
     columnWidth: 1,
     gutter: 0

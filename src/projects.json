@@ -9,10 +9,8 @@
 			],
 			"summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
 			"shortSummary": "Lorem ipsum dolor sit amet. , consectetur adipiscing elit",
-			"blockSize": "mGrid-xLrg",
-			"homeImgReg": "http://lorempixel.com/200/200/cats/",
-			"homeImgLrg": "http://lorempixel.com/400/200/cats/",
-			"homeImgXLrg": "http://lorempixel.com/600/200/cats/",
+			"blockSize": "xLrg",
+			"homeImg": "http://lorempixel.com/600/200/cats/",
 			"homeColorTheme": "darkTheme",
 			"coverImg": "",
 			"pageOrder": [
@@ -41,12 +39,9 @@
 			],
 			"summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
 			"shortSummary": "Lorem ipsum dolor sit amet. , consectetur adipiscing elit",
-			"blockSize": "mGrid-reg",
-			"homeImgReg": "http://lorempixel.com/200/200/cats/",
-			"homeImgLrg": "http://lorempixel.com/400/200/cats/",
-			"homeImgXLrg": "http://lorempixel.com/600/200/cats/",
+			"blockSize": "reg",
+			"homeImg": "http://lorempixel.com/200/200/cats/",
 			"homeColorTheme": "darkTheme",
-			"homeImg": "",
 			"coverImg": "",
 			"pageOrder": [
 				{
@@ -65,12 +60,9 @@
 			],
 			"summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
 			"shortSummary": "Lorem ipsum dolor sit amet. , consectetur adipiscing elit",
-			"blockSize": "mGrid-reg",
-			"homeImgReg": "http://lorempixel.com/200/200/cats/",
-			"homeImgLrg": "http://lorempixel.com/400/200/cats/",
-			"homeImgXLrg": "http://lorempixel.com/600/200/cats/",
+			"blockSize": "reg",
+			"homeImg": "http://lorempixel.com/200/200/cats/",
 			"homeColorTheme": "lightTheme",
-			"homeImg": "",
 			"coverImg": "",
 			"pageOrder": [
 				{
@@ -87,12 +79,9 @@
 			],
 			"summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
 			"shortSummary": "Lorem ipsum dolor sit amet. , consectetur adipiscing elit",
-			"blockSize": "mGrid-lrg",
-			"homeImgReg": "http://lorempixel.com/200/200/cats/",
-			"homeImgLrg": "http://lorempixel.com/400/200/cats/",
-			"homeImgXLrg": "http://lorempixel.com/600/200/cats/",
+			"blockSize": "lrg",
+			"homeImg": "http://lorempixel.com/400/200/cats/",
 			"homeColorTheme": "darkTheme",
-			"homeImg": "",
 			"coverImg": "",
 			"pageOrder": [
 				{
@@ -110,12 +99,9 @@
 			],
 			"summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
 			"shortSummary": "Lorem ipsum dolor sit amet. , consectetur adipiscing elit",
-			"blockSize": "mGrid-reg",
-			"homeImgReg": "http://lorempixel.com/200/200/cats/",
-			"homeImgLrg": "http://lorempixel.com/400/200/cats/",
-			"homeImgXLrg": "http://lorempixel.com/600/200/cats/",
+			"blockSize": "reg",
+			"homeImg": "http://lorempixel.com/200/200/cats/",
 			"homeColorTheme": "lightTheme",
-			"homeImg": "",
 			"coverImg": "",
 			"pageOrder": [
 				{
@@ -129,16 +115,14 @@
 			"title": "Hello",
 			"tags": [
 				"tag1",
-				"tag2",
+				"tag2"
 			],
 			"summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
 			"shortSummary": "Lorem ipsum dolor sit amet. , consectetur adipiscing elit",
-			"blockSize": "mGrid-reg",
-			"homeImgReg": "http://lorempixel.com/200/200/cats/",
-			"homeImgLrg": "http://lorempixel.com/400/200/cats/",
-			"homeImgXLrg": "http://lorempixel.com/600/200/cats/",
+			"blockSize": "reg",
+			"homeImg": "http://lorempixel.com/200/200/cats/",
 			"homeColorTheme": "lightTheme",
-			"homeImg": "",
+
 			"coverImg": "",
 			"pageOrder": [
 				{
