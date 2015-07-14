@@ -19,7 +19,7 @@ module.exports = function(grunt){
           }
         },
         files: {
-          "build/index.html": "src/index.html"
+          "construct/index.html": "src/index.html"
         }
       }
     },
@@ -27,19 +27,32 @@ module.exports = function(grunt){
     /*
      * CLEAN
      */
-    clean: [ "build" ],
+    clean: {
+      construct: [ "construct/projects" ],
+      release: [ "build" ]
+    },
 
     /*
      * COPY
      */
     copy: {
-      default: {
+      release: {
+        files: [
+          {
+            expand: true,
+            cwd: "construct",
+            src: ['css/**', 'js/**','img/**'],
+            dest: 'build/'
+          },
+        ]
+      },
+      construct: {
         files: [
           {
             expand: true,
             cwd: "src",
             src: ['css/**', 'js/**','img/**/*.jpg'],
-            dest: 'build/'
+            dest: 'construct/'
           },
         ]
       }
@@ -56,7 +69,7 @@ module.exports = function(grunt){
             cwd: "src",
             src: ['**/*.png'],
             cwd: 'src/img/', // required option
-            dest: 'build/img'
+            dest: 'construct/img'
           },
         ]
       }
@@ -66,7 +79,7 @@ module.exports = function(grunt){
 
 
   // define the tasks to run
-  var tasks = [ "clean", "copy", "bake:index", "pngmin" ];
+  var tasks = [ "clean:construct", "copy:construct", "bake:index", "pngmin" ];
 
 
   //add bake tasks for each jsonFile item to generate a new page
@@ -84,7 +97,7 @@ module.exports = function(grunt){
 
     var projectName = jsonFile[project].projectID;
 
-    task.files["build/projects/" + projectName + ".html"] = "src/templates/projectMain.html";
+    task.files["construct/projects/" + projectName + ".html"] = "src/templates/defaultProj.html";
     grunt_config.bake[projectName] = task;
     tasks.push("bake:"+projectName);
   }
@@ -102,4 +115,7 @@ module.exports = function(grunt){
   grunt.loadNpmTasks('grunt-bake');
 
   grunt.registerTask( "default", tasks);
+
+  //this will contain concat and uglify etc
+  grunt.registerTask( "prod", ["clean:release", "copy:release"]);
 };
