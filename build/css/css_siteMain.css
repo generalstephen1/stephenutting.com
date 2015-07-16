@@ -1,0 +1,79 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background-color: #f6f6f6;
+  background-image: url("../img/global/bgTile.jpg");
+  font-family: 'Open Sans', sans-serif;
+}
+#focusArea {
+  max-width: 1000px;
+}
+header {
+  height: 400px;
+  position: fixed;
+  z-index: 100;
+  width: 100%;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+  color: white;
+  background-color: white;
+  -webkit-transition: all 0.4s ease-out;
+  -moz-transition: all 0.4s ease-out;
+  -o-transition: all 0.4s ease-out;
+  transition: all 0.4s ease-out;
+  background-image: url("http://lorempixel.com/1200/400/cats/");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.menuBtn {
+  background-color: white;
+  height: 50px;
+  text-align: center;
+  line-height: 50px;
+  opacity: 0.5;
+  -webkit-transition: all 0.4s ease-out;
+  -moz-transition: all 0.4s ease-out;
+  -o-transition: all 0.4s ease-out;
+  transition: all 0.4s ease-out;
+}
+.menuBtn:hover {
+  opacity: 0.8;
+}
+#siteMain {
+  margin-top: 400px;
+}
+#homepageLogoLrg {
+  left: 50%;
+  margin-left: -90px;
+  position: relative;
+  -webkit-transition: all 0.4s ease-out;
+  -moz-transition: all 0.4s ease-out;
+  -o-transition: all 0.4s ease-out;
+  transition: all 0.4s ease-out;
+}
+#homepageLogoSml {
+  left: 50%;
+  margin-left: -25px;
+  margin-top: 4px;
+  position: relative;
+  opacity: 0;
+  -webkit-transition: all 0.4s ease-out;
+  -moz-transition: all 0.4s ease-out;
+  -o-transition: all 0.4s ease-out;
+  transition: all 0.4s ease-out;
+}
+.homepageHeaderImg {
+  margin-left: auto;
+  margin-right: auto;
+}
+.projHomeImg {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.introduction {
+  text-align: center;
+}
