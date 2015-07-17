@@ -1,0 +1,76 @@
+
+@charset "UTF-8";
+
+/*
+******************************************************	
+			CSS FOR TWEETYBYTE GRID SETUP
+******************************************************
+*/
+
+
+
+/*  COLUMN SETUP  */
+.col {
+	display: block;
+	float:left;
+	margin: 1%;
+	padding: 1%;
+}
+
+/* GRID OF THREE */
+.span_1_of_3{
+	width:270px;
+	margin: 25px;
+}
+.span_3_of_3{
+	width:85%;
+}
+
+/*  GRID OF SIX  */
+.span_4_of_6 {
+	width: 64%;
+}
+.span_1_of_6 {
+	width: 13%;
+}
+
+/*  GRID OF FIVE  */
+.modSpan_5_of_5 {
+	width: 96%;
+}
+.modSpan_4_of_5 {
+	width: 76%;
+}
+.modSpan_3_of_5 {
+	width: 56%;
+}
+.modSpan_2_of_5 {
+	width: 35%;
+}
+.modSpan_1_of_5 {
+	width: 18%;
+}
+
+/* GRID OF 2*/
+.modSpan_1_of_2 {
+	width: 45%;
+}
+
+.span_1_of_3_menu {
+	width: 33%;
+	/*height:1em;*/
+	float:left;
+	margin-top: 0.2em;
+}
+
+.clearfix:before,
+.clearfix:after {
+  content:"";
+  display:table;
+}
+.clearfix:after {
+  clear:both;
+}
+.clearfix {
+  zoom:1; /* For IE 6/7 (trigger hasLayout) */
+}

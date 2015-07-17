@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+
+
+<!--
+******************************************************
+				INDEX FOR TWEETYBYTE
+******************************************************
+-->
+
+
+
+
+<html lang="en" id="theHTML">
+	
+	<head>
+		<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1">
+
+    <!--og tags-->
+    <meta property="og:image" content="http://tweetiebyte.com/img/tweetiebyte_twitter_profilePic.jpg"/>
+    <meta property="og:title" content="Tweetiebyte"/>
+    <meta property="og:description" content="TweetieByte displays your twitter stats in easy to swallow bytesize chunks. "/>
+    <meta property="og:url" content="http://www.tweetiebyte.com"/>
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@tweetiebyte">
+    <meta name="twitter:title" content="Tweetiebyte">
+    <meta name="twitter:description" content="TweetieByte displays your twitter stats in easy to swallow bytesize chunks. ">
+    <meta name="twitter:image:src" content="http://tweetiebyte.com/img/tweetiebyte_twitter_profilePic.jpg">
+    
+    <title>Tweetiebyte</title>
+
+	<link href='http://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+	
+	
+		<!--(if target dev)><!-->
+    <link rel=StyleSheet href="css/main.css" type="text/css">
+    <link rel=StyleSheet href="css/grid.css" type="text/css">
+    <link rel=StyleSheet href="css/modules.css" type="text/css">
+    <link rel=StyleSheet href="css/global.css" type="text/css">
+    <link rel=StyleSheet href="css/onResize.css" type="text/css">
+    
+    
+  	<link rel=StyleSheet href="css/module_followers.css" type="text/css">
+  	<link rel=StyleSheet href="css/module_geo.css" type="text/css"> 
+  	<link rel=StyleSheet href="css/module_hashtags.css" type="text/css">
+  	<link rel=StyleSheet href="css/module_inTheBeginning.css" type="text/css">
+  	<link rel=StyleSheet href="css/module_popularTweets.css" type="text/css">
+  	<link rel=StyleSheet href="css/module_timeOfDay.css" type="text/css">
+  	<link rel=StyleSheet href="css/module_timesRetweeted.css" type="text/css">
+  	<link rel=StyleSheet href="css/module_totalTweets.css" type="text/css">
+  	<link rel=StyleSheet href="css/module_tweetDay.css" type="text/css">
+  	<link rel=StyleSheet href="css/module_tweetTime.css" type="text/css">
+  	<link rel=StyleSheet href="css/module_typeOfData.css" type="text/css">
+  	<link rel=StyleSheet href="css/module_userMentions.css" type="text/css">
+  	
+  	
+     <!--link rel=StyleSheet href="css/leaflet.css" type="text/css"-->
+    
+	<!-- Script for minifying the external scripts -->
+    <script>var App = App || {}; App.config = App.config || {}; App.config.environment = 'DEV';</script>
+	<!--<!(endif)-->
+	<!--(if target dist)>
+		<link rel="stylesheet" href="css/App.min.css">
+		<script>var App = App || {}; App.config = App.config || {}; App.config.environment = 'PROD';</script>
+	<!(endif)-->
+
+
+	    
+	</head>
+
+	<body id="body" class="clearfix">
+	
+		<div class="header primaryBox" id="header">  
+			
+			<div class="headerBlock">
+				
+				<div class="headerDecorLeft">   
+					<img class="alfryd_Img" src="img/blankPixel.png" data-imgSrc="headerDecor.svg" alt="headerDecor">
+				</div>
+				
+				<div class="socialCircle" id="ssTwitterBtn">   
+					<img id="alfryd_headerEmail" src="img/blankPixel.png" data-imgSrc="headerTwit.svg" alt="alfryd_headerTwitter">
+				</div>
+				<a href=".">
+					<p class="goToHome">SHARE TWEETIEBYTE</p>
+				</a>
+				<div class="socialCircle" id="ssShareMeBtn">   
+					<img id="headerTwitter" src="img/blankPixel.png" data-imgSrc="headerMail.svg" alt="alfryd_headerEmail">
+				</div>
+				
+				<div class="headerDecorRight">   
+					<img class="alfryd_Img" src="img/blankPixel.png" data-imgSrc="headerDecor.svg" alt="headerDecor">
+				</div>
+				
+				
+				
+			</div>			
+			
+		</div>
+
+		<div id="container" class="clearfix">
+
+			<div class="mainModule clearfix noPrint" id="inputModule">  
+
+				<div class="col span_1_of_6"></div>
+				
+				<div class="inputModule span_4_of_6">
+
+					<div id="introLogo" class="clearfix goToHome">  
+			
+						<div id="logoLoaderDesktopContainer">
+							<div id="logoLoaderDesktop"><img class="alfryd_Img" src="img/blankPixel.png" data-imgSrc="loadingIcon.svg" alt="alfryd_deskTopLoader"></div>   
+						</div>
+						<div id="logoLoader"></div>
+						<img id="loaderCog" class="loaderCog" src="img/blankPixel.png" data-imgSrc="logoGear.svg" alt="alfryd_loaderCog">  
+						<img id="loaderCogMask" class="loaderCog" src="img/blankPixel.png" data-imgSrc="logoMask.svg" alt="alfryd_loaderCogMask">  
+						<div id="alfrydLoaderContainer">  
+							<img id="alfryd_alfrydLoader1" src="img/blankPixel.png" data-imgSrc="logoAlfryd2.svg" alt="alfryd_alfrydLoader1">
+							<img id="alfryd_alfrydLoader2" src="img/blankPixel.png" data-imgSrc="logoAlfryd1.svg" alt="alfryd_alfrydLoader2">
+						</div>
+						<div id="logoText" class="cogText">  
+							<img src="img/blankPixel.png" data-imgSrc="logoTitle.svg" alt="alfryd_loaderTitle">
+						</div>
+						<div id="loaderText" class="cogText">  
+							<img src="img/blankPixel.png" data-imgSrc="loadingText.svg" alt="alfryd_loaderLoading">
+						</div>
+			
+					</div>
+
+					<div id="instruct" class="dMar centered">  
+						<h2 id="instructTitle" class="secondaryText">what is tweetiebyte?</h2>
+						<p id="instructText" class="quaternaryText">Tweetiebyte is a great tool for analysing your tweet history. Simply enter your twitter username below and Tweetiebyte will generate a personalised infographic.</p>
+						<h3 id="instructTail" class="secondaryText">check your stats.<br> share your results</h3>
+					</div>
+					
+					<div id="errors">		  				
+						<div id="alfryd_errorMessage">
+							<img src="img/blankPixel.png" data-imgSrc="errorDesktop.svg" alt="alfryd_errorMessage">
+						</div>
+						<div id="alfryd_errorMessageMobile">
+							<img src="img/blankPixel.png" data-imgSrc="errorMobile.svg" alt="alfryd_errorMessage2">
+						</div>
+					</div>
+
+					
+					<div id="inputArea">
+						<div id="inputSpace" class="centered">  
+							<!--User inputs are pushed into here-->
+						</div>	
+							
+						<div id="addUserBtn" class="dropShadow curveEdges whiteText secondaryBox inputBtn">
+							<h2>+</h2>
+						</div>
+											
+
+						<div id="searchTwitter" class="bigButton centered quaternaryBox dropShadow curveEdges">
+							<h3 class="whiteText">GENERATE</h3>
+						</div>
+					</div>
+					
+				</div>
+				
+				<div class="col span_1_of_6"></div>
+				
+			</div>
+			
+			<div class="mainModule clearfix" id="resultsModule">
+				
+				<div id="titleModule"></div>
+					<div id="theModules"> 
+					<!--Anything with class "stoneBlock" within this is affected by Masonry.js-->
+						
+						<div id="totalTweetsModule" class="span_1_of_3 stoneBlock"></div>
+						<div id="geoModule" class="span_1_of_3 stoneBlock"></div>
+						<div id="followersModule" class="span_1_of_3 stoneBlock"></div>
+						<div id="tweetDayModule" class="span_1_of_3 stoneBlock"></div>
+						<div id="timesRetweetedModule" class="span_1_of_3 stoneBlock"></div>
+						<div id="hashtagModule" class="span_1_of_3 stoneBlock"></div>
+						<div id="popularTweetModule" class="span_1_of_3 stoneBlock"></div>
+						<div id="dataTypeModule" class="span_1_of_3 stoneBlock"></div>
+						<div id="inBeginningModule" class="span_1_of_3 stoneBlock"></div>
+						<div id="userMentionsModule" class="span_1_of_3 stoneBlock"></div>
+						<div id="timeOfDayModule" class="span_1_of_3 stoneBlock"></div>
+						<div id="tweetTimeModule" class="span_1_of_3 stoneBlock"></div>
+					
+					</div>
+				</div>
+
+			<div id="saveBar" class="centered noPrint clearfix"></div>  
+		
+			<div id="discalimer" class="quaternaryText clearfix centered col modSpan_5_of_5">  
+					<p>TweetieByte data is derived from a users most recent 200 tweets, "video" currently only includes tweets posted with a Youtube or Vine link.</p>
+				</div>
+					
+		</div>
+		
+		<div id="footerBar" class="primaryBox">
+			<div id="footerIcons" class="clearfix centered">
+				<div id="footerMail" class="footerSeg whiteText centered">
+					<div id="alfryd_footerMail">
+						<img src="img/blankPixel.png" data-imgSrc="footerMail.svg" alt="alfryd_footerMail">
+					</div>
+				</div>
+			
+			
+				<div class="alfryd_footerDecorLeft">
+					<img src="img/blankPixel.png" data-imgSrc="footerDecor.svg" alt="footerDecor">
+				</div>
+			
+				<div id="footerLogo" class="footerSeg">
+					<a href=".">
+						<div id="alfryd_footerLogo">
+							<img src="img/blankPixel.png" data-imgSrc="footerLogo.svg" alt="alfryd_footerLogo">
+						</div>
+					</a>
+					<div class="desktopSN">
+					<h4 class="footer-lovingly whiteText"><a href="http://www.wearesupernatural.com" target="_blank">Lovingly created by Super natural</a></h4>
+						<h4 class="footer-hashtag whiteText"><a href="http://twitter.com/ohhowsuper" target="_blank">@OhHowSuper</a></4>
+					</div>
+				</div>
+				
+				<div class="alfryd_footerDecorRight">
+					<img src="img/blankPixel.png" data-imgSrc="footerDecor.svg" alt="footerDecor">
+				</div>
+				
+				<div id="footerTwitter" class="footerSeg whiteText centered">
+					<div id="alfryd_footerTwitter">
+						<img src="img/blankPixel.png" data-imgSrc="footerTwitter.svg" alt="alfryd_footerTwitter">
+					</div>
+				</div>
+			</div>
+			
+			
+			
+			
+			<div class="mobileSN">
+				<h4 class="footer-lovingly whiteText"><a href="http://www.wearesupernatural.com" target="_blank">Lovingly created by Super natural</a></h4>
+				<h4 class="footer-hashtag whiteText"><a href="http://twitter.com/ohhowsuper" target="_blank">@OhHowSuper</a></4>
+			</div>
+			
+			
+			<div id="switchThemeBtn">
+				<h5 class="whiteText">change theme</h5>
+				<div id="toggleSwitchBg" class="toggleCurves">
+					<span id="toggleSwitch" class="toggleCurves"></span>
+				</div>
+			</div>
+		</div>
+
+		<!--(if target dev)><!-->
+	  <script src="js/lib/masonry.pkgd.min.js"></script>
+	  <script src="js/lib/zepto.min.js" type="text/javascript"></script>
+	  <script src="js/lib/handlebars1.3.0.js" type="text/javascript"></script>
+	  <script src="js/lib/Chart.Core.js" type="text/javascript"></script>
+	  <script src="js/lib/Chart.Doughnut.js" type="text/javascript"></script>
+	  <script src="js/lib/markerclusterer_compiled.js" type="text/javascript"></script>
+
+	  <!--script src="js/lib/html2canvas.js" type="text/javascript"></script-->
+	  <!--script src="js/lib/leaflet.js" type="text/javascript"></script-->
+	  <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDzEMjo7nGGNAeYys5ZfR-Qbb9-278JkXk"></script>
+	  <script src="js/lib/infobox_packed.js" type="text/javascript"></script>
+
+	 
+
+	  <script src="js/mod/dateLogic.js" type="text/javascript"></script>
+	  <script src="js/mod/handlebars.js" type="text/javascript"></script>
+	  <script src="js/mod/tweetieGraphs.js" type="text/javascript"></script>
+	  <script src="js/mod/tweetieMap.js" type="text/javascript"></script>
+	  <script src="js/mod/tracking.js" type="text/javascript"></script>
+
+	  <script src="js/mod/tweetProcessor.js" type="text/javascript"></script>
+	  <script src="js/mod/ajax.js" type="text/javascript"></script> 
+	  <script src="js/mod/utils.js" type="text/javascript"></script> 
+	  <script src="js/mod/app.js" type="text/javascript"></script>
+	  
+	  
+		<!--<!(endif)-->
+		<!--(if target dist)>
+			<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDzEMjo7nGGNAeYys5ZfR-Qbb9-278JkXk"></script>
+			<script src="App.min.js" type="text/javascript"></script>
+		<!(endif)-->
+
+	</body>
+
+</html>
