@@ -39,6 +39,9 @@
   -o-transition: all 0.4s ease-out;
   transition: all 0.4s ease-out;
 }
+.projBody {
+  top: 400px;
+}
 .projTint-home {
   opacity: 0.5;
 }

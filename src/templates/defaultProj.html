@@ -14,13 +14,23 @@
 
 		<!--(bake pageHeader.html imgPrefix="../")-->
 
-		<div class="projCopy-home">
+		<div class="projCopy-home projBody">
 			<p class="projTitle-home">{{project_item.title}}</p>
 			<p class="projBlurb-home">{{project_item.summary}}</p>
 			<p class="projShortBlurb-home">{{project_item.shortSummary}}</p>
+
+
+			<!--("bake" projPg_pageBody.html _foreach="blurbType:pageOrder")-->
+
+			<!--(bake-start _foreach=project_item.pageOrder")-->
+					<li>{{blurbType}}</li>
+
+        <!--(bake-end)-->
+
+
 		</div>
 
-		<!--(bake projPg_pageBody.html _foreach="project_item:pageOrder")-->
+
 
 
 		<!--(bake globalScripts.html scriptPrefix="../")-->
