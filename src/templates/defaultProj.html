@@ -20,10 +20,8 @@
 			<p class="projShortBlurb-home">{{project_item.shortSummary}}</p>
 
 
-			<!--("bake" projPg_pageBody.html _foreach="blurbType:pageOrder")-->
-
-			<!--(bake-start _foreach=project_item.pageOrder")-->
-					<li>{{blurbType}}</li>
+				<!--(bake-start _foreach="ITEM:project_item.pageOrder")-->
+					<li>{{ITEM.data}}</li>
 
         <!--(bake-end)-->
 
