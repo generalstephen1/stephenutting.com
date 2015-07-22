@@ -1,8 +1,4 @@
-
-<!--(bake projPg_copy.html _if=project_item["copy"])-->
-
-<!--(bake projPg_image.html _if=project_item["image"])-->
-
-<!--(bake projPg_codeSnippet.html _if=project_item["codeSnippet"])-->
-
-<!--(bake projPg_video.html _if=project_item["video"])-->
+	<!--(bake projPg_copy.html _if="ITEM.copy")-->
+	<!--(bake projPg_image.html _if="ITEM.image")-->
+	<!--(bake projPg_codeSnippet.html _if="ITEM.codeSnippet")-->
+	<!--(bake projPg_video.html _if="ITEM.video")-->

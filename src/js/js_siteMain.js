@@ -9,8 +9,6 @@ var Site = Site || {};
 
 
 
-
-
 /**
  * Main load sequence, ajax template loader, populator and initialiser
  *
@@ -44,12 +42,13 @@ Site.siteMain.loadSeq = function(whatStep){
       }
 
 
-      Site.siteMain.loadSeq("listeners");
+      //Site.siteMain.loadSeq("listeners");
+      Site.globalListeners.addListeners();
       break;
 
     case "listeners":
       //window.addEventListener("resize", Site.siteMain.windowResize);
-      window.addEventListener("scroll", Site.siteMain.scrollChange);
+
       break;
   }
 }
@@ -86,9 +85,9 @@ Site.siteMain.loadDom = function(){
 	var elems = [
 		"siteMain",
     "projectCards",
-    "homepageHeader",
-    "homepageLogoLrg",
-    "homepageLogoSml"
+    "globalHeader",
+    "globalLogoLrg",
+    "globalLogoSml"
 	]
 
   var classes = [
@@ -105,31 +104,6 @@ Site.siteMain.loadDom = function(){
 	for(var i = 0; i < elems.length; i++){
 		Site.dom[elems[i]] = document.getElementById(elems[i])
 	}
-}
-
-
-/**
- * When the user scrolls
- *
- * @method scrollChange
- * @param {MouseEvent} e Event return
- * @return {void}
- */
-Site.siteMain.scrollChange = function(e){
-  var doc = document.documentElement;
-  var top = (window.pageYOffset || doc.scrollTop)  - (doc.clientTop || 0);
-
-  if (top >= 50){
-    Site.dom.homepageHeader.style.height = "50px"
-    Site.dom.homepageLogoLrg.style.opacity = "0"
-    Site.dom.homepageLogoSml.style.opacity = "1"
-  }
-  else {
-    Site.dom.homepageHeader.style.height = "400px"
-    Site.dom.homepageLogoLrg.style.opacity = "1"
-    Site.dom.homepageLogoSml.style.opacity = "0"
-
-  }
 }
 
 

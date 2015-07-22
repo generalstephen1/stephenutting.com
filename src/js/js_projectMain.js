@@ -1,10 +1,10 @@
 var Site = Site || {};
-    Site.siteMain = Site.siteMain || {};
+    Site.projectMain = Site.projectMain || {};
 
     /**
      * Main Site initialisation and control script
      *
-     * @class Site.siteMain
+     * @class Site.projectMain
      */
 
 
@@ -16,12 +16,12 @@ var Site = Site || {};
  * @param {String} whatStep Command to enact
  * @return {void}
  */
-Site.siteMain.loadSeq = function(whatStep){
+Site.projectMain.loadSeq = function(whatStep){
   Site.log("loadSeq "+whatStep);
   switch(whatStep){
     case "init":
-      Site.siteMain.loadDom();
-      Site.siteMain.loadSeq("imageLoad");
+      Site.projectMain.loadDom();
+      Site.projectMain.loadSeq("imageLoad");
       break;
 
     case "imageLoad":
@@ -36,39 +36,16 @@ Site.siteMain.loadSeq = function(whatStep){
           images[i].onload = function(){
             imagesLoaded ++;
             if (imagesLoaded == numImages){
-              Site.siteMain.doMasonry();
+              //all images loaded
             }
           }
       }
 
-
-      //Site.siteMain.loadSeq("listeners");
       Site.globalListeners.addListeners();
-      break;
-
-    case "listeners":
-      //window.addEventListener("resize", Site.siteMain.windowResize);
-
       break;
   }
 }
 
-
-/**
- * Triggers Masonry
- *
- * @method doMasonry
- * @return {void}
- */
-Site.siteMain.doMasonry = function(){
-  Site.log("siteMain.doMasonry");
-  Site.dom.$projectCards = document.querySelector('#projectCards');
-  Site.msnry = new Masonry(Site.dom.$projectCards, {
-    itemSelector: '.mGrid',
-    columnWidth: 1,
-    gutter: 0
-  });
-}
 
 
 /**
@@ -77,14 +54,12 @@ Site.siteMain.doMasonry = function(){
  * @method loadDom
  * @return {void}
  */
-Site.siteMain.loadDom = function(){
+Site.projectMain.loadDom = function(){
 
   Site.domClass = {}
   Site.dom = {}
 
 	var elems = [
-		"siteMain",
-    "projectCards",
     "globalHeader",
     "globalLogoLrg",
     "globalLogoSml"
@@ -113,7 +88,7 @@ Site.siteMain.loadDom = function(){
  * @method windowResize
  * @return {void}
  */
-Site.siteMain.windowResize = function(){
+Site.projectMain.windowResize = function(){
   var windowWidth = window.innerWidth;
   if (windowWidth <= 640){
     if (windowWidth <= 480){
@@ -128,5 +103,5 @@ Site.siteMain.windowResize = function(){
 
 
 window.onload = function(){
-  Site.siteMain.loadSeq("init");
+  Site.projectMain.loadSeq("init");
 }

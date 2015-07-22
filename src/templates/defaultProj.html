@@ -7,7 +7,6 @@
 
 	  <!-- CSS  -->
 		<!--(bake globalStyles.html stylePrefix="../")-->
-
 	</head>
 
 	<body>
@@ -19,18 +18,14 @@
 			<p class="projBlurb-home">{{project_item.summary}}</p>
 			<p class="projShortBlurb-home">{{project_item.shortSummary}}</p>
 
-
-				<!--(bake-start _foreach="ITEM:project_item.pageOrder")-->
-					<li>{{ITEM.data}}</li>
-
-        <!--(bake-end)-->
-
+			<!--(bake projPg_pageBody.html _foreach="ITEM:project_item.pageOrder")-->
 
 		</div>
 
 
-
+		<!--(bake pageFooter.html imgPrefix="../")-->
 
 		<!--(bake globalScripts.html scriptPrefix="../")-->
+		
 	</body>
 </html>
