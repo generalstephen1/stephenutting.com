@@ -1,0 +1,17 @@
+this is a to do list for the site
+
+	- upload videos to Vimeo
+	- get video embed info from vimeo
+	- figure out how tags will work
+	- populate sitemain, blurb etc
+	- populate project pages
+get header image for projects
+	- header menu design and functionality
+	- filter functionality
+	- write grunt prop
+	- footer....  QA cert, vic degree, social, github,
+	- contact info, form? mailto?
+	- currently working segment
+	- 'flip' effect on project segments on desktop on page load
+	- social links, github, twitter,
+  - position content project pages

@@ -1,28 +1,24 @@
 [
 			{
-			"projectID":"loremIpsum",
-			"title": "Lorem ipsum",
-			"tags": [
-				"tag1",
-				"tag2",
-				"tag3"
-			],
+			"projectID":"people",
+			"title": "People",
+			"tags": "tag1 tag2 tag3",
 			"summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
 			"shortSummary": "Lorem ipsum dolor sit amet. , consectetur adipiscing elit",
 			"blockSize": "xLrg",
-			"homeImg": "http://lorempixel.com/600/200/cats/",
+			"homeImg": "http://lorempixel.com/600/200/people/",
 			"homeColorTheme": "darkTheme",
-			"coverImg": "",
+			"coverImg": "http://lorempixel.com/1200/400/people/",
 			"pageOrder": [
 					{
 						"copy": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
 					},{
-						"image": "http://lorempixel.com/600/600/cats/"
+						"image": "http://lorempixel.com/600/600/people/"
 					},{
 						"copy": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
 					},{
 						"video": "https://www.youtube.com/watch?v=C0DPdy98e4c",
-						"poster": "http://lorempixel.com/400/400/cats/"
+						"poster": "http://lorempixel.com/400/400/people/"
 					},{
 						"type": "codeSnippet",
 						"data": ""
@@ -30,29 +26,25 @@
 			]
 		},
 		{
-			"projectID":"DolorSit",
-			"title": "Dolor Sit",
-			"tags": [
-				"tag1",
-				"tag2",
-				"tag3"
-			],
+			"projectID":"city",
+			"title": "City",
+			"tags": "tag1 tag2 tag3",
 			"summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
 			"shortSummary": "Lorem ipsum dolor sit amet. , consectetur adipiscing elit",
 			"blockSize": "reg",
-			"homeImg": "http://lorempixel.com/200/200/cats/",
+			"homeImg": "http://lorempixel.com/200/200/city/",
 			"homeColorTheme": "darkTheme",
-			"coverImg": "",
+			"coverImg": "http://lorempixel.com/1200/400/city/",
 			"pageOrder": [
 				{
 					"copy": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
 				},{
-					"image": "http://lorempixel.com/600/600/cats/"
+					"image": "http://lorempixel.com/600/600/city/"
 				},{
 					"copy": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
 				},{
 					"video": "https://www.youtube.com/watch?v=C0DPdy98e4c",
-					"poster": "http://lorempixel.com/600/600/cats/"
+					"poster": "http://lorempixel.com/600/600/city/"
 				},{
 					"type": "codeSnippet",
 					"data": ""
@@ -60,19 +52,15 @@
 			]
 		},
 		{
-			"projectID":"consectetur",
-			"title": "Consectetur",
-			"tags": [
-				"tag1",
-				"tag2",
-				"tag3"
-			],
+			"projectID":"animals",
+			"title": "Animals",
+			"tags": "tag1 tag2 tag3",
 			"summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
 			"shortSummary": "Lorem ipsum dolor sit amet. , consectetur adipiscing elit",
 			"blockSize": "reg",
-			"homeImg": "http://lorempixel.com/200/200/cats/",
+			"homeImg": "http://lorempixel.com/200/200/animals/",
 			"homeColorTheme": "lightTheme",
-			"coverImg": "",
+			"coverImg": "http://lorempixel.com/1200/400/animals/",
 			"pageOrder": [
 				{
 					"copy": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
@@ -82,7 +70,7 @@
 					"copy": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
 				},{
 					"video": "https://www.youtube.com/watch?v=C0DPdy98e4c",
-					"poster": "http://lorempixel.com/600/600/cats/"
+					"poster": "http://lorempixel.com/600/600/animals/"
 				},{
 					"type": "codeSnippet",
 					"data": ""
@@ -90,27 +78,25 @@
 			]
 		},
 		{
-			"projectID":"adipiscingElit",
-			"title": "Hello Again",
-			"tags": [
-				"tag3"
-			],
+			"projectID":"abstract",
+			"title": "Abstract",
+			"tags": "tag3",
 			"summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
 			"shortSummary": "Lorem ipsum dolor sit amet. , consectetur adipiscing elit",
 			"blockSize": "lrg",
-			"homeImg": "http://lorempixel.com/400/200/cats/",
+			"homeImg": "http://lorempixel.com/400/200/abstract/",
 			"homeColorTheme": "darkTheme",
 			"coverImg": "",
 			"pageOrder": [
 				{
 					"copy": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
 				},{
-					"image": "http://lorempixel.com/600/600/cats/"
+					"image": "http://lorempixel.com/600/600/abstract/"
 				},{
 					"copy": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
 				},{
 					"video": "https://www.youtube.com/watch?v=C0DPdy98e4c",
-					"poster": "http://lorempixel.com/600/600/cats/"
+					"poster": "http://lorempixel.com/600/600/abstract/"
 				},{
 					"type": "codeSnippet",
 					"data": ""
@@ -118,28 +104,25 @@
 			]
 		},
 		{
-			"projectID":"adipiscingElit",
-			"title": "Hello",
-			"tags": [
-				"tag1",
-				"tag3"
-			],
+			"projectID":"technics",
+			"title": "Technics",
+			"tags": "tag1 tag3",
 			"summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
 			"shortSummary": "Lorem ipsum dolor sit amet. , consectetur adipiscing elit",
 			"blockSize": "reg",
-			"homeImg": "http://lorempixel.com/200/200/cats/",
+			"homeImg": "http://lorempixel.com/200/200/technics/",
 			"homeColorTheme": "lightTheme",
 			"coverImg": "",
 			"pageOrder": [
 				{
 					"copy": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
 				},{
-					"image": "http://lorempixel.com/600/600/cats/"
+					"image": "http://lorempixel.com/600/600/technics/"
 				},{
 					"copy": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
 				},{
 					"video": "https://www.youtube.com/watch?v=C0DPdy98e4c",
-					"poster": "http://lorempixel.com/600/600/cats/"
+					"poster": "http://lorempixel.com/600/600/technics/"
 				},{
 					"type": "codeSnippet",
 					"data": ""
@@ -147,12 +130,9 @@
 			]
 		},
 		{
-			"projectID":"adipiscingElit",
-			"title": "Hello",
-			"tags": [
-				"tag1",
-				"tag2"
-			],
+			"projectID":"cats",
+			"title": "Cats",
+			"tags": "tag1 tag2",
 			"summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
 			"shortSummary": "Lorem ipsum dolor sit amet. , consectetur adipiscing elit",
 			"blockSize": "reg",

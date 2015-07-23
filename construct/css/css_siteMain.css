@@ -28,6 +28,9 @@ header {
   background-repeat: no-repeat;
   background-position: center;
 }
+.center {
+  text-align: center;
+}
 .menuBtn {
   background-color: white;
   height: 50px;

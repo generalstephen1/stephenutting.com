@@ -7,13 +7,18 @@
 
 	  <!-- CSS  -->
 		<!--(bake globalStyles.html stylePrefix="../")-->
+		<style>
+			header{
+				background-image: url("{{project_item.coverImg}}");
+			}
+		</style>
 	</head>
 
 	<body>
 
 		<!--(bake pageHeader.html imgPrefix="../")-->
 
-		<div class="projCopy-home projBody">
+		<div class="projCopy-home projBody s10 section">
 			<p class="projTitle-home">{{project_item.title}}</p>
 			<p class="projBlurb-home">{{project_item.summary}}</p>
 			<p class="projShortBlurb-home">{{project_item.shortSummary}}</p>
@@ -26,6 +31,8 @@
 		<!--(bake pageFooter.html imgPrefix="../")-->
 
 		<!--(bake globalScripts.html scriptPrefix="../")-->
-		
+		<script src="../js/js_projectMain.js" type="text/javascript"></script>
+
+
 	</body>
 </html>

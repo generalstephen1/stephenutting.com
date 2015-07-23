@@ -16,34 +16,11 @@ var Site = Site || {};
  * @param {String} whatStep Command to enact
  * @return {void}
  */
-Site.projectMain.loadSeq = function(whatStep){
-  Site.log("loadSeq "+whatStep);
-  switch(whatStep){
-    case "init":
-      Site.projectMain.loadDom();
-      Site.projectMain.loadSeq("imageLoad");
-      break;
+Site.projectMain.init = function(){
+  Site.log("projectMain.init");
 
-    case "imageLoad":
-
-      var images = document.getElementsByTagName("img");
-      var numImages = images.length;
-      var imagesLoaded = 0;
-
-      for(var i = 0; i < numImages; i++){
-        var newSrc = images[i].getAttribute("data-src");
-          images[i].src = newSrc;
-          images[i].onload = function(){
-            imagesLoaded ++;
-            if (imagesLoaded == numImages){
-              //all images loaded
-            }
-          }
-      }
-
-      Site.globalListeners.addListeners();
-      break;
-  }
+  Site.projectMain.loadDom();
+  Site.globalListeners.addListeners();
 }
 
 
@@ -103,5 +80,5 @@ Site.projectMain.windowResize = function(){
 
 
 window.onload = function(){
-  Site.projectMain.loadSeq("init");
+  Site.projectMain.init();
 }
