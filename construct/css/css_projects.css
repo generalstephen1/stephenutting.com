@@ -1,7 +1,7 @@
 #projectCards {
-  background-color: grey;
+  background-color: #1ff456;
   overflow: hidden;
-  top: 20px;
+  top: 1em;
 }
 .mGrid {
   overflow: hidden;
@@ -40,7 +40,12 @@
   transition: all 0.4s ease-out;
 }
 .projBody {
-  top: 400px;
+  padding: 1em;
+  top: 23em;
+  max-width: 60em;
+  margin: 0 auto;
+  background: #1ff456;
+  color: #212121;
 }
 .projTint-home {
   opacity: 0.5;
@@ -64,20 +69,20 @@
 .projHover-home.darkTheme .projTitle-home,
 .projHover-home.darkTheme .projBlurb-home,
 .projHover-home.darkTheme .projShortBlurb-home {
-  color: black;
+  color: #212121;
 }
 .projHover-home.darkTheme .projTint-home,
 .projHover-home.darkTheme .projTitle-home {
-  background-color: white;
+  background-color: #ffffff;
 }
 .projHover-home.lightTheme .projTitle-home,
 .projHover-home.lightTheme .projBlurb-home,
 .projHover-home.lightTheme .projShortBlurb-home {
-  color: white;
+  color: #ffffff;
 }
 .projHover-home.lightTheme .projTint-home,
 .projHover-home.lightTheme .projTitle-home {
-  background-color: black;
+  background-color: #212121;
 }
 @media only screen and (max-width: 45em) {
   /* 640px */

@@ -12,7 +12,7 @@ Site.headerControl.shrinkHeader = function(){
 }
 
 Site.headerControl.enlargeHeader = function(){
-	Site.dom.globalHeader.style.height = "400px"
+	Site.dom.globalHeader.style.height = "22em"
 	Site.dom.globalLogoLrg.style.opacity = "1"
 	Site.dom.globalLogoSml.style.opacity = "0"
 }

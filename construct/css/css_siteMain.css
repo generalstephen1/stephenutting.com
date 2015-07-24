@@ -1,24 +1,15 @@
-html,
-body {
-  margin: 0;
-  padding: 0;
-  height: 100%;
-  background-color: #f6f6f6;
-  background-image: url("../img/global/bgTile.jpg");
-  font-family: 'Open Sans', sans-serif;
-}
 #focusArea {
-  max-width: 1000px;
+  max-width: 60em;
 }
 header {
-  height: 400px;
+  height: 22em;
   position: fixed;
   z-index: 100;
   width: 100%;
   top: 0;
   left: 0;
   overflow: hidden;
-  color: white;
+  color: #212121;
   background-color: white;
   -webkit-transition: all 0.4s ease-out;
   -moz-transition: all 0.4s ease-out;
@@ -28,14 +19,14 @@ header {
   background-repeat: no-repeat;
   background-position: center;
 }
-.center {
-  text-align: center;
+.headerLockup {
+  margin-top: 3em;
 }
 .menuBtn {
-  background-color: white;
-  height: 50px;
+  background-color: #f6f6f6;
+  height: 3em;
   text-align: center;
-  line-height: 50px;
+  line-height: 3em;
   opacity: 0.5;
   -webkit-transition: all 0.4s ease-out;
   -moz-transition: all 0.4s ease-out;
@@ -46,31 +37,7 @@ header {
   opacity: 0.8;
 }
 #siteMain {
-  margin-top: 400px;
-}
-#homepageLogoLrg {
-  left: 50%;
-  margin-left: -90px;
-  position: relative;
-  -webkit-transition: all 0.4s ease-out;
-  -moz-transition: all 0.4s ease-out;
-  -o-transition: all 0.4s ease-out;
-  transition: all 0.4s ease-out;
-}
-#homepageLogoSml {
-  left: 50%;
-  margin-left: -25px;
-  margin-top: 4px;
-  position: relative;
-  opacity: 0;
-  -webkit-transition: all 0.4s ease-out;
-  -moz-transition: all 0.4s ease-out;
-  -o-transition: all 0.4s ease-out;
-  transition: all 0.4s ease-out;
-}
-.homepageHeaderImg {
-  margin-left: auto;
-  margin-right: auto;
+  margin-top: 22em;
 }
 .projHomeImg {
   display: block;

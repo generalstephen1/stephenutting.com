@@ -20,6 +20,9 @@ Site.projectMain.init = function(){
   Site.log("projectMain.init");
 
   Site.projectMain.loadDom();
+
+  Site.utils.politeLoadImg()
+
   Site.globalListeners.addListeners();
 }
 

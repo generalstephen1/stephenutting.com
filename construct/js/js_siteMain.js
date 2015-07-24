@@ -25,30 +25,8 @@ Site.siteMain.loadSeq = function(whatStep){
       break;
 
     case "imageLoad":
-
-      var images = document.getElementsByTagName("img");
-      var numImages = images.length;
-      var imagesLoaded = 0;
-
-      for(var i = 0; i < numImages; i++){
-        var newSrc = images[i].getAttribute("data-src");
-          images[i].src = newSrc;
-          images[i].onload = function(){
-            imagesLoaded ++;
-            if (imagesLoaded == numImages){
-              Site.siteMain.doMasonry();
-            }
-          }
-      }
-
-
-      //Site.siteMain.loadSeq("listeners");
+      Site.utils.politeLoadImg(Site.siteMain.doMasonry)
       Site.globalListeners.addListeners();
-      break;
-
-    case "listeners":
-      //window.addEventListener("resize", Site.siteMain.windowResize);
-
       break;
   }
 }

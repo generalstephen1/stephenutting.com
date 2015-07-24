@@ -2,9 +2,9 @@
 
 
   #projectCards{
-    background-color: grey;
+    background-color: @debugBG;
     overflow: hidden;
-    top: 20px;
+    top: @medMargin;
   }
 
 
@@ -41,7 +41,12 @@
   }
 
   .projBody{
-    top: 400px;
+    padding: @medMargin;
+    top: @headerHeight + @medMargin;
+    max-width: @maxPageWidth;
+    margin: 0 auto;
+    background: @debugBG;
+    color: @text-dark;
   }
 
   .projTint-home{
@@ -66,16 +71,16 @@
     &.darkTheme{
       .projTitle-home,
       .projBlurb-home,
-      .projShortBlurb-home{    color: black; }
+      .projShortBlurb-home{    color: @text-dark; }
       .projTint-home,
-      .projTitle-home{  background-color: white;}
+      .projTitle-home{  background-color: @text-light;}
     }
     &.lightTheme{
       .projTitle-home,
       .projBlurb-home,
-      .projShortBlurb-home { color: white; }
+      .projShortBlurb-home { color: @text-light; }
       .projTint-home,
-      .projTitle-home{   background-color: black;}
+      .projTitle-home{   background-color: @text-dark;}
 
     }
   }

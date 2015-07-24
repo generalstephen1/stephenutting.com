@@ -1,20 +1,9 @@
 @import (reference) "include.less";
 
-html,
-body {
-   margin:0;
-   padding:0;
-   height:100%;
-   background-color: @offWhiteCustom;
-   background-image: url("../img/global/bgTile.jpg");
-   font-family: 'Open Sans', sans-serif;
-}
 
-
-@headerHeight: 400px;
 
 #focusArea{
-  max-width: 1000px;
+  max-width: @maxPageWidth;
 }
 header{
   height: @headerHeight;
@@ -24,23 +13,23 @@ header{
   top: 0;
   left: 0;
   overflow: hidden;
-  color: white;
+  color: @text-dark;
   background-color: white;
   .transition(@duration:0.4s, @ease:ease-out);
   background-image: url("http://lorempixel.com/1200/400/cats/");
   background-repeat: no-repeat;
   background-position: center;
 }
-
-.center{
-  text-align: center;
+.headerLockup{
+  margin-top: 3em;
 }
 
+
 .menuBtn{
-  background-color: white;
-  height: 50px;
+  background-color: @offWhiteCustom;
+  height: @collapsedHeaderHeight;
   text-align: center;
-  line-height: 50px;
+  line-height: @collapsedHeaderHeight;
   opacity: 0.5;
 
   .transition(@duration:0.4s, @ease:ease-out);
@@ -50,30 +39,8 @@ header{
   }
 }
 
-
 #siteMain{
   margin-top: @headerHeight;
-}
-
-//.homepageHeaderImg,
-#homepageLogoLrg {
-  left: 50%;
-  margin-left: -90px;
-  position: relative;
-  .transition(@duration:0.4s, @ease:ease-out);
-}
-#homepageLogoSml {
-  left: 50%;
-  margin-left: -25px;
-  margin-top: 4px;
-  position: relative;
-  opacity: 0;
-  .transition(@duration:0.4s, @ease:ease-out);
-}
-
-.homepageHeaderImg{
-  margin-left: auto;
-  margin-right: auto;
 }
 
 .projHomeImg{
