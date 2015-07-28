@@ -3,6 +3,7 @@
 			"projectID":"people",
 			"title": "People",
 			"tags": "tag1 tag2 tag3",
+			"tagDots": ["HTML", "CSS", "JS"],
 			"summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
 			"shortSummary": "Lorem ipsum dolor sit amet. , consectetur adipiscing elit",
 			"blockSize": "xLrg",
@@ -17,7 +18,7 @@
 					},{
 						"copy": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
 					},{
-						"video": "https://player.vimeo.com/video/62995941?color=536dfe&title=0&byline=0&portrait=0" 
+						"video": "https://player.vimeo.com/video/62995941?color=536dfe&title=0&byline=0&portrait=0"
 					},{
 						"type": "codeSnippet",
 						"data": ""
@@ -27,7 +28,7 @@
 		{
 			"projectID":"city",
 			"title": "City",
-			"tags": "tag1 tag2 tag3",
+			"tagDots": ["Photoshop", "Illustrator", "AfterEffects"],
 			"summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
 			"shortSummary": "Lorem ipsum dolor sit amet. , consectetur adipiscing elit",
 			"blockSize": "reg",
@@ -53,7 +54,7 @@
 		{
 			"projectID":"animals",
 			"title": "Animals",
-			"tags": "tag1 tag2 tag3",
+			"tagDots": ["3DModelling", "Photography"],
 			"summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
 			"shortSummary": "Lorem ipsum dolor sit amet. , consectetur adipiscing elit",
 			"blockSize": "reg",
@@ -79,7 +80,7 @@
 		{
 			"projectID":"abstract",
 			"title": "Abstract",
-			"tags": "tag3",
+			"tagDots": ["Drawing", "Sketching"],
 			"summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
 			"shortSummary": "Lorem ipsum dolor sit amet. , consectetur adipiscing elit",
 			"blockSize": "lrg",
@@ -105,7 +106,7 @@
 		{
 			"projectID":"technics",
 			"title": "Technics",
-			"tags": "tag1 tag3",
+			"tagDots": ["Flash", "AfterEffects"],
 			"summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
 			"shortSummary": "Lorem ipsum dolor sit amet. , consectetur adipiscing elit",
 			"blockSize": "reg",
@@ -131,7 +132,7 @@
 		{
 			"projectID":"cats",
 			"title": "Cats",
-			"tags": "tag1 tag2",
+			"tagDots": ["Games", "RichMedia"],
 			"summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
 			"shortSummary": "Lorem ipsum dolor sit amet. , consectetur adipiscing elit",
 			"blockSize": "reg",

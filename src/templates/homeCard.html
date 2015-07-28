@@ -1,4 +1,4 @@
-<div class="mGrid mGrid-{{project_item.blockSize}} projectCard" data-tags="{{project_item.tags}}" id="{{project_item.projectID}}">
+<div class="mGrid mGrid-{{project_item.blockSize}} projectCard" data-tags="{{project_item.tagDots}}" id="{{project_item.projectID}}">
 	<a href="./projects/{{project_item.projectID}}.html">
 		<img class="{{project_item.blockSize}}Img projHomeImg" src="" data-src="{{project_item.homeImg}}">
 		<div class="projHover-home {{project_item.homeColorTheme}}">
@@ -6,7 +6,9 @@
 			<div class="projCopy-home">
 				<div class="titleContainer-home">
 					<p class="projTitle-home">{{project_item.title}}</p>
-					<div class="tagContainer"></div>
+					<div class="tagContainer">
+						<!--(bake homeCard-tag.html _foreach="tag:project_item.tagDots")-->
+					</div>
 				</div>
 				<p class="projBlurb-home">{{project_item.summary}}</p>
 				<p class="projShortBlurb-home">{{project_item.shortSummary}}</p>

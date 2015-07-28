@@ -3,6 +3,56 @@
   overflow: hidden;
   top: 1em;
 }
+.tagDot {
+  width: 10px;
+  height: 10px;
+  float: right;
+  background-color: green;
+  margin: 4px;
+  border-radius: 50%;
+}
+.tagDot.tagHTML {
+  background-color: #536dfe;
+}
+.tagDot.tagCSS {
+  background-color: #ff0000;
+}
+.tagDot.tagJS {
+  background-color: #00ff00;
+}
+.tagDot.tagPhotoshop {
+  background-color: #0000ff;
+}
+.tagDot.tagIllustrator {
+  background-color: #ffff00;
+}
+.tagDot.tagAfterEffects {
+  background-color: #00ffff;
+}
+.tagDot.tag3DModelling {
+  background-color: #ffffff;
+}
+.tagDot.tagPhotography {
+  background-color: #536dfe;
+}
+.tagDot.tagDrawing {
+  background-color: #ff0000;
+}
+.tagDot.tagSketching {
+  background-color: #00ff00;
+}
+.tagDot.tagFlash {
+  background-color: #0000ff;
+}
+.tagDot.tagAfterEffects {
+  background-color: #ffff00;
+}
+.tagDot.tagGames {
+  background-color: #00ffff;
+}
+.tagDot.tagRichMedia {
+  background-color: #ffffff;
+}
 .mGrid {
   overflow: hidden;
   background-color: white;
