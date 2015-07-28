@@ -1,7 +1,7 @@
 this is a to do list for the site
 
 	- upload videos to Vimeo
-	- get video embed info from vimeo
+get video embed info from vimeo
 	- figure out how tags will work
 	- populate sitemain, blurb etc
 	- populate project pages

@@ -53,18 +53,24 @@
 .projShortBlurb-home {
   display: none;
 }
+.titleContainer-home {
+  position: absolute;
+  right: 100%;
+  top: 5%;
+  width: auto;
+}
 .projHover-home {
   left: 100%;
   width: 50%;
 }
 .projHover-home .projTitle-home {
   text-align: right;
-  width: auto;
-  padding: 2%;
+  padding: 10%;
   white-space: nowrap;
-  position: absolute;
-  right: 100%;
-  top: 5%;
+  margin-bottom: 0;
+}
+.projHover-home .tagContainer {
+  background-color: blue;
 }
 .projHover-home.darkTheme .projTitle-home,
 .projHover-home.darkTheme .projBlurb-home,
