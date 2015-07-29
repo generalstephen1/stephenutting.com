@@ -3,7 +3,7 @@
 	<head>
 	  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
 	  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
-	  <title>Steve Utting</title>
+	  <title>{{config_vars.pageTitle}}</title>
 
 	  <!-- CSS  -->
 <!--(bake templates/globalStyles.html stylePrefix="")-->
@@ -13,20 +13,24 @@
 		<!--(bake templates/pageHeader.html imgPrefix="")-->
 
 		<div id="siteMain" class="section">
-
 			<div id="focusArea" class="s10 container">
 				<div class="introduction">
-					<h1>Steve Utting</h1>
-					<h3>Code Wizard</h3>
-					<h5>Design Ninja</h5>
+						{{config_vars.headerBlurb}}
+				</div>
+
+				<div class="tagFilter s12">
+					<!--(bake-start _foreach="tag:config_vars.availabletags")-->
+					<div class="tagDotOuter darkTheme">
+						<div class="tagHover">{{tag}}</div>
+						<div class="tagDot tag{{tag}}"></div>
+					</div>
+	        <!--(bake-end)-->
 				</div>
 
 				<div id="projectCards">
 					<!--(bake templates/homeCard.html _foreach="project_item:project_items")-->
 				</div>
 			</div>
-
-
 		</div>
 
 		<!--(bake templates/pageFooter.html imgPrefix="")-->

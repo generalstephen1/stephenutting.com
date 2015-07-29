@@ -1,11 +1,11 @@
 this is a to do list for the site
 
 	- upload videos to Vimeo
-get video embed info from vimeo
+  - fix video sizing (hopefully will sort footer sizing too)
+  - figure out code snippets/make codepen account and populate
 	- figure out how tags will work
 	- populate sitemain, blurb etc
 	- populate project pages
-get header image for projects
 	- header menu design and functionality
 	- filter functionality
 	- write grunt prop

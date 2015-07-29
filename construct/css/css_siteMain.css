@@ -47,3 +47,8 @@ header {
 .introduction {
   text-align: center;
 }
+#footer {
+  height: 400px;
+  background-color: blue;
+  margin-top: 60px;
+}

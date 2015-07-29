@@ -5,14 +5,35 @@
     background-color: @debugBG;
     overflow: hidden;
     top: @medMargin;
+    width: 100%;
   }
 
-  .tagDot{
-    width: 10px;
-    height: 10px;
+  @tagBuffer: 1px;
+  @tagSize: 10px;
+  .tagHover{
+    opacity: 0;
+  }
+
+  .tagDotOuter{
+    width: @tagSize + (@tagBuffer*2);
+    height: @tagSize + (@tagBuffer*2);
     float: right;
-    background-color: green;
     margin: 4px;
+    cursor: pointer;
+    .border-radius(@radius: 50%);
+
+    &:hover{
+      &.tagHover{
+        opacity: 1;
+      }
+    }
+
+  }
+  .tagDot{
+    width: @tagSize;
+    height: @tagSize;
+    margin: @tagBuffer;
+    background-color: green;
     .border-radius(@radius: 50%);
 
     &.tagHTML         {    background-color: @tagColour1;}
@@ -26,13 +47,17 @@
     &.tagDrawing      {    background-color: @tagColour2;}
     &.tagSketching    {    background-color: @tagColour3;}
     &.tagFlash        {    background-color: @tagColour4;}
-    &.tagAfterEffects {    background-color: @tagColour5;}
     &.tagGames        {    background-color: @tagColour6;}
     &.tagRichMedia    {    background-color: @tagColour7;}
   }
 
-
-
+  .tagFilter{
+    text-align: center;
+    .tagDotOuter{
+      float: none;
+      display: inline-block;
+    }
+  }
 
   .mGrid {
   		overflow: hidden;
@@ -85,7 +110,7 @@
       position: absolute;
       right: 100%;
       top: 5%;
-      width: auto;
+      width: 100px;
     }
 
   .projHover-home {
@@ -105,6 +130,7 @@
       .projBlurb-home,
       .projShortBlurb-home{    color: @text-dark; }
       .projTint-home,
+      .tagDotOuter,
       .projTitle-home{  background-color: @text-light;}
     }
     &.lightTheme{
@@ -112,12 +138,11 @@
       .projBlurb-home,
       .projShortBlurb-home { color: @text-light; }
       .projTint-home,
+      .tagDotOuter,
       .projTitle-home{   background-color: @text-dark;}
 
     }
   }
-
-
 
 
 @media only screen and ( max-width: 45em ) {/* 640px */
