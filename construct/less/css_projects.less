@@ -14,26 +14,41 @@
     opacity: 0;
   }
 
+  .tagFilterElem{
+    display: inline-block;
+
+    &:hover{
+      .tagHover {
+        opacity: 1;
+      }
+    }
+  }
+
   .tagDotOuter{
     width: @tagSize + (@tagBuffer*2);
     height: @tagSize + (@tagBuffer*2);
     float: right;
     margin: 4px;
     cursor: pointer;
+    position: relative;
+    background-color: @text-dark;
+
     .border-radius(@radius: 50%);
-
-    &:hover{
-      &.tagHover{
-        opacity: 1;
-      }
-    }
-
   }
+
+  .tagHover {
+    position: absolute;
+    bottom: 100%;
+  }
+
+
   .tagDot{
     width: @tagSize;
     height: @tagSize;
     margin: @tagBuffer;
     background-color: green;
+    pointer-events: none;
+
     .border-radius(@radius: 50%);
 
     &.tagHTML         {    background-color: @tagColour1;}

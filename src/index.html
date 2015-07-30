@@ -20,9 +20,11 @@
 
 				<div class="tagFilter s12">
 					<!--(bake-start _foreach="tag:config_vars.availabletags")-->
-					<div class="tagDotOuter darkTheme">
-						<div class="tagHover">{{tag}}</div>
-						<div class="tagDot tag{{tag}}"></div>
+					<div class="tagFilterElem">
+						<div class="tagDotOuter darkTheme">
+							<div class="tagHover hover{{tag}}">{{tag}}</div>
+							<div class="tagDot tag{{tag}}"></div>
+						</div>
 					</div>
 	        <!--(bake-end)-->
 				</div>
