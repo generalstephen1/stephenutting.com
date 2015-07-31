@@ -22,6 +22,7 @@ Site.siteMain.loadSeq = function(whatStep){
     case "init":
       Site.siteMain.loadDom();
       Site.siteMain.loadSeq("imageLoad");
+      Site.projFilter.init();
       break;
 
     case "imageLoad":

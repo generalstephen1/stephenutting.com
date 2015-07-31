@@ -21,7 +21,7 @@
 				<div class="tagFilter s12">
 					<!--(bake-start _foreach="tag:config_vars.availabletags")-->
 					<div class="tagFilterElem">
-						<div class="tagDotOuter darkTheme">
+						<div class="tagDotOuter darkTheme" data-tagName="{{tag}}">
 							<div class="tagHover hover{{tag}}">{{tag}}</div>
 							<div class="tagDot tag{{tag}}"></div>
 						</div>
@@ -37,8 +37,12 @@
 
 		<!--(bake templates/pageFooter.html imgPrefix="")-->
 
+
+		<script src="{{scriptPrefix}}js/js_projFilter.js" type="text/javascript"></script>
+
 		<!--(bake templates/globalScripts.html scriptPrefix="")-->
 		<script src="{{scriptPrefix}}js/js_siteMain.js" type="text/javascript"></script>
+
 
 	</body>
 </html>

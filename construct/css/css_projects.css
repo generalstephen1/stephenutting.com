@@ -57,22 +57,22 @@
   background-color: #ffffff;
 }
 .tagDot.tagPhotography {
-  background-color: #536dfe;
+  background-color: #dc143c;
 }
 .tagDot.tagDrawing {
-  background-color: #ff0000;
+  background-color: #00008b;
 }
 .tagDot.tagSketching {
-  background-color: #00ff00;
+  background-color: #2e8b57;
 }
 .tagDot.tagFlash {
-  background-color: #0000ff;
+  background-color: #daa520;
 }
 .tagDot.tagGames {
-  background-color: #00ffff;
+  background-color: #fffff0;
 }
 .tagDot.tagRichMedia {
-  background-color: #ffffff;
+  background-color: #a52a2a;
 }
 .tagFilter {
   text-align: center;
