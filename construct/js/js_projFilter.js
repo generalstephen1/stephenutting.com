@@ -25,28 +25,46 @@ Site.projFilter.init = function(){
 
 Site.projFilter.tagClick = function(e){
 	var selectedTag = e.srcElement.dataset.tagname;
+	var isActive = e.srcElement.dataset.active;
 
 
-	for (var card in  Site.activeProjects){
-		var pass = false;
-		for(var i = 0; i < Site.activeProjects[card]["tags"].length; i++){
-			if(Site.activeProjects[card].active){
-				Site.log("testing if "+selectedTag+" = "+Site.activeProjects[card].tags[i]+"?")
-				if(selectedTag == Site.activeProjects[card].tags[i]){
-					Site.log("Success")
-					pass = true;
+	function checkMatch(whatSet, checkVar){
+		for (var card in  Site.activeProjects){
+			//checking if already active/inactive
+			if(Site.activeProjects[card].active == checkVar){
+				//loop through projects tags
+				for (var i = 0;i<Site.activeProjects[card].tags.length; i++){
+					//check if tag matches selected tag
+					if (selectedTag == Site.activeProjects[card].tags[i]){
+						//there is a match, show project card
+						if(whatSet == "activate"){
+							Site.log("activating card "+card);
+							Site.activeProjects[card].active = true;
+							Site.activeProjects[card].elem.style.display = "block";
+						}
+						if(whatSet == "deactivate"){
+							Site.log("deactivating card "+card);
+							Site.activeProjects[card].active = false;
+							Site.activeProjects[card].elem.style.display = "none";
+						}
+					}
 				}
 			}
 		}
+	}
 
-		if(!pass){
-			Site.log(card+" failed "+Site.activeProjects[card].tags+" vs "+selectedTag)
-			Site.activeProjects[card].elem.style.display = "none";
-			Site.activeProjects[card].active = false;
-		}
+	//check if we are toggling on or off
+	if(isActive == "false"){
+		Site.log("activating "+selectedTag)
+		e.srcElement.setAttribute("data-active", true)
+		checkMatch("activate", false);
+	}
+	else {
+		Site.log("deactivating "+selectedTag)
+		e.srcElement.setAttribute("data-active", false)
+		checkMatch("deactivate", true);
 	}
 
 
 	Site.siteMain.doMasonry()
-
 }
