@@ -23,6 +23,9 @@
   background-color: #212121;
   border-radius: 50%;
 }
+.selected .tagDotOuter {
+  border-radius: 0%;
+}
 .tagHover {
   position: absolute;
   bottom: 100%;

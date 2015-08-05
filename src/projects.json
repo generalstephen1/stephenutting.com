@@ -1,6 +1,6 @@
 {
 	"config": {
-		"availabletags": ["HTML", "CSS", "JS", "Photoshop", "Illustrator", "Flash", "AfterEffects", "3DModelling", "Drawing", "Sketching", "Games", "RichMedia"],
+		"availabletags": ["HTML", "CSS", "JS", "Photoshop", "Illustrator", "Flash", "AfterEffects", "3DModelling", "Drawing", "Sketching", "Games", "RichMedia", "Photography"],
 		"headerBlurb": "<h1>This will be</h1><h3>some kind of</h3><h5>EPIC BLURB</h5>",
 		"pageTitle": "Steve Utting"
 	},

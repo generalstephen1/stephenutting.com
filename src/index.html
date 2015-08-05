@@ -6,7 +6,7 @@
 	  <title>{{config_vars.pageTitle}}</title>
 
 	  <!-- CSS  -->
-<!--(bake templates/globalStyles.html stylePrefix="")-->
+		<!--(bake templates/globalStyles.html stylePrefix="")-->
 
 	</head>
 	<body>
@@ -20,8 +20,8 @@
 
 				<div class="tagFilter s12">
 					<!--(bake-start _foreach="tag:config_vars.availabletags")-->
-					<div class="tagFilterElem">
-						<div class="tagDotOuter darkTheme selected" data-tagName="{{tag}}" data-active="true">
+					<div class="tagFilterElem selected">
+						<div class="tagDotOuter darkTheme" data-tagName="{{tag}}" data-active="true">
 							<div class="tagHover hover{{tag}}">{{tag}}</div>
 							<div class="tagDot tag{{tag}}"></div>
 						</div>

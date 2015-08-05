@@ -14,39 +14,35 @@ Site.projFilter.init = function(){
 		 var tagString = projects[i].getAttribute("data-tags");
 
 		 Site.activeProjects[projectName] = {
-			 tags: tagString.split(","),
+			 tags: {},
 			 elem: projects[i],
-			 active: true
 		 }
-	 }
 
+		 var tags = tagString.split(",");
+		 for (var t = 0; t < tags.length; t++){
+			 Site.activeProjects[projectName].tags[tags[t]] = true;
+		 }
+
+	 }
 }
 
 
 Site.projFilter.tagClick = function(e){
 	var selectedTag = e.srcElement.dataset.tagname;
 	var isActive = e.srcElement.dataset.active;
+	var parent = e.srcElement.parentElement;
 
-
-	function checkMatch(whatSet, checkVar){
+	function checkMatches(whatSet, checkVar){
 		for (var card in  Site.activeProjects){
-			//checking if already active/inactive
-			if(Site.activeProjects[card].active == checkVar){
-				//loop through projects tags
-				for (var i = 0;i<Site.activeProjects[card].tags.length; i++){
-					//check if tag matches selected tag
-					if (selectedTag == Site.activeProjects[card].tags[i]){
-						//there is a match, show project card
-						if(whatSet == "activate"){
-							Site.log("activating card "+card);
-							Site.activeProjects[card].active = true;
-							Site.activeProjects[card].elem.style.display = "block";
-						}
-						if(whatSet == "deactivate"){
-							Site.log("deactivating card "+card);
-							Site.activeProjects[card].active = false;
-							Site.activeProjects[card].elem.style.display = "none";
-						}
+			//loop through projects tags
+			for (var tag in Site.activeProjects[card].tags){
+				//check if a match
+				if (selectedTag == tag){
+					if(whatSet == "activate"){
+						Site.activeProjects[card].tags[tag] = true;
+					}
+					if(whatSet == "deactivate"){
+						Site.activeProjects[card].tags[tag] = false;
 					}
 				}
 			}
@@ -57,14 +53,34 @@ Site.projFilter.tagClick = function(e){
 	if(isActive == "false"){
 		Site.log("activating "+selectedTag)
 		e.srcElement.setAttribute("data-active", true)
-		checkMatch("activate", false);
+		parent.className = "tagFilterElem selected";
+		checkMatches("activate", false);
 	}
 	else {
 		Site.log("deactivating "+selectedTag)
 		e.srcElement.setAttribute("data-active", false)
-		checkMatch("deactivate", true);
+		parent.className = "tagFilterElem";
+		checkMatches("deactivate", true);
 	}
 
+	for (var card in  Site.activeProjects){
+		var showCard = false;
+
+		//loop through projects tags
+		for (var tag in Site.activeProjects[card].tags){
+			//check if a match
+			if(Site.activeProjects[card].tags[tag] == true){
+				showCard = true;
+			}
+		}
+
+		if(!showCard){
+			Site.activeProjects[card].elem.style.display = "none";
+		}
+		else {
+			Site.activeProjects[card].elem.style.display = "block";
+		}
+	}
 
 	Site.siteMain.doMasonry()
 }
