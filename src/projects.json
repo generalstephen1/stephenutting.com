@@ -6,16 +6,15 @@
 	},
 	"projects":[
 			{
-				"projectID":"people",
-				"title": "People",
-				"tags": "tag1 tag2 tag3",
+				"projectID":"tweetiebyte",
+				"title": "TweetieByte",
 				"tagDots": ["HTML", "CSS", "JS"],
 				"summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
 				"shortSummary": "Lorem ipsum dolor sit amet. , consectetur adipiscing elit",
 				"blockSize": "xLrg",
-				"homeImg": "http://lorempixel.com/600/200/people/",
+				"homeImg": "img/projects/tweetiebyte/1200x352_tweetiebyte.jpg",
 				"homeColorTheme": "darkTheme",
-				"coverImg": "http://lorempixel.com/1200/400/people/",
+				"coverImg": "img/projects/tweetiebyte/1200x352_tweetiebyte.jpg",
 				"pageOrder": [
 						{
 							"copy": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
@@ -32,15 +31,15 @@
 				]
 			},
 			{
-				"projectID":"city",
-				"title": "City",
+				"projectID":"makelight",
+				"title": "Makelight",
 				"tagDots": ["Photoshop", "Illustrator", "AfterEffects"],
 				"summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
 				"shortSummary": "Lorem ipsum dolor sit amet. , consectetur adipiscing elit",
 				"blockSize": "reg",
-				"homeImg": "http://lorempixel.com/200/200/city/",
+				"homeImg": "img/projects/makelight/200x200_makelight.jpg",
 				"homeColorTheme": "darkTheme",
-				"coverImg": "http://lorempixel.com/1200/400/city/",
+				"coverImg": "img/projects/makelight/1200x352_makelight.jpg",
 				"pageOrder": [
 					{
 						"copy": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
@@ -58,15 +57,15 @@
 				]
 			},
 			{
-				"projectID":"animals",
-				"title": "Animals",
-				"tagDots": ["3DModelling", "Photography"],
+				"projectID":"humans",
+				"title": "C4 Humans",
+				"tagDots": ["HTML", "JS", "CSS", "RichMedia"],
 				"summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
 				"shortSummary": "Lorem ipsum dolor sit amet. , consectetur adipiscing elit",
 				"blockSize": "reg",
-				"homeImg": "http://lorempixel.com/200/200/animals/",
+				"homeImg": "img/projects/humans/200x200_humans.jpg",
 				"homeColorTheme": "lightTheme",
-				"coverImg": "http://lorempixel.com/1200/400/animals/",
+				"coverImg": "img/projects/humans/1200x352_humans.jpg",
 				"pageOrder": [
 					{
 						"copy": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
@@ -84,15 +83,15 @@
 				]
 			},
 			{
-				"projectID":"abstract",
-				"title": "Abstract",
-				"tagDots": ["Drawing", "Sketching"],
+				"projectID":"datavores",
+				"title": "Datavores",
+				"tagDots": ["3DModelling", "videoEditing"],
 				"summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
 				"shortSummary": "Lorem ipsum dolor sit amet. , consectetur adipiscing elit",
 				"blockSize": "lrg",
-				"homeImg": "http://lorempixel.com/400/200/abstract/",
+				"homeImg": "img/projects/datavores/400x200_datavores.jpg",
 				"homeColorTheme": "darkTheme",
-				"coverImg": "",
+				"coverImg": "img/projects/datavores/1200x352_datavores.jpg",
 				"pageOrder": [
 					{
 						"copy": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
@@ -110,15 +109,15 @@
 				]
 			},
 			{
-				"projectID":"technics",
-				"title": "Technics",
-				"tagDots": ["Flash", "AfterEffects"],
+				"projectID":"utopia2",
+				"title": "Utopia 2",
+				"tagDots": ["HTML5", "CSS", "JS", "RichMedia"],
 				"summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
 				"shortSummary": "Lorem ipsum dolor sit amet. , consectetur adipiscing elit",
 				"blockSize": "reg",
-				"homeImg": "http://lorempixel.com/200/200/technics/",
+				"homeImg": "img/projects/utopia2/200x200_utopia2.jpg",
 				"homeColorTheme": "lightTheme",
-				"coverImg": "",
+				"coverImg": "img/projects/utopia2/1200x352_utopia2.jpg",
 				"pageOrder": [
 					{
 						"copy": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
@@ -136,16 +135,67 @@
 				]
 			},
 			{
-				"projectID":"cats",
-				"title": "Cats",
-				"tagDots": ["Games", "RichMedia"],
+				"projectID":"drawings",
+				"title": "Drawings",
+				"tagDots": ["Drawing"],
 				"summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
 				"shortSummary": "Lorem ipsum dolor sit amet. , consectetur adipiscing elit",
 				"blockSize": "reg",
-				"homeImg": "http://lorempixel.com/200/200/cats/",
+				"homeImg": "img/projects/drawings/200x200_drawings.jpg",
 				"homeColorTheme": "lightTheme",
-
-				"coverImg": "",
+				"coverImg": "img/projects/drawings/1200x352_drawings.jpg",
+				"pageOrder": [
+					{
+						"copy": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+					},{
+						"image": "http://lorempixel.com/600/600/cats/"
+					},{
+						"copy": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+					},{
+						"video": "https://www.youtube.com/watch?v=C0DPdy98e4c",
+						"poster": "http://lorempixel.com/600/600/cats/"
+					},{
+						"type": "codeSnippet",
+						"data": ""
+					}
+				]
+			},
+			{
+				"projectID":"avian",
+				"title": "Avian Chaise",
+				"tagDots": ["Design"],
+				"summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+				"shortSummary": "Lorem ipsum dolor sit amet. , consectetur adipiscing elit",
+				"blockSize": "reg",
+				"homeImg": "img/projects/avian/200x200_avian.jpg",
+				"homeColorTheme": "lightTheme",
+				"coverImg": "img/projects/avian/1200x352_avian.jpg",
+				"pageOrder": [
+					{
+						"copy": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+					},{
+						"image": "http://lorempixel.com/600/600/cats/"
+					},{
+						"copy": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+					},{
+						"video": "https://www.youtube.com/watch?v=C0DPdy98e4c",
+						"poster": "http://lorempixel.com/600/600/cats/"
+					},{
+						"type": "codeSnippet",
+						"data": ""
+					}
+				]
+			},
+			{
+				"projectID":"zombiEvolution",
+				"title": "ZombiEvolution",
+				"tagDots": ["Design", "C#"],
+				"summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+				"shortSummary": "Lorem ipsum dolor sit amet. , consectetur adipiscing elit",
+				"blockSize": "reg",
+				"homeImg": "img/projects/zombiEvolution/200x200_zombiEvolution.jpg",
+				"homeColorTheme": "lightTheme",
+				"coverImg": "img/projects/zombiEvolution/1200x352_zombiEvolution.jpg",
 				"pageOrder": [
 					{
 						"copy": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
