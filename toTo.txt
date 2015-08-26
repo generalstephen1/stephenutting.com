@@ -3,11 +3,11 @@ this is a to do list for the site
 	- upload videos to Vimeo
   - fix video sizing (hopefully will sort footer sizing too)
   - figure out code snippets/make codepen account and populate
-	- figure out how tags will work
+
 	- populate sitemain, blurb etc
 	- populate project pages
 	- header menu design and functionality
-	- filter functionality
+
 	- write grunt prop
 	- footer....  QA cert, vic degree, social, github,
 	- contact info, form? mailto?

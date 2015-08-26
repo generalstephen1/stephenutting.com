@@ -26,8 +26,19 @@ Site.siteMain.loadSeq = function(whatStep){
       break;
 
     case "imageLoad":
-      Site.utils.politeLoadImg(Site.siteMain.doMasonry)
       Site.globalListeners.addListeners();
+      Site.utils.politeLoadImg(function(){
+        Site.siteMain.loadSeq("deploy");
+      })
+      break;
+
+    case "deploy":
+      Site.siteMain.doMasonry();
+
+      //this will animate on the individual cards
+      for (var project in Site.activeProjects){
+        Site.activeProjects[project].elem.style.opacity = 1;
+      }
       break;
   }
 }

@@ -12,7 +12,7 @@
 				"summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
 				"shortSummary": "Lorem ipsum dolor sit amet. , consectetur adipiscing elit",
 				"blockSize": "xLrg",
-				"homeImg": "img/projects/tweetiebyte/1200x352_tweetiebyte.jpg",
+				"homeImg": "img/projects/tweetiebyte/960x320_tweetiebyte.jpg",
 				"homeColorTheme": "darkTheme",
 				"coverImg": "img/projects/tweetiebyte/1200x352_tweetiebyte.jpg",
 				"pageOrder": [
@@ -37,7 +37,7 @@
 				"summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
 				"shortSummary": "Lorem ipsum dolor sit amet. , consectetur adipiscing elit",
 				"blockSize": "reg",
-				"homeImg": "img/projects/makelight/200x200_makelight.jpg",
+				"homeImg": "img/projects/makelight/320x320_makelight.jpg",
 				"homeColorTheme": "darkTheme",
 				"coverImg": "img/projects/makelight/1200x352_makelight.jpg",
 				"pageOrder": [
@@ -63,7 +63,7 @@
 				"summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
 				"shortSummary": "Lorem ipsum dolor sit amet. , consectetur adipiscing elit",
 				"blockSize": "reg",
-				"homeImg": "img/projects/humans/200x200_humans.jpg",
+				"homeImg": "img/projects/humans/320x320_humans.jpg",
 				"homeColorTheme": "lightTheme",
 				"coverImg": "img/projects/humans/1200x352_humans.jpg",
 				"pageOrder": [
@@ -89,7 +89,7 @@
 				"summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
 				"shortSummary": "Lorem ipsum dolor sit amet. , consectetur adipiscing elit",
 				"blockSize": "lrg",
-				"homeImg": "img/projects/datavores/400x200_datavores.jpg",
+				"homeImg": "img/projects/datavores/640x320_datavores.jpg",
 				"homeColorTheme": "darkTheme",
 				"coverImg": "img/projects/datavores/1200x352_datavores.jpg",
 				"pageOrder": [
@@ -115,7 +115,7 @@
 				"summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
 				"shortSummary": "Lorem ipsum dolor sit amet. , consectetur adipiscing elit",
 				"blockSize": "reg",
-				"homeImg": "img/projects/utopia2/200x200_utopia2.jpg",
+				"homeImg": "img/projects/utopia2/320x320_utopia2.jpg",
 				"homeColorTheme": "lightTheme",
 				"coverImg": "img/projects/utopia2/1200x352_utopia2.jpg",
 				"pageOrder": [
@@ -141,7 +141,7 @@
 				"summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
 				"shortSummary": "Lorem ipsum dolor sit amet. , consectetur adipiscing elit",
 				"blockSize": "reg",
-				"homeImg": "img/projects/drawings/200x200_drawings.jpg",
+				"homeImg": "img/projects/drawings/320x320_drawings.jpg",
 				"homeColorTheme": "lightTheme",
 				"coverImg": "img/projects/drawings/1200x352_drawings.jpg",
 				"pageOrder": [
@@ -167,7 +167,7 @@
 				"summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
 				"shortSummary": "Lorem ipsum dolor sit amet. , consectetur adipiscing elit",
 				"blockSize": "reg",
-				"homeImg": "img/projects/avian/200x200_avian.jpg",
+				"homeImg": "img/projects/avian/320x320_avian.jpg",
 				"homeColorTheme": "lightTheme",
 				"coverImg": "img/projects/avian/1200x352_avian.jpg",
 				"pageOrder": [
@@ -193,7 +193,7 @@
 				"summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
 				"shortSummary": "Lorem ipsum dolor sit amet. , consectetur adipiscing elit",
 				"blockSize": "reg",
-				"homeImg": "img/projects/zombiEvolution/200x200_zombiEvolution.jpg",
+				"homeImg": "img/projects/zombiEvolution/320x320_zombiEvolution.jpg",
 				"homeColorTheme": "lightTheme",
 				"coverImg": "img/projects/zombiEvolution/1200x352_zombiEvolution.jpg",
 				"pageOrder": [
