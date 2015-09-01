@@ -52,3 +52,9 @@ header {
   background-color: blue;
   margin-top: 60px;
 }
+#footer .s4 {
+  float: left;
+  height: 100%;
+  text-align: center;
+  margin: 0 1.3%;
+}

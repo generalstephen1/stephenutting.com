@@ -80,7 +80,7 @@ module.exports = function(grunt){
 
 
   // define the tasks to run
-  var tasks = [ "clean:construct", "copy:construct", "bake:index", "pngmin" ];
+  var tasks = ["copy:construct", "bake:index", "pngmin" ];
 
 
   //add bake tasks for each jsonFile item to generate a new page
@@ -96,7 +96,7 @@ module.exports = function(grunt){
     };
 
     var projectName = jsonFile.projects[i].projectID;
-    task.files["construct/projects/" + projectName + ".html"] = "src/templates/defaultProj.html";
+    task.files["construct/projects/" + projectName + "/" + projectName + ".html"] = "src/templates/defaultProj.html";
     grunt_config.bake[projectName] = task;
     tasks.push("bake:"+projectName);
   }

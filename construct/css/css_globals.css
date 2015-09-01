@@ -4,7 +4,7 @@ body {
   padding: 0;
   height: 100%;
   background-color: #f6f6f6;
-  background-image: url("../img/global/bgTile.jpg");
+  background-image: url("../img/bgTile.jpg");
   font-family: 'Open Sans', sans-serif;
 }
 a {

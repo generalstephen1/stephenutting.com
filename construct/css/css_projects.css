@@ -1,5 +1,4 @@
 #projectCards {
-  background-color: #1ff456;
   overflow: hidden;
   top: 1em;
   width: 100%;
@@ -14,6 +13,17 @@
   overflow: hidden;
   margin: 4px;
   position: relative;
+  -webkit-box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.4);
+  -moz-box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.4);
+  box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.4);
+  -moz-border-radius-topright: 20px;
+  -moz-border-radius-bottomright: 0;
+  -moz-border-radius-bottomleft: 20px;
+  -moz-border-radius-topleft: 0;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 20px;
+  border-top-left-radius: 0;
 }
 .tagFilterElem {
   display: inline-block;

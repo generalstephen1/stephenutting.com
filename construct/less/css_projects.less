@@ -2,7 +2,7 @@
 
 
   #projectCards{
-    background-color: @debugBG;
+    //background-color: @debugBG;
     overflow: hidden;
     top: @medMargin;
     width: 100%;
@@ -13,7 +13,7 @@
   .tagHover{
     opacity: 0;
   }
-  
+
   .projectCard{
     opacity: 0;
   }
@@ -22,6 +22,9 @@
     overflow: hidden;
     margin: 4px;
     position:relative;
+    .drop-shadow(@x: 0, @y: 0, @blur: 3px, @spread: 0, @alpha: 0.4);
+    .border-radiuses(@topright: 20px, @bottomright: 0, @bottomleft: 20px, @topleft: 0);
+
   }
 
   .tagFilterElem{

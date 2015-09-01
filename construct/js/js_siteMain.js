@@ -34,11 +34,39 @@ Site.siteMain.loadSeq = function(whatStep){
 
     case "deploy":
       Site.siteMain.doMasonry();
+      var deployTimeline = new TimelineLite({onComplete:function(){
+        Site.log("hello");
+      }});
+
 
       //this will animate on the individual cards
       for (var project in Site.activeProjects){
+        TweenLite.to(
+          Site.activeProjects[project].elem,
+          0,
+          {
+            rotationX:90,
+            transformOrigin:"left top",
+          }
+        )
+
+
+        deployTimeline.to(
+          Site.activeProjects[project].elem,
+          0.4,
+          {
+            rotationX:0,
+            transformOrigin:"center top",
+            transformPerspective: -200
+          },
+          "-=0.2"
+        )
+
         Site.activeProjects[project].elem.style.opacity = 1;
       }
+
+      deployTimeline.play()
+
       break;
   }
 }
