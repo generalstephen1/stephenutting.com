@@ -56,16 +56,16 @@
   pointer-events: none;
   border-radius: 50%;
 }
-.tagDot.tagHTML {
+.tagDot.tagWebDev {
   background-color: #536dfe;
 }
-.tagDot.tagCSS {
+.tagDot.tagDesign {
   background-color: #ff0000;
 }
-.tagDot.tagJS {
+.tagDot.tagMultimedia {
   background-color: #00ff00;
 }
-.tagDot.tagPhotoshop {
+.tagDot.tagServerSide {
   background-color: #0000ff;
 }
 .tagDot.tagIllustrator {
@@ -109,7 +109,7 @@
   width: 100%;
 }
 .mGrid:hover .projHover-home {
-  left: 50%;
+  right: 0px;
 }
 .mGrid-reg {
   width: 33.333%;
@@ -129,7 +129,6 @@
   width: 100%;
   position: absolute;
   bottom: 0;
-  left: 0;
   color: white;
   -webkit-transition: all 0.4s ease-out;
   -moz-transition: all 0.4s ease-out;
@@ -146,6 +145,8 @@
 }
 .projTint-home {
   opacity: 0.5;
+  width: 100%;
+  height: 100%;
 }
 .projShortBlurb-home {
   display: none;
@@ -156,13 +157,14 @@
   bottom: 5%;
 }
 .projHover-home {
-  left: 100%;
-  width: 50%;
+  right: -150px;
+  width: 150px;
 }
 .projHover-home .projTitle-home {
-  text-align: right;
-  padding: 10%;
+  text-align: center;
+  padding: 10px;
   white-space: nowrap;
+  position: relative;
   margin-bottom: 0;
 }
 .projHover-home .tagContainer {
@@ -173,9 +175,7 @@
 .projHover-home.darkTheme .projShortBlurb-home {
   color: #212121;
 }
-.projHover-home.darkTheme .projTint-home,
-.projHover-home.darkTheme .tagDotOuter,
-.projHover-home.darkTheme .projTitle-home {
+.projHover-home.darkTheme .projTint-home {
   background-color: #ffffff;
 }
 .projHover-home.lightTheme .projTitle-home,
@@ -183,9 +183,7 @@
 .projHover-home.lightTheme .projShortBlurb-home {
   color: #ffffff;
 }
-.projHover-home.lightTheme .projTint-home,
-.projHover-home.lightTheme .tagDotOuter,
-.projHover-home.lightTheme .projTitle-home {
+.projHover-home.lightTheme .projTint-home {
   background-color: #212121;
 }
 @media only screen and (max-width: 45em) {
@@ -211,8 +209,7 @@
     display: none;
   }
   .projHover-home {
-    left: 60%;
-    width: 40%;
+    right: 0px;
   }
 }
 @media only screen and (max-width: 30em) {

@@ -3,13 +3,14 @@
 		<a href="./projects/{{project_item.projectID}}/{{project_item.projectID}}.html">
 			<img class="{{project_item.blockSize}}Img projHomeImg" src="" data-src="{{project_item.homeImg}}">
 			<div class="projHover-home {{project_item.homeColorTheme}}">
-				<div class="projTint-home"></div>
+
 				<div class="projCopy-home">
 					<div class="titleContainer-home">
 						<div class="tagContainer">
 							<!--(bake homeCard-tag.html _foreach="tag:project_item.tagDots")-->
 						</div>
 					</div>
+					<div class="projTint-home"></div>
 					<p class="projTitle-home">{{project_item.title}}</p>
 					<!--p class="projBlurb-home">{{project_item.summary}}</p>
 					<p class="projShortBlurb-home">{{project_item.shortSummary}}</p-->

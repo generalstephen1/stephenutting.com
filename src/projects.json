@@ -1,6 +1,6 @@
 {
 	"config": {
-		"availabletags": ["HTML", "CSS", "JS", "Photoshop", "Illustrator", "Flash", "AfterEffects", "3DModelling", "Drawing", "Sketching", "Games", "RichMedia", "Photography"],
+		"availabletags": ["WebDev", "Design", "Multimedia", "ServerSide"],
 		"headerBlurb": "<h1>This will be</h1><h3>some kind of</h3><h5>EPIC BLURB</h5>",
 		"pageTitle": "Steve Utting"
 	},
@@ -8,7 +8,7 @@
 			{
 				"projectID":"tweetiebyte",
 				"title": "TweetieByte",
-				"tagDots": ["HTML", "CSS", "JS"],
+				"tagDots": ["WebDev", "Design", "Multimedia", "ServerSide"],
 				"summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
 				"shortSummary": "Lorem ipsum dolor sit amet. , consectetur adipiscing elit",
 				"blockSize": "xLrg",
@@ -33,7 +33,7 @@
 			{
 				"projectID":"makelight",
 				"title": "Makelight",
-				"tagDots": ["Photoshop", "Illustrator", "AfterEffects"],
+				"tagDots": ["WebDev", "Design", "Multimedia", "ServerSide"],
 				"summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
 				"shortSummary": "Lorem ipsum dolor sit amet. , consectetur adipiscing elit",
 				"blockSize": "reg",
@@ -59,12 +59,12 @@
 			{
 				"projectID":"humans",
 				"title": "C4 Humans",
-				"tagDots": ["HTML", "JS", "CSS", "RichMedia"],
+				"tagDots": ["WebDev", "Design", "Multimedia", "ServerSide"],
 				"summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
 				"shortSummary": "Lorem ipsum dolor sit amet. , consectetur adipiscing elit",
 				"blockSize": "reg",
 				"homeImg": "projects/humans/320x320_humans.jpg",
-				"homeColorTheme": "lightTheme",
+				"homeColorTheme": "darkTheme",
 				"coverImg": "1200x352_humans.jpg",
 				"pageOrder": [
 					{
@@ -85,7 +85,7 @@
 			{
 				"projectID":"datavores",
 				"title": "Datavores",
-				"tagDots": ["3DModelling", "videoEditing"],
+				"tagDots": ["WebDev", "Design", "Multimedia", "ServerSide"],
 				"summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
 				"shortSummary": "Lorem ipsum dolor sit amet. , consectetur adipiscing elit",
 				"blockSize": "lrg",
@@ -111,12 +111,12 @@
 			{
 				"projectID":"utopia2",
 				"title": "Utopia 2",
-				"tagDots": ["HTML5", "CSS", "JS", "RichMedia"],
+				"tagDots": ["WebDev", "Design", "Multimedia", "ServerSide"],
 				"summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
 				"shortSummary": "Lorem ipsum dolor sit amet. , consectetur adipiscing elit",
 				"blockSize": "reg",
 				"homeImg": "projects/utopia2/320x320_utopia2.jpg",
-				"homeColorTheme": "lightTheme",
+				"homeColorTheme": "darkTheme",
 				"coverImg": "1200x352_utopia2.jpg",
 				"pageOrder": [
 					{
@@ -137,12 +137,12 @@
 			{
 				"projectID":"drawings",
 				"title": "Drawings",
-				"tagDots": ["Drawing"],
+				"tagDots": ["WebDev", "Design", "Multimedia", "ServerSide"],
 				"summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
 				"shortSummary": "Lorem ipsum dolor sit amet. , consectetur adipiscing elit",
 				"blockSize": "reg",
 				"homeImg": "projects/drawings/320x320_drawings.jpg",
-				"homeColorTheme": "lightTheme",
+				"homeColorTheme": "darkTheme",
 				"coverImg": "1200x352_drawings.jpg",
 				"pageOrder": [
 					{
@@ -163,12 +163,12 @@
 			{
 				"projectID":"avian",
 				"title": "Avian Chaise",
-				"tagDots": ["Design"],
+				"tagDots": ["WebDev", "Design", "Multimedia", "ServerSide"],
 				"summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
 				"shortSummary": "Lorem ipsum dolor sit amet. , consectetur adipiscing elit",
 				"blockSize": "reg",
 				"homeImg": "projects/avian/320x320_avian.jpg",
-				"homeColorTheme": "lightTheme",
+				"homeColorTheme": "darkTheme",
 				"coverImg": "1200x352_avian.jpg",
 				"pageOrder": [
 					{
@@ -189,7 +189,7 @@
 			{
 				"projectID":"zombiEvolution",
 				"title": "ZombiEvolution",
-				"tagDots": ["Design", "C#"],
+				"tagDots": ["WebDev", "Design", "Multimedia", "ServerSide"],
 				"summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
 				"shortSummary": "Lorem ipsum dolor sit amet. , consectetur adipiscing elit",
 				"blockSize": "reg",
