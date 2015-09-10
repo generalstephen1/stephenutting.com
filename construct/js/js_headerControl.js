@@ -2,9 +2,6 @@ var Site = Site || {};
     Site.headerControl = Site.headerControl || {};
 
 
-
-
-
 Site.headerControl.shrinkHeader = function(){
 	Site.dom.globalHeader.style.height = "50px"
 	Site.dom.globalLogoLrg.style.opacity = "0"

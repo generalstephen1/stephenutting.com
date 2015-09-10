@@ -12,6 +12,7 @@ this is a to do list for the site
 	- footer....  QA cert, vic degree, social, github,
 	- contact info, form? mailto?
 	- currently working segment
-	- 'flip' effect on project segments on desktop on page load
 	- social links, github, twitter,
   - position content project pages
+
+	- multiple image versions for footer images

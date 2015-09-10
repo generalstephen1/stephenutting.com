@@ -20,6 +20,9 @@ Site.siteMain.loadSeq = function(whatStep){
   Site.log("loadSeq "+whatStep);
   switch(whatStep){
     case "init":
+
+      //TODO show loader
+
       Site.siteMain.loadDom();
       Site.siteMain.loadSeq("imageLoad");
       Site.projFilter.init();
@@ -33,11 +36,10 @@ Site.siteMain.loadSeq = function(whatStep){
       break;
 
     case "deploy":
-      Site.siteMain.doMasonry();
-      var deployTimeline = new TimelineLite({onComplete:function(){
-        Site.log("hello");
-      }});
 
+      //TODO stop and hide loader
+
+      Site.siteMain.doMasonry();
 
       //this will animate on the individual cards
       for (var project in Site.activeProjects){
@@ -49,23 +51,7 @@ Site.siteMain.loadSeq = function(whatStep){
             transformOrigin:"left top",
           }
         )
-
-
-        deployTimeline.to(
-          Site.activeProjects[project].elem,
-          0.4,
-          {
-            rotationX:0,
-            transformOrigin:"center top",
-            transformPerspective: -200
-          },
-          "-=0.2"
-        )
-
-        Site.activeProjects[project].elem.style.opacity = 1;
       }
-
-      deployTimeline.play()
 
       break;
   }

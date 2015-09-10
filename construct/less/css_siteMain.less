@@ -47,6 +47,8 @@ header{
   display: block;
   margin-left: auto;
   margin-right: auto;
+
+
 }
 
 .introduction{
@@ -54,20 +56,25 @@ header{
 }
 
 #footer{
-  height: 400px;
-  background-color: blue;
+  height: @headerHeight;
+  background-color: @default-extraDark-grey;
+  background-image: url("../img/img_headerBG.png");
+  background-repeat: no-repeat;
+  background-position: center;
   position: relative;
   margin-top: 60px;
 
   .s4{
+    overflow: hidden;
     float:left;
     height: 100%;
     text-align: center;
     margin: 0 1.3%;
+    //padding-top: 30px;
   }
 
   .footerImage{
-    width: 80%;
+    //width: 80%;
     margin: 10%;
   }
 

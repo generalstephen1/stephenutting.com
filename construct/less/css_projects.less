@@ -24,7 +24,6 @@
     position:relative;
     .drop-shadow(@x: 0, @y: 0, @blur: 3px, @spread: 0, @alpha: 0.4);
     .border-radiuses(@topright: 20px, @bottomright: 0, @bottomleft: 20px, @topleft: 0);
-
   }
 
   .tagFilterElem{
@@ -95,10 +94,26 @@
 
   .mGrid {
   		overflow: hidden;
-  		//background-color: white;
 
       img{
         width: 100%;
+        /* GREYS OUT THE IMAGE AND SATURATES ON HOVER
+          filter: none ;
+          -webkit-filter: grayscale(80%);
+          -moz-filter:    grayscale(80%);
+          -ms-filter:     grayscale(80%);
+          -o-filter:      grayscale(80%);
+
+          .transition();
+
+          &:hover{
+            filter: none;
+            -webkit-filter: grayscale(0%);
+            -moz-filter:    grayscale(0%);
+            -ms-filter:     grayscale(0%);
+            -o-filter:      grayscale(0%);
+          }
+          */
       }
 
       &:hover {
@@ -116,10 +131,8 @@
   .projCopy-home,
   .projHover-home {
       width: 100%;
-      //height: 100%;
       position: absolute;
       bottom: 0;
-    //  left: 0;
       color: white;
       .transition(@duration:0.4s, @ease:ease-out);
   }
@@ -143,11 +156,10 @@
   }
 
   .titleContainer-home{
-      position: absolute;
-      right: 100%;
-      bottom: 5%;
-    //  width: 100px;
-    }
+    position: absolute;
+    right: 100%;
+    bottom: 5%;
+  }
 
   .projHover-home {
     right: -150px;

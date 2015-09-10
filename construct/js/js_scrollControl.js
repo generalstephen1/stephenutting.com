@@ -21,4 +21,6 @@ Site.scrollControl.scrollChange = function(e){
   else {
 		Site.headerControl.enlargeHeader();
   }
+
+  Site.animation.projectCards(top);
 }

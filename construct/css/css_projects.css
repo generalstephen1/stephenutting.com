@@ -107,6 +107,23 @@
 }
 .mGrid img {
   width: 100%;
+  /* GREYS OUT THE IMAGE AND SATURATES ON HOVER
+          filter: none ;
+          -webkit-filter: grayscale(80%);
+          -moz-filter:    grayscale(80%);
+          -ms-filter:     grayscale(80%);
+          -o-filter:      grayscale(80%);
+
+          .transition();
+
+          &:hover{
+            filter: none;
+            -webkit-filter: grayscale(0%);
+            -moz-filter:    grayscale(0%);
+            -ms-filter:     grayscale(0%);
+            -o-filter:      grayscale(0%);
+          }
+          */
 }
 .mGrid:hover .projHover-home {
   right: 0px;
