@@ -1,21 +1,36 @@
 <header id="globalHeader">
 	<div class="container">
 
-		<a href="/stephenutting.com/construct/">
-			<div class="menuBtn col s2 topset-0"><p>Home</p></div>
-		</a>
+    <!--(bake-start _if="!isProject")-->
+		<!-- <a href="/stephenutting.com/construct/">
+			<div class="menuBtn col s4 topset-0"><p>View Work</p></div>
+		</a> -->
+		<div class="col s4 topset-0 center"></div>
 
-		<div class="menuBtn col s2 topset-0"><p>Contact</p></div>
-
-		<div class="col s4 topset-0 center">
+		<div class="col s4 offset-s4 topset-0 center">
 			<a href="/stephenutting.com/construct/">
 				<img id="globalLogoSml" src="" data-src="{{imgPrefix}}img/global/logo-51x44.png" class="opac0"/>
 			</a>
 		</div>
+		<div class="menuBtn col s2 offset-s2 topset-0"><p>Contact</p></div>
+		<!--(bake-end)-->
 
-		<div class="menuBtn col s2 topset-0"><p>Previous</p></div>
 
-		<div class="menuBtn col s2 topset-0"><p>Next</p></div>
+    <!--(bake-start _if="isProject")-->
+			<a href="/stephenutting.com/construct/">
+				<div class="menuBtn col s2 topset-0"><p>Home</p></div>
+			</a>
+			<div class="menuBtn col s2 topset-0"><p>Contact</p></div>
+
+			<div class="col s4 topset-0 center">
+				<a href="/stephenutting.com/construct/">
+					<img id="globalLogoSml" src="" data-src="{{imgPrefix}}img/global/logo-51x44.png" class="opac0"/>
+				</a>
+			</div>
+
+			<div class="menuBtn col s2 topset-0"><p>Previous</p></div>
+			<div class="menuBtn col s2 topset-0"><p>Next</p></div>
+    <!--(bake-end)-->
 
 	</div>
 	<div class="headerLockup col s8 offset-s2 center">
