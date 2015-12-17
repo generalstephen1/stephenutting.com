@@ -10,6 +10,8 @@
 
   @tagBuffer: 1px;
   @tagSize: 10px;
+  @tagWidth: 3px;
+
   .tagHover{
     opacity: 0;
   }
@@ -23,7 +25,7 @@
     margin: 4px;
     position:relative;
     .drop-shadow(@x: 0, @y: 0, @blur: 3px, @spread: 0, @alpha: 0.4);
-    .border-radiuses(@topright: 20px, @bottomright: 0, @bottomleft: 20px, @topleft: 0);
+    .border-radiuses(@topright: 8px, @bottomright: 0, @bottomleft: 8px, @topleft: 0);
   }
 
   .tagFilterElem{
@@ -36,16 +38,31 @@
     }
   }
 
-  .tagDotOuter{
-    width: @tagSize + (@tagBuffer*2);
-    height: @tagSize + (@tagBuffer*2);
-    float: right;
-    margin: 4px;
+  // .tagDotOuter{
+  //   // width: @tagSize + (@tagBuffer*2);
+  //   // height: @tagSize + (@tagBuffer*2);
+  //   float: right;
+  //   margin: 4px;
+  //   cursor: pointer;
+  //   position: relative;
+  //   background-color: @text-dark;
+  //
+  //   // .border-radius(@radius: 50%);
+  // }
+
+  .tagTextOuter{
+    // float: right;
+    margin: 0px;
     cursor: pointer;
     position: relative;
-    background-color: @text-dark;
+    // border-left: blue solid @tagWidth;
+    // background-color: @text-dark;
 
-    .border-radius(@radius: 50%);
+    h4 {
+      margin: 0px;
+      font-size: 1em;
+      color: @text-dark;
+    }
   }
 
 
@@ -59,28 +76,28 @@
   }
 
 
-  .tagDot{
-    width: @tagSize;
-    height: @tagSize;
-    margin: @tagBuffer;
-    background-color: green;
-    pointer-events: none;
+  .tagText{
+    // width: @tagSize;
+    // height: @tagSize;
+    // margin: @tagBuffer;
+    // background-color: green;
+    // pointer-events: none;
 
-    .border-radius(@radius: 50%);
+    // .border-radius(@radius: 50%);
 
-    &.tagWebDev       {    background-color: @tagColour1;}
-    &.tagDesign       {    background-color: @tagColour2;}
-    &.tagMultimedia   {    background-color: @tagColour3;}
-    &.tagServerSide   {    background-color: @tagColour4;}
-    &.tagIllustrator  {    background-color: @tagColour5;}
-    &.tagAfterEffects {    background-color: @tagColour6;}
-    &.tag3DModelling  {    background-color: @tagColour7;}
-    &.tagPhotography  {    background-color: @tagColour8;}
-    &.tagDrawing      {    background-color: @tagColour9;}
-    &.tagSketching    {    background-color: @tagColour10;}
-    &.tagFlash        {    background-color: @tagColour11;}
-    &.tagGames        {    background-color: @tagColour12;}
-    &.tagRichMedia    {    background-color: @tagColour13;}
+    &.tagWebDev       {      border-left: @tagColour1 solid @tagWidth;}
+    &.tagDesign       {      border-left: @tagColour2 solid @tagWidth;}
+    &.tagMultimedia   {      border-left: @tagColour3 solid @tagWidth;}
+    &.tagServerSide   {      border-left: @tagColour4 solid @tagWidth;}
+    &.tagIllustrator  {      border-left: @tagColour5 solid @tagWidth;}
+    &.tagAfterEffects {      border-left: @tagColour6 solid @tagWidth;}
+    &.tag3DModelling  {      border-left: @tagColour7 solid @tagWidth;}
+    &.tagPhotography  {      border-left: @tagColour8 solid @tagWidth;}
+    &.tagDrawing      {      border-left: @tagColour9 solid @tagWidth;}
+    &.tagSketching    {      border-left: @tagColour10 solid @tagWidth;}
+    &.tagFlash        {      border-left: @tagColour11 solid @tagWidth;}
+    &.tagGames        {      border-left: @tagColour12 solid @tagWidth;}
+    &.tagRichMedia    {      border-left: @tagColour13 solid @tagWidth;}
   }
 
 
@@ -123,6 +140,70 @@
       }
   }
 
+  // .tagDot{
+  //   // width: @tagSize;
+  //   // height: @tagSize;
+  //   // margin: @tagBuffer;
+  //   // background-color: green;
+  //   // pointer-events: none;
+  //
+  //   .border-radius(@radius: 50%);
+  //
+  //   &.tagWebDev        {    background-color: @tagColour1;}
+  //   &.tagDesign         {    background-color: @tagColour2;}
+  //   &.tagMultimedia          {    background-color: @tagColour3;}
+  //   &.tagServerSide    {    background-color: @tagColour4;}
+  //   &.tagIllustrator  {    background-color: @tagColour5;}
+  //   &.tagAfterEffects {    background-color: @tagColour6;}
+  //   &.tag3DModelling  {    background-color: @tagColour7;}
+  //   &.tagPhotography  {    background-color: @tagColour8;}
+  //   &.tagDrawing      {    background-color: @tagColour9;}
+  //   &.tagSketching    {    background-color: @tagColour10;}
+  //   &.tagFlash        {    background-color: @tagColour11;}
+  //   &.tagGames        {    background-color: @tagColour12;}
+  //   &.tagRichMedia    {    background-color: @tagColour13;}
+  // }
+  //
+  //
+  // .tagFilter{
+  //   text-align: center;
+  //   .tagDotOuter{
+  //     float: none;
+  //     display: inline-block;
+  //   }
+  // }
+  //
+  // .mGrid {
+  // 		overflow: hidden;
+  //
+  //     img{
+  //       width: 100%;
+  //       /* GREYS OUT THE IMAGE AND SATURATES ON HOVER
+  //         filter: none ;
+  //         -webkit-filter: grayscale(80%);
+  //         -moz-filter:    grayscale(80%);
+  //         -ms-filter:     grayscale(80%);
+  //         -o-filter:      grayscale(80%);
+  //
+  //         .transition();
+  //
+  //         &:hover{
+  //           filter: none;
+  //           -webkit-filter: grayscale(0%);
+  //           -moz-filter:    grayscale(0%);
+  //           -ms-filter:     grayscale(0%);
+  //           -o-filter:      grayscale(0%);
+  //         }
+  //         */
+  //     }
+  //
+  //     &:hover {
+  //       .projHover-home {
+  //         right: 0px;
+  //       }
+  //     }
+  // }
+
   .mGrid-reg {	width: 33.333%;  }/* 300px */
   .mGrid-lrg {	width: 66.666%;  }/* 600px */
   .mGrid-xLrg {	width: 100%;  }/* 600px */
@@ -154,11 +235,11 @@
   .projShortBlurb-home{
     display: none;
   }
-
   .titleContainer-home{
     position: absolute;
-    right: 100%;
-    bottom: 5%;
+    // right: 100%;
+    bottom: 1%;
+    margin-left: -@tagWidth;
   }
 
   .projHover-home {
@@ -172,7 +253,8 @@
       margin-bottom: 0;
     }
     .tagContainer{
-      background-color: blue;
+      // background-color: blue;
+      margin-right: 5px;
     }
     &.darkTheme{
       .projTitle-home,

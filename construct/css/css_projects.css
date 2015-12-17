@@ -16,13 +16,13 @@
   -webkit-box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.4);
   -moz-box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.4);
   box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.4);
-  -moz-border-radius-topright: 20px;
+  -moz-border-radius-topright: 8px;
   -moz-border-radius-bottomright: 0;
-  -moz-border-radius-bottomleft: 20px;
+  -moz-border-radius-bottomleft: 8px;
   -moz-border-radius-topleft: 0;
-  border-top-right-radius: 20px;
+  border-top-right-radius: 8px;
   border-bottom-right-radius: 0;
-  border-bottom-left-radius: 20px;
+  border-bottom-left-radius: 8px;
   border-top-left-radius: 0;
 }
 .tagFilterElem {
@@ -31,15 +31,15 @@
 .tagFilterElem:hover .tagHover {
   opacity: 1;
 }
-.tagDotOuter {
-  width: 12px;
-  height: 12px;
-  float: right;
-  margin: 4px;
+.tagTextOuter {
+  margin: 0px;
   cursor: pointer;
   position: relative;
-  background-color: #212121;
-  border-radius: 50%;
+}
+.tagTextOuter h4 {
+  margin: 0px;
+  font-size: 1em;
+  color: #212121;
 }
 .selected .tagDotOuter {
   border-radius: 0%;
@@ -48,52 +48,44 @@
   position: absolute;
   bottom: 100%;
 }
-.tagDot {
-  width: 10px;
-  height: 10px;
-  margin: 1px;
-  background-color: green;
-  pointer-events: none;
-  border-radius: 50%;
+.tagText.tagWebDev {
+  border-left: #536dfe solid 3px;
 }
-.tagDot.tagWebDev {
-  background-color: #536dfe;
+.tagText.tagDesign {
+  border-left: #ff0000 solid 3px;
 }
-.tagDot.tagDesign {
-  background-color: #ff0000;
+.tagText.tagMultimedia {
+  border-left: #00ff00 solid 3px;
 }
-.tagDot.tagMultimedia {
-  background-color: #00ff00;
+.tagText.tagServerSide {
+  border-left: #0000ff solid 3px;
 }
-.tagDot.tagServerSide {
-  background-color: #0000ff;
+.tagText.tagIllustrator {
+  border-left: #ffff00 solid 3px;
 }
-.tagDot.tagIllustrator {
-  background-color: #ffff00;
+.tagText.tagAfterEffects {
+  border-left: #00ffff solid 3px;
 }
-.tagDot.tagAfterEffects {
-  background-color: #00ffff;
+.tagText.tag3DModelling {
+  border-left: #ffffff solid 3px;
 }
-.tagDot.tag3DModelling {
-  background-color: #ffffff;
+.tagText.tagPhotography {
+  border-left: #dc143c solid 3px;
 }
-.tagDot.tagPhotography {
-  background-color: #dc143c;
+.tagText.tagDrawing {
+  border-left: #00008b solid 3px;
 }
-.tagDot.tagDrawing {
-  background-color: #00008b;
+.tagText.tagSketching {
+  border-left: #2e8b57 solid 3px;
 }
-.tagDot.tagSketching {
-  background-color: #2e8b57;
+.tagText.tagFlash {
+  border-left: #daa520 solid 3px;
 }
-.tagDot.tagFlash {
-  background-color: #daa520;
+.tagText.tagGames {
+  border-left: #fffff0 solid 3px;
 }
-.tagDot.tagGames {
-  background-color: #fffff0;
-}
-.tagDot.tagRichMedia {
-  background-color: #a52a2a;
+.tagText.tagRichMedia {
+  border-left: #a52a2a solid 3px;
 }
 .tagFilter {
   text-align: center;
@@ -170,8 +162,8 @@
 }
 .titleContainer-home {
   position: absolute;
-  right: 100%;
-  bottom: 5%;
+  bottom: 1%;
+  margin-left: -3px;
 }
 .projHover-home {
   right: -150px;
@@ -185,7 +177,7 @@
   margin-bottom: 0;
 }
 .projHover-home .tagContainer {
-  background-color: blue;
+  margin-right: 5px;
 }
 .projHover-home.darkTheme .projTitle-home,
 .projHover-home.darkTheme .projBlurb-home,
