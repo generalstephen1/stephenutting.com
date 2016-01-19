@@ -32,7 +32,7 @@ Site.siteMain.loadSeq = function(whatStep){
       Site.globalListeners.addListeners();
       Site.utils.politeLoadImg(function(){
         Site.siteMain.loadSeq("deploy");
-      })
+      });
       break;
 
     case "deploy":
@@ -50,12 +50,12 @@ Site.siteMain.loadSeq = function(whatStep){
             rotationX:90,
             transformOrigin:"left top",
           }
-        )
+        );
       }
 
       break;
   }
-}
+};
 
 
 /**
@@ -72,7 +72,7 @@ Site.siteMain.doMasonry = function(){
     columnWidth: 1,
     gutter: 0
   });
-}
+};
 
 
 /**
@@ -83,8 +83,8 @@ Site.siteMain.doMasonry = function(){
  */
 Site.siteMain.loadDom = function(){
 
-  Site.domClass = {}
-  Site.dom = {}
+  Site.domClass = {};
+  Site.dom = {};
 
 	var elems = [
 		"siteMain",
@@ -92,23 +92,23 @@ Site.siteMain.loadDom = function(){
     "globalHeader",
     "globalLogoLrg",
     "globalLogoSml"
-	]
+	];
 
   var classes = [
     "regImg",
     "lrgImg",
     "xLrgImg"
-  ]
+  ];
 
   for(var j = 0; j < classes.length; j++){
-    Site.domClass[classes[j]] = document.getElementsByClassName(classes[j])
+    Site.domClass[classes[j]] = document.getElementsByClassName(classes[j]);
   }
 
 	//get global references to DOM objects
 	for(var i = 0; i < elems.length; i++){
-		Site.dom[elems[i]] = document.getElementById(elems[i])
+		Site.dom[elems[i]] = document.getElementById(elems[i]);
 	}
-}
+};
 
 
 /**
@@ -128,9 +128,9 @@ Site.siteMain.windowResize = function(){
       }
     }
   }
-}
+};
 
 
 window.onload = function(){
   Site.siteMain.loadSeq("init");
-}
+};

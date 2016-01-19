@@ -23,4 +23,4 @@ Site.scrollControl.scrollChange = function(e){
   }
 
   Site.animation.projectCards(top);
-}
+};

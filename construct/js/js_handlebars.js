@@ -20,4 +20,4 @@ Site.handlebars.init = function(){
       Site.siteMain.loadSeq("templates");
 		}
 	});
-}
+};

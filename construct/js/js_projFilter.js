@@ -7,7 +7,7 @@ Site.projFilter.init = function(){
 
 	 var projects = document.getElementsByClassName("projectCard");
 
-	 Site.activeProjects = {}
+	 Site.activeProjects = {};
 	 for(var i = 0; i < projects.length;i++){
 
 		 var projectName = projects[i].id;
@@ -16,7 +16,7 @@ Site.projFilter.init = function(){
 		 Site.activeProjects[projectName] = {
 			 tags: {},
 			 elem: projects[i],
-		 }
+		 };
 
 		 var tags = tagString.split(",");
 		 for (var t = 0; t < tags.length; t++){
@@ -24,7 +24,7 @@ Site.projFilter.init = function(){
 		 }
 
 	 }
-}
+};
 
 
 Site.projFilter.tagClick = function(e){
@@ -51,14 +51,14 @@ Site.projFilter.tagClick = function(e){
 
 	//check if we are toggling on or off
 	if(isActive == "false"){
-		Site.log("activating "+selectedTag)
-		e.srcElement.setAttribute("data-active", true)
+		Site.log("activating "+selectedTag);
+		e.srcElement.setAttribute("data-active", true);
 		parent.className = "tagFilterElem selected";
 		checkMatches("activate", false);
 	}
 	else {
-		Site.log("deactivating "+selectedTag)
-		e.srcElement.setAttribute("data-active", false)
+		Site.log("deactivating "+selectedTag);
+		e.srcElement.setAttribute("data-active", false);
 		parent.className = "tagFilterElem";
 		checkMatches("deactivate", true);
 	}
@@ -69,7 +69,7 @@ Site.projFilter.tagClick = function(e){
 		//loop through projects tags
 		for (var tag in Site.activeProjects[card].tags){
 			//check if a match
-			if(Site.activeProjects[card].tags[tag] == true){
+			if(Site.activeProjects[card].tags[tag] === true){
 				showCard = true;
 			}
 		}
@@ -82,5 +82,5 @@ Site.projFilter.tagClick = function(e){
 		}
 	}
 
-	Site.siteMain.doMasonry()
-}
+	Site.siteMain.doMasonry();
+};

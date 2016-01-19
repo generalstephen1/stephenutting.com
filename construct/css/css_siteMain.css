@@ -64,5 +64,6 @@ header {
   margin: 0 1.3%;
 }
 #footer .footerImage {
+  width: 80%;
   margin: 10%;
 }

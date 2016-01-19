@@ -10,6 +10,6 @@ Site.globalListeners.addListeners = function(){
 
   var tagDots = document.getElementsByClassName("tagDotOuter");
   for(var i = 0; i < tagDots.length; i++){
-    tagDots[i].addEventListener("click", Site.projFilter.tagClick)
+    tagDots[i].addEventListener("click", Site.projFilter.tagClick);
   }
-}
+};

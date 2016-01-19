@@ -32,21 +32,44 @@
   opacity: 1;
 }
 .tagTextOuter {
-  margin: 0px;
-  cursor: pointer;
-  position: relative;
+  -webkit-transition: all 0.4s ease-out;
+  -moz-transition: all 0.4s ease-out;
+  -o-transition: all 0.4s ease-out;
+  transition: all 0.4s ease-out;
+  background-color: black;
 }
-.tagTextOuter h4 {
-  margin: 0px;
-  font-size: 1em;
-  color: #212121;
+.tagTextOuter:nth-child(1) {
+  -webkit-transition-delay: 0.1s;
+  /* Safari */
+  transition-delay: 0.1s;
 }
-.selected .tagDotOuter {
-  border-radius: 0%;
+.tagTextOuter:nth-child(2) {
+  -webkit-transition-delay: 0.2s;
+  /* Safari */
+  transition-delay: 0.2s;
 }
-.tagHover {
-  position: absolute;
-  bottom: 100%;
+.tagTextOuter:nth-child(3) {
+  -webkit-transition-delay: 0.3s;
+  /* Safari */
+  transition-delay: 0.3s;
+}
+.tagTextOuter:nth-child(4) {
+  -webkit-transition-delay: 0.4s;
+  /* Safari */
+  transition-delay: 0.4s;
+}
+.tagTextOuter:nth-child(5) {
+  -webkit-transition-delay: 0.5s;
+  /* Safari */
+  transition-delay: 0.5s;
+}
+.tagTextOuter:nth-child(6) {
+  -webkit-transition-delay: 0.6s;
+  /* Safari */
+  transition-delay: 0.6s;
+}
+.tagText {
+  font-size: 1rem;
 }
 .tagText.tagWebDev {
   border-left: #536dfe solid 3px;
@@ -117,8 +140,11 @@
           }
           */
 }
+.mGrid:hover .tagTextOuter {
+  margin-left: -110%;
+}
 .mGrid:hover .projHover-home {
-  right: 0px;
+  opacity: 1;
 }
 .mGrid-reg {
   width: 33.333%;
@@ -136,6 +162,7 @@
 .projCopy-home,
 .projHover-home {
   width: 100%;
+  height: 100%;
   position: absolute;
   bottom: 0;
   color: white;
@@ -143,6 +170,9 @@
   -moz-transition: all 0.4s ease-out;
   -o-transition: all 0.4s ease-out;
   transition: all 0.4s ease-out;
+  -webkit-transition-delay: 0.2s;
+  /* Safari */
+  transition-delay: 0.2s;
 }
 .projBody {
   padding: 1em;
@@ -166,15 +196,18 @@
   margin-left: -3px;
 }
 .projHover-home {
-  right: -150px;
-  width: 150px;
+  right: -140px;
+  width: 140px;
+  height: 100%;
 }
 .projHover-home .projTitle-home {
-  text-align: center;
+  text-align: left;
+  /* margin-left: -180%; */
+  /* margin-right: 212%; */
   padding: 10px;
   white-space: nowrap;
-  position: relative;
-  margin-bottom: 0;
+  transform: rotate(90deg);
+  transform-origin: top left;
 }
 .projHover-home .tagContainer {
   margin-right: 5px;
@@ -217,8 +250,8 @@
   .projBlurb-home {
     display: none;
   }
-  .projHover-home {
-    right: 0px;
+  .tagTextOuter {
+    margin-left: -110%;
   }
 }
 @media only screen and (max-width: 30em) {

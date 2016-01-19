@@ -3,13 +3,13 @@ var Site = Site || {};
 
 
 Site.headerControl.shrinkHeader = function(){
-	Site.dom.globalHeader.style.height = "50px"
-	Site.dom.globalLogoLrg.style.opacity = "0"
-	Site.dom.globalLogoSml.style.opacity = "1"
-}
+	Site.dom.globalHeader.style.height = "50px";
+	Site.dom.globalLogoLrg.style.opacity = "0";
+	Site.dom.globalLogoSml.style.opacity = "1";
+};
 
 Site.headerControl.enlargeHeader = function(){
-	Site.dom.globalHeader.style.height = "22em"
-	Site.dom.globalLogoLrg.style.opacity = "1"
-	Site.dom.globalLogoSml.style.opacity = "0"
-}
+	Site.dom.globalHeader.style.height = "22em";
+	Site.dom.globalLogoLrg.style.opacity = "1";
+	Site.dom.globalLogoSml.style.opacity = "0";
+};

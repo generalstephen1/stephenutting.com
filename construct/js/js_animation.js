@@ -29,4 +29,4 @@ Site.animation.projectCards = function(top){
     	Site.activeProjects[project].elem.style.opacity = 1;
 		}
 	}
-}
+};
