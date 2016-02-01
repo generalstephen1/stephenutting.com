@@ -1,14 +1,14 @@
 {
 	"config": {
-		"availabletags": ["WebDev", "Design", "Multimedia", "ServerSide"],
-		"headerBlurb": "<h1>This will be</h1><h3>some kind of</h3><h5>EPIC BLURB</h5>",
+		"availabletags": ["WebDev", "Design", "Multimedia", "ServerSide", "RichMedia"],
+		"headerBlurb": "<p style='font-size: 5rem;'>This will be</p><p style='font-size: 3.6rem;>some kind of</p><p style='font-size: 2.4rem;>EPIC BLURB</p>",
 		"pageTitle": "Steve Utting"
 	},
 	"projects":[
 			{
 				"projectID":"tweetiebyte",
 				"title": "TweetieByte",
-				"tagDots": ["WebDev", "Design", "Multimedia", "ServerSide"],
+				"tagDots": ["WebDev", "ServerSide"],
 				"summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
 				"shortSummary": "Lorem ipsum dolor sit amet. , consectetur adipiscing elit",
 				"blockSize": "xLrg",
@@ -206,7 +206,7 @@
 				"coverImgBgColor": "#ffffff",
 				"pageOrder": [
 					{
-						"copy": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+						"copy": "ZombiEvolution is a project which was built around the concept of reinvigorating an old game concept, in this case, Zombies. This was a huge learning curve for me as I built this game completely from scratch having never made a 3D game before, nor coded in C#, nor used most of the programs I ended up using.. If anything, this game, while not very good, is a show of just how much I can learn in a short period of time. The game is a 3rd person hack'n'slash style game. The backstory is that the Zompocalypse has occurred and there are no humans left. Zombies must turn to cannibalism or they will inevitably perish. However, due to the biological makeup of the zombies in question, they have gained the ability to tear limbs off other zombies to increase their attack power. This is balanced with a steadily decreasing 'life force', and the more arms you have, the faster it decreases. This is a neverending survival game where you must simply last as long as you can to keep your score high."
 					},{
 						"image": "http://lorempixel.com/600/600/cats/"
 					},{

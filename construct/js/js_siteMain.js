@@ -47,7 +47,9 @@ Site.siteMain.loadSeq = function(whatStep){
           Site.activeProjects[project].elem,
           0,
           {
-            rotationX:90,
+            // rotationX:90,
+            y: 40,
+            opacity: 0,
             transformOrigin:"left top",
           }
         );

@@ -64,6 +64,11 @@ header {
   margin: 0 1.3%;
 }
 #footer .footerImage {
-  width: 80%;
-  margin: 10%;
+  width: 60%;
+  margin: 20%;
+}
+.socialIcon-container {
+  width: 60%;
+  height: 60%;
+  margin: 20%;
 }

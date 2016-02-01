@@ -15,18 +15,20 @@ Site.animation.projectCards = function(top){
 
 		var projectTL = new TimelineLite();
 
-		if(projTop < (top - 100)){
+		if(projTop < (top + 150)){
 			projectTL.to(
           Site.activeProjects[project].elem,
-          0.4,
+          1,
           {
             rotationX:0,
+            y: 0,
+            opacity: 1,
             transformOrigin:"center top",
             transformPerspective: -200
           },
-          "-=0.2", "sequence"
+          "+=0.5", "sequence"
         );
-    	Site.activeProjects[project].elem.style.opacity = 1;
+    	// Site.activeProjects[project].elem.style.opacity = 1;
 		}
 	}
 };
