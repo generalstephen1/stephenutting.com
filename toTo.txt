@@ -1,18 +1,20 @@
 this is a to do list for the site
 
-	- upload videos to Vimeo
-  - fix video sizing (hopefully will sort footer sizing too)
-  - figure out code snippets/make codepen account and populate
+  ==== TOP 3 ====
+	1) Footer CSS Breakpoints
+	2) Write creative summaries and design structured layout
+	3) Where to put contact info
 
-	- populate sitemain, blurb etc
-	- populate project pages
-	- header menu design and functionality
 
-	- write grunt prop
-	- footer....  QA cert, vic degree, social, github,
-	- contact info, form? mailto?
-	- currently working segment
-	- social links, github, twitter,
-  - position content project pages
+ - PROJECT PAGES
+ 	• Minimalist copy
+	• Follow a structure
+	• Display all appropriate work
+	• Set video sizes
 
-	- multiple image versions for footer images
+
+ - GLOBAL
+ 	• Footer Links, Github, Twitter, Codepen, Vimeo,
+	• Footer CSS Breakpoints
+	• Mobile Header/Footer
+	•
