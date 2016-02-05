@@ -45,10 +45,10 @@ a {
      height: 0;
      }
 .clearfix { display: inline-block; }
+
 /* start commented backslash hack \*/
 * html .clearfix { height: 1%; }
 .clearfix { display: block; }
-
 
 .socialIcon{
   width: 90px;
@@ -60,9 +60,60 @@ a {
   &#githubBtn{
     margin-top: 50px;
   }
-
   img{
     width: 100%;
     height: 100%;
+  }
+}
+  //
+  @socialBtn1000 : 50px;
+  @socialMar1000 : 50px;
+
+  @socialBtn800 :  30px;
+  @socialMar800 :  30px;
+
+  @socialBtn600 :  20px;
+  @socialMar600 :  20px;
+
+  @socialBtn400 :  10px;
+  @socialMar400 :  10px;
+
+// 800 -> 1000
+@media screen and (max-width: 1000px) {
+  .socialIcon{
+    width: @socialBtn1000;
+    height: @socialBtn1000;
+    margin-right: -((@socialBtn1000/2) + @socialMar1000);
+    &#githubBtn{      margin-top: (@socialBtn1000/2) + @socialMar1000; }
+  }
+}
+
+// 600 -> 800
+@media screen and (max-width: 800px) {
+  .socialIcon{
+    width: @socialBtn800;
+    height: @socialBtn800;
+    margin-right: -((@socialBtn800/2) + @socialMar800);
+    &#githubBtn{      margin-top: (@socialBtn800/2) + @socialMar800; }
+  }
+}
+
+// 400 -> 600
+@media screen and (max-width: 600px) {
+  .socialIcon{
+    width: @socialBtn600;
+    height: @socialBtn600;
+    margin-right: -((@socialBtn600/2) + @socialMar600);
+    &#githubBtn{      margin-top: (@socialBtn600/2) + @socialMar600; }
+  }
+}
+
+// 0 -> 400
+@media screen and (max-width: 400px) {
+  .socialIcon{
+    width: @socialBtn400;
+    height: @socialBtn400;
+    margin-right: -((@socialBtn400/2) + @socialMar400);
+    &#githubBtn{      margin-top: (@socialBtn400/2) + @socialMar400; }
   }
 }
