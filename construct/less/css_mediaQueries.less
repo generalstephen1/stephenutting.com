@@ -1,0 +1,77 @@
+@socialBtn800 :  60px;
+@socialMar800 :  4px;
+
+@socialBtn600 :  20px;
+@socialMar600 :  5px;
+
+@socialBtn400 :  10px;
+@socialMar400 :  5px;
+
+// @footerHeight :
+
+// 600 -> 800
+@media screen and (max-width: 800px) {
+  #footer {
+    height: 13em;
+    // margin-top:  13em;
+  }
+  .projBody{
+    // padding-bottom:  13em;
+  }
+  .socialIcon{
+    width: @socialBtn800;
+    height: @socialBtn800;
+    margin-right: -((@socialBtn800/2) - @socialMar800);
+    &#githubBtn{      margin-top: (@socialBtn800/2) + @socialMar800; }
+  }
+  .footerImage{
+    width: 9em;
+  }
+}
+
+// 400 -> 600
+@media screen and (max-width: 600px) {
+  // .socialIcon{
+  //   width: @socialBtn600;
+  //   height: @socialBtn600;
+  //   margin-right: -((@socialBtn600/2) + @socialMar600);
+  //   &#githubBtn{      margin-top: (@socialBtn600/2) + @socialMar600; }
+  // }
+  .projBody{
+    // padding-bottom:  33em;
+  }
+
+  #footer {
+    background-image: none;
+    height: 33em;
+    // margin-top:  33em;
+
+
+
+    .s4 {
+      width: 100%;
+      height: auto;
+
+      .footerImage{
+        margin: 5%;
+        width: 8em;
+      }
+
+      .socialIcon {
+        height: auto;
+        margin: 0;
+        width: 33%;
+      }
+
+      .socialIcon-container {
+        margin: 5% 15%;
+      }
+    }
+  }
+
+}
+
+// 0 -> 400
+@media screen and (max-width: 400px) {
+
+}

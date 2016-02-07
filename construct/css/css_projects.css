@@ -176,11 +176,15 @@
 }
 .projBody {
   padding: 1em;
+  padding-bottom: 22em;
   top: 23em;
   max-width: 60em;
   margin: 0 auto;
   background: #1ff456;
   color: #212121;
+}
+.projPg-image {
+  width: 100%;
 }
 .projTint-home {
   opacity: 0.5;

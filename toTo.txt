@@ -1,9 +1,11 @@
 this is a to do list for the site
 
   ==== TOP 3 ====
-	1) Footer CSS Breakpoints
-	2) Write creative summaries and design structured layout
-	3) Where to put contact info
+	1) Write creative summaries and
+     design structured layout
+	2) Where to put contact info
+  3) Social Integrations on footer:
+      Github, Twitter, Codepen, Vimeo, LinkedIn
 
 
  - PROJECT PAGES
@@ -12,9 +14,9 @@ this is a to do list for the site
 	• Display all appropriate work
 	• Set video sizes
 
-
  - GLOBAL
- 	• Footer Links, Github, Twitter, Codepen, Vimeo,
-	• Footer CSS Breakpoints
-	• Mobile Header/Footer
-	•
+  • Secret console log
+  • Footer Element Padding
+  • Make Contact a floating box
+  • "NOW" page
+  • Check Scroll position on load

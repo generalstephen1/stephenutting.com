@@ -40,7 +40,7 @@ header{
 }
 
 #siteMain{
-  margin-top: @headerHeight;
+  margin-top: @headerHeight + 2;
 }
 
 .projHomeImg{
@@ -57,12 +57,12 @@ header{
 
 #footer{
   height: @headerHeight;
+  margin-top:  10em;
   background-color: @default-extraDark-grey;
   background-image: url("../img/img_headerBG.png");
   background-repeat: no-repeat;
   background-position: center;
   position: relative;
-  margin-top: 60px;
 
   .s4{
     overflow: hidden;
@@ -74,13 +74,33 @@ header{
   }
 
   .footerImage{
-    width: 60%;
     margin: 20%;
+    height: auto;
+    width: 14em;
+  }
+
+  .backupContent{
+    display: none;
   }
 
 }
 .socialIcon-container{
-  width: 60%;
-  height: 60%;
-  margin: 20%;
+  width: 68%;
+  height: 68%;
+  margin: 35% 16%;
+}
+
+
+.videoWrapper {
+	position: relative;
+	padding-bottom: 56.25%; /* 16:9 */
+	padding-top: 25px;
+	height: 0;
+}
+.videoWrapper iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
 }
