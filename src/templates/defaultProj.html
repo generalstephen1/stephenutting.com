@@ -9,8 +9,12 @@
 		<!--(bake globalStyles.html stylePrefix="../../")-->
 		<style>
 			header{
-				background-color: url("{{project_item.coverImgBgColor}}");
+				background-color: "{{project_item.coverImgBgColor}}";
 				background-image: url("{{project_item.coverImg}}");
+			}
+			.projBody {
+				background-color: {{project_item.pageBgColor}};
+				color: {{project_item.pageCopyColor}};
 			}
 		</style>
 	</head>
