@@ -9,7 +9,7 @@
 		<!--(bake globalStyles.html stylePrefix="../../")-->
 		<style>
 			header{
-				background-color: "{{project_item.coverImgBgColor}}";
+				background-color: {{project_item.coverImgBgColor}};
 				background-image: url("{{project_item.coverImg}}");
 			}
 			.projBody {
@@ -22,6 +22,7 @@
 	<body>
 
 		<!--(bake pageHeader.html imgPrefix="../../")-->
+		<div class=" fixedBg"></div>
 		<div class="section">
 
 			<div class="projBody s10 container">
