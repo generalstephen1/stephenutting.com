@@ -20,3 +20,20 @@ this is a to do list for the site
   • Make Contact a floating box
   • "NOW" page
   • Check Scroll position on load
+
+
+  <p class='copy'>Working under the creative director and alongside other digital designers as a team developing new makelight products. developing the UX/UI, designing and constructing the website (www.makelightinteractive.com), Brand design, Video asset design, understanding user journey, running user testing, and iterating according to feedback</p>\n
+  <h3 class='subHeader'>Production Design</h3>\n
+  <p class='copy'>Playing a major role in the generation of usable assets for the development team, taking the designed assets and creating automated processes for outputting .jpg and .png for mobile app development. Easing communications and liaisons between the creative team and the development team. </p>\n
+  <h3 class='subHeader'>Office Management</h3>\n
+  <p class='copy'>General tasks involved with the set up, running and maintaining of a creative studio of 5 people including company purchases, interior design and tasks involved with office upkeep.</p>\n
+  Design Research, \n
+  Sales pipeline research - Supporting business development by researching potential clients and industries \n
+  Competitive space research \n
+  Design research - UX and UI best practices, general design look and feel research \n
+  App specification research \n
+  Business support service research \n
+  Video Editing \n
+  Concepting and creating the promotional showreel for Makelight, video assets for industry pitches, presentations and proposals while working in with the creative director. \n
+  Previsualisation development \n
+  Creating photoshop assets specifically for presentations, conceptualising what products would look like in their intended environments. outputted as both still images and videos."
