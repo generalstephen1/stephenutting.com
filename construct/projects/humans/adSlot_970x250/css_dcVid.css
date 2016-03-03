@@ -1,0 +1,81 @@
+/****************
+  VIDEO STUFF
+****************/
+video {
+	/*visibility: hidden;*/
+	position: absolute;
+	z-index: 10;
+	top:0px;
+	left:0px;
+	width: 100%;
+	height: 100%;
+}
+
+.containerVid {
+	position: absolute;
+	background: black;
+	z-index: 300;
+
+	-webkit-transition: all 500ms ease-out;
+	   -moz-transition: all 500ms ease-out;
+		-ms-transition: all 500ms ease-out;
+			transition: all 500ms ease-out;
+
+	overflow: hidden;
+
+}
+
+#tint {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background: black;
+	z-index: 201;
+	opacity: 0.2;
+	left: 0px;
+	top: 0px;
+}
+
+#vidPoster {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 200;
+}
+
+#ctaVid {
+	visibility: visible;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-image: url("img_vidPlayWithSound.png");
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: 87px 66px;
+	z-index: 300;
+	cursor: pointer;
+	left: 0;
+	top: 0;
+}
+
+#ctaVid.ctaVidReplay {
+	background-image: url("img_vidReplay.png");
+	background-size: 82px 62px;
+}
+
+
+
+#vid360{
+	position: absolute;
+	width: 286px;
+  height: 161px;
+	z-index: 200;
+
+	background-image: url("img_vid360.jpg");
+	background-size: 272px 5355px;
+	visibility: visible;
+	top: 0;
+	left: 0;
+}

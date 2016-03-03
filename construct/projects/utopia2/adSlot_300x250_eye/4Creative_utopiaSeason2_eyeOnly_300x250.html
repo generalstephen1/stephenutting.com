@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+	<html lang="en">
+	<head>
+		<script src="http://s0.2mdn.net/ads/studio/Enabler.js" type="text/javascript"></script>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=Edge"/>
+
+		<!--Modules included CSS files-->
+	    <link rel=StyleSheet href="_adMain.css" type="text/css">
+	</head>
+
+	<body>
+		<div id="preloader">
+			<div class="preloader-stalk"></div>
+			<div class="preloader-stalk"></div>
+			<div class="preloader-stalk"></div>
+
+			<div class="preloader-stalk"></div>
+			<div class="preloader-stalk"></div>
+			<div class="preloader-stalk"></div>
+
+			<div class="preloader-stalk"></div>
+			<div class="preloader-stalk"></div>
+			<div class="preloader-stalk"></div>
+
+			<div class="preloader-stalk"></div>
+			<div class="preloader-stalk"></div>
+			<div class="preloader-stalk"></div>
+		</div>
+
+		<div class="adMain" id="adMain">
+
+			<div id="bg"></div>
+			<div id="coverallBtn" class="btn"></div>
+			<div id="border"></div>
+
+			<div id="mouseChase">
+				<img id="eyeWhite" src="eyeWhite.png" />
+				<img id="mask" src="eyeMask.png" />
+				<img id="iris" src="iris.png" />
+				<img id="pupil" src="pupil.png" />
+
+				<div id="guideObject">
+					<div id="pupilGuide"></div>
+				</div>
+			</div>
+
+			<div id="eyeBreakdown">
+				<img id="slicesPreload" src="eyeWhole.png" class="opac0" />
+				<div id="slicesHolder"></div>
+			</div>
+
+			<div id="endFrame">
+				<!--<div id="guide"></div>-->
+				<img id="strapline" src="strapline.png" class="opac0" />
+				<img id="lockup" src="lockup.png" class="opac0" />
+				<img id="txDoubleBill" src="txDoubleBill.png" class="opac0 tx" />
+				<img id="txStartsTomorrow" src="txStartsTomorrow.png" class="opac0 tx" />
+				<img id="txStartsTonight" src="txStartsTonight.png" class="opac0 tx" />
+				<img id="txTonight" src="txTonight.png" class="opac0 tx" />
+				<img id="ctaExperience" src="ctaExperience.png" class="btn opac0 cta" />
+				<img id="ctaBip" src="ctaBip.png" class="opac0 cta" />
+			</div>
+
+		</div>
+
+		<script src="_loader.js" type="text/javascript"></script>
+
+		<!--Greensock animation scripts-->
+		<script src="TweenLite.min.js" type="text/javascript"></script>
+		<script src="EasePack.min.js" type="text/javascript"></script>
+		<script src="CSSPlugin.min.js" type="text/javascript"></script>
+
+		<!--script to detect if images are loaded-->
+		<script src="imagesloaded.pkgd.min.js" type="text/javascript"></script>
+
+		<!--Modules included JS files-->
+		<script src="_adMain.js" type="text/javascript"></script>
+	    <script src="_mouseChase.js" type="text/javascript"></script>
+		<script src="_eyeBreakdown.js" type="text/javascript"></script>
+		<script src="_dateLogic.js" type="text/javascript"></script>
+
+	</body>
+</html>

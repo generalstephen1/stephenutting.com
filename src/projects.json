@@ -17,9 +17,10 @@
 				"coverImgBgColor": "#ffffff",
 				"pageBgColor": "",
 				"pageCopyColor": "#212121",
+				"customStyleSheet": "",
 				"pageOrder": [
 				  	{	"copy": "<p>Delving into the world of HTML5 and Twitter related user behaviour, a deceptively simple brief was set. The challenge was to see what useful information we could glean from users’ Twitter accounts WITHOUT user authentication. The output is ‘TweetieByte’ – a super simple social media monitoring tool that spits out user-friendly visual data in easy-to-swallow byte size chunks!</p>"
-					},{	"link": "http://www.tweetiebyte.com"
+					},{	"copy": "<a href='http://www.tweetiebyte.com' target='blank'><div class='projBtn'><p>Go To Site</p></div></a>"
 					},{ "image": "./928x727_tweetiebyte_inPage.jpg"
 					},{	"copy": "<h3 class='subHeader'>Top 5 skills used:</h3>"
 					},{ "copy":	"<ul>"
@@ -68,6 +69,7 @@
 				"pageCopyColor": "#212121",
 				"pageOrder": [
 						{ "copy": "<p>With custom sequences shot specifically for digital media, we used the lead character from the show – automaton Anita – to front all communications across a variety of high profile digital media environments including Xbox, Skype, MSN and The Guardian."
+					},{	"iframe": {"url": "./adSlot_970x250/index.html", "width":"970", "height":"250"}
 					},{	"copy": "<p>With all ads built in HTML5, we were able to ensure that the eery, but smooth robotic movements made by the character were visible across all platforms. To bullet proof this approach across the plethora of browsers and operating systems in a graceful way, users exposed to ads on Desktop would see full video sequences of the character while users on Tablet/Mobile devices were exposed to faux-video image sequences."
 					},{	"image": "./960x540_humans_inPage.jpg"
 					}	]
@@ -76,27 +78,41 @@
 				"projectID":"datavores",
 				"title": "Datavores",
 				"tagDots": ["Design", "Multimedia"],
-				"summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+				"summary": "A project to visualize and present a well researched and designed scenario of what the city of Wellington, New Zealand would be like in the year 2040.",
 				"blockSize": "lrg",
 				"homeImg": "projects/datavores/640x320_datavores.jpg",
 				"homeColorTheme": "darkTheme",
 				"coverImg": "1200x352_datavores.jpg",
-				"coverImgBgColor": "#ffffff",
+				"coverImgBgColor": "#000000",
 				"pageBgColor": "",
 				"pageCopyColor": "#212121",
 				"pageOrder": [
-						{	"copy": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>"
-					},{	"image": "http://lorempixel.com/600/600/abstract/"
-					},{	"copy": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>"
-					},{	"video": "https://www.youtube.com/embed/C0DPdy98e4c",				"poster": "http://lorempixel.com/600/600/abstract/"
-					},{	"type": "codeSnippet",		"data": ""
+						{	"copy": "<p>The Datavore project was a group effort attempting to research and come up with a scenario of what the city of Wellington, New Zealand would be like in the year 2040. with this we were in partnership with members of the Science department of the university. Our group concentrated on the existence of drones as helping hands paralleled with the development of both internet and biological materials. The idea of being data consumers is where the name Datavores originated. The projects roots were derived from the concept of overpopulation, the decline of the natural environment and rising water levels. The 'Bloom' is essentially a floating suburb built of bio-matter and houses self-sustaining communities. the full process can be found on the <a href='http://datavores.tumblr.com/'>group blog on tumblr.</a></p>"
+					},{	"video": "https://vimeo.com/62995940"
+					},{	"copy": "<ol>"
+					},{	"copy": "<li>Research<p>A HUGE part of this project was directed to research, looking at existing technologies and predictions of the future. Ongoing trends such as Moores law of increasing computer power and the development of thought controlled objects were also major players in the research. What I can definitely say now is that the next 30 years are going to be both very very scary and very exciting. </p></li>"
+					},{	"copy": "<li>Idea Development and Roles <p>Specifying first what direction we wanted to go in then what we each wanted to do for that direction proved very difficult. Each member of the group came from a different discipline and therefore communication was very important. Once this was established it became more about honing ideas down as the areas we were looking into were so rich with concepts and idea. We soon worked out achievable goals however. This part of the process tied closely with the research aspect of the project and there was a lot of going back and forth. </p></li>"
+					},{	"copy": "<li>Alpha Stage<p>We went away as individuals and worked on our own portions of the greater whole, often meeting and comparing and changing each idea to fit in with the greater whole. Eventually this led to a cohesive bare-bones project which we presented to a small audience of peers and outside experts (mostly scientists). From the feedback we gained from this we went away and honed our ideas further, starting to think of achievable outcomes for our research. </p></li>"
+					},{	"copy": "<li>Beta Stage<p>At this point I started researching natural phenomena to support our groups hypothesis of a floating suburb. Utilising methods of 3D printing in resin and rubber to explore possible outcomes of these phenomena. The simplistic drone design also originated in this stage and became a central character in our project. My job at this point was to animate the little guy.... so I learnt to model and animate in Autodesk Maya. </p></li>"
+					},{	"copy": "<li>Final Presentation <p>This occurred as a public seminar given in a cinema complex which we managed to fill with industry specialists, scientists and members of faculty. For our presentation I had created an introduction video (shown above). This was given as an introduction on the big screen, after which we had both a presentation and a Q&amp;A session. </p></li>"
+					},{	"copy": "</ol>"
+					},{	"image": "./620x400_Datavore5.jpg"
+					},{	"image": "./620x400_Datavore2.jpg"
+					},{	"copy": "<h3 class='subHeader'>Skills Used</h3>"
+					},{	"copy": "<p>Due to this being a group project one of the main skills used in this project was communication, not only of ideas to the client but also within the group. Having something to show for your time was also an interesting skill picked up in this project, It was very important to have something to offer at every stage of development.</p>"
+					},{	"copy": "<h3 class='subHeader'>Tools/Technical skills used</h3>"
+					},{	"copy": "<p>3D printing, Solidworks, Animation with Autodesk Maya (which I was new to) and compilation in Adobe Premiere, After effects and Photoshop. Learning to think differently, for instance, how does a 6 legged creature walk?</p>"
+					},{	"image": "./620x400_Datavore3.jpg"
+					},{	"image": "./620x400_Datavore4.jpg"
+					},{	"image": "./620x400_Datavore1.jpg"
+					},{	"type": "codeSnippet"
 					}	]
 			},
 			{
 				"projectID":"utopia2",
 				"title": "Utopia 2",
 				"tagDots": ["WebDev", "Design", "Multimedia", "RichMedia"],
-				"summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+				"summary": "Runnaing on desktop and device across some very high profile media and designed to drive intrigue around the campaign’s central visual, a series of interactive HTML5 rich media homepage takeovers featured the bloodshot ‘all seeing eye’",
 				"blockSize": "reg",
 				"homeImg": "projects/utopia2/320x320_utopia2.jpg",
 				"homeColorTheme": "darkTheme",
@@ -105,18 +121,18 @@
 				"pageBgColor": "",
 				"pageCopyColor": "#212121",
 				"pageOrder": [
-						{	"copy": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>"
-					},{	"image": "http://lorempixel.com/600/600/technics/"
-					},{	"copy": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>"
-					},{	"video": "https://www.youtube.com/embed/C0DPdy98e4c",			"poster": "http://lorempixel.com/600/600/technics/"
-					},{	"type": "codeSnippet",		"data": ""
+						{	"copy": "<p>In keeping with the eerie and dark themes of the show, the advertising concept leveraged the sense of being watched in a very literal way. Whilst the campaign creative featured the iconic and arresting yellow that was an emblem of Series 1, the sense of paranoia was turned up a notch with the eyeball creepily responding to users’ mouse movements on the page reinforcing “the network is watching” campaign strap line.</p>"
+					},{	"video": "https://player.vimeo.com/video/148604579?color=e41969"
+					},{	"copy": "<p>If the task of effectively recreating animation sequences of the eyeball movement created in 3D for HTML5 wasn’t ambitious enough, the interactive HTML5 element known as ‘position detection’ (or unofficially as ‘cursor chase’) was an industry-first and required an intense collaborative effort with the team at Google DoubleClick who helped bring it all together. So excited were they with the outcome that they decided to showcase the creative in their <a href='http://www.richmediagallery.com/detailPage?id=7908'>rich media gallery<a>"
+					},{	"iframe": {"url": "./adSlot_300x250_cursor", "width":"300", "height":"250"}
+					},{	"iframe": {"url": "./adSlot_970x250_cursor", "width":"970", "height":"250"}
 					}	]
 			},
 			{
 				"projectID":"drawings",
 				"title": "Drawings",
 				"tagDots": ["Design"],
-				"summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+				"summary": "A collection of drawings worth noting",
 				"blockSize": "reg",
 				"homeImg": "projects/drawings/320x320_drawings.jpg",
 				"homeColorTheme": "darkTheme",
@@ -125,18 +141,19 @@
 				"pageBgColor": "",
 				"pageCopyColor": "#212121",
 				"pageOrder": [
-						{	"copy": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>"
-					},{	"image": "http://lorempixel.com/600/600/cats/"
-					},{	"copy": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>"
-					},{	"video": "https://www.youtube.com/embed/C0DPdy98e4c",		"poster": "http://lorempixel.com/600/600/cats/"
-					},{	"type": "codeSnippet",	"data": ""
+						{	"image": "./620x400_Drawings1.jpg"
+					},{	"image": "./620x400_Drawings2.jpg"
+					},{	"image": "./620x400_Drawings3.jpg"
+					},{	"image": "./620x400_Drawings4.jpg"
+					},{	"image": "./620x400_Drawings5.jpg"
+					},{	"image": "./620x400_Drawings6.jpg"
 					}	]
 			},
 			{
 				"projectID":"avian",
 				"title": "Avian Chaise",
 				"tagDots": ["Design"],
-				"summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+				"summary": "A simple and rather vague brief, design a chaise lounge. I concentrated on a portable and dismantleable outdoor lounger.",
 				"blockSize": "reg",
 				"homeImg": "projects/avian/320x320_avian.jpg",
 				"homeColorTheme": "darkTheme",
@@ -145,11 +162,21 @@
 				"pageBgColor": "",
 				"pageCopyColor": "#212121",
 				"pageOrder": [
-						{	"copy": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>"
-					},{	"image": "http://lorempixel.com/600/600/cats/"
-					},{	"copy": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>"
-					},{	"video": "https://www.youtube.com/embed/C0DPdy98e4c",	"poster": "http://lorempixel.com/600/600/cats/"
-					},{	"type": "codeSnippet",		"data": ""
+					  {	"copy": "<h3 class='subHeader'>Process</h3>"
+					},{	"copy": "<ol>"
+					},{	"copy": "<li><strong>Research</strong><p>Of course the first place to start is research into what came before. Looking at famous Chaise designers such as Le Corbusier, The history of the item, how they're intended to be used as well as how they're actually used.</p></li>"
+					},{	"copy": "<li><strong>The drawing board</strong><p>Next came the sketchbook (at least for me) there were pages and pages of ideas both emotive and technical. These went through a screening process both of what I wanted to do as well as various outside opinions as to what looked and felt the best. </p></li>"
+					},{	"copy": "<li><strong>Mock ups</strong><p>A similar process as above except with physical mock-ups, normally made of card and wire, though in this case there were a few paper mache and clay elements to some of the more biological ideas. Once again hundreds of concepts went through a screening process of what I liked, what my peers liked and this time what various members of staff thought were good ideas. It was also where outside experts such as engineers were first asked as to the possibility of these things existing at full size. These ideas were put into more high quality workshop-built mock-ups made of primitive workshop materials. </p></li>"
+					},{	"copy": "<li><strong>Digitalization</strong><p>The model seen in the photos was constructed off digital specifications. Using 3D autoCAD software Solidworks I built each part and assembled them to create renders which are easier to manipulate for small changes, it was at this point that a slight dip was put in the design in which to sit upon. It was also where the aerial view was noticed in it's likeness to a birds wing which eventually led to the name Avian Chaise.</p></li>"
+					},{	"copy": "<li><strong>Build and Present</strong><p>The final assessment on this project was on a 1:16 scale model of the Chaise. To make this model as accurate as possible I used a lasercutter machine to get the wooden slats accurate to my digital model. Once again engineers were brought in to check the ideas validity, in the final design the intent was to have no glue whatsoever for ease in dismantling, this proved successful and so in a matter of minutes the 4.5m (4yd 2.7ft) can be dismantled into 42 slats ready to be flat-packed and transported (42 being the answer to everything).</p></li>"
+					},{	"copy": "</ol>"
+					},{	"image": "./620x400_Avian1.jpg"
+					},{	"copy": "<h3 class='subHeader'>Skills Gained or Used</h3>"
+					},{	"copy": "<p>Within this project I used more small skills than I can list here, the big three however were definitely centred around good time management, working to a brief and using good communication skills. These were utilised with each presentation and communication of ideas to a wide audience. As I wanted this Idea to be successful I also had to have items ready for outside specialists to view as well as be able to explain the concepts grounding the ideas.</p>"
+					},{	"copy": "<h3 class='subHeader'>Tools/Technical skills used</h3>"
+					},{	"copy": "<p>In the project I extensively used autoCAD software Solidworks and Adobe Photoshop. Adobe Illustrator was used to communicate with the Lasercutter and mockups made in the workshop required skills on multiple types of electrical saws and woodworking tools.</p>"
+					},{	"image": "./620x400_Avian2.jpg"
+					},{	"image": "./620x400_Avian3.jpg"
 					}	]
 			},
 			{
