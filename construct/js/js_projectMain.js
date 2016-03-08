@@ -24,6 +24,8 @@ Site.projectMain.init = function(){
   Site.utils.politeLoadImg();
 
   Site.globalListeners.addListeners();
+
+  Site.scrollControl.scrollChange(null);
 };
 
 
@@ -68,18 +70,18 @@ Site.projectMain.loadDom = function(){
  * @method windowResize
  * @return {void}
  */
-Site.projectMain.windowResize = function(){
-  var windowWidth = window.innerWidth;
-  if (windowWidth <= 640){
-    if (windowWidth <= 480){
-
-    } else {
-      for(var i = 0; i < Site.domClass.regImg.length; i++){
-        //Site.domClass.regImg[i].src =
-      }
-    }
-  }
-};
+// Site.projectMain.windowResize = function(){
+//   var windowWidth = window.innerWidth;
+//   if (windowWidth <= 640){
+//     if (windowWidth <= 480){
+//
+//     } else {
+//       for(var i = 0; i < Site.domClass.regImg.length; i++){
+//         //Site.domClass.regImg[i].src =
+//       }
+//     }
+//   }
+// };
 
 
 window.onload = function(){

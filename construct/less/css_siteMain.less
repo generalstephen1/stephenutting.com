@@ -31,6 +31,7 @@ header{
   text-align: center;
   line-height: @collapsedHeaderHeight;
   opacity: 0.5;
+  cursor: pointer;
 
   .transition(@duration:0.4s, @ease:ease-out);
 
@@ -88,6 +89,38 @@ header{
   width: 68%;
   height: 68%;
   margin: 25% 16%;
+}
+
+
+.socialIcon img  {
+  position: absolute;
+  top: 0;
+  left: 0;
+  .transition();
+}
+.socialIcon_hover{
+  width: 48%;
+  height: 48%;
+  position: absolute;
+  left: 26%;
+  top: 26%;
+  opacity: 0;
+  .transition();
+
+  &.redBg {background-color: @logo-red;}
+  &.whiteBg {background-color: white;}
+  &.blackBg {background-color: black;}
+}
+.socialIcon .primaryIcon{
+  opacity: 1;
+}
+.socialIcon .secondaryIcon{
+  opacity: 0;
+}
+.socialIcon:hover {
+  // .primaryIcon{   opacity: 0;  }
+  .secondaryIcon,
+  .socialIcon_hover {   opacity: 1;  }
 }
 
 

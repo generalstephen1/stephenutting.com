@@ -28,6 +28,7 @@ header {
   text-align: center;
   line-height: 3em;
   opacity: 0.5;
+  cursor: pointer;
   -webkit-transition: all 0.4s ease-out;
   -moz-transition: all 0.4s ease-out;
   -o-transition: all 0.4s ease-out;
@@ -75,6 +76,52 @@ header {
   width: 68%;
   height: 68%;
   margin: 25% 16%;
+}
+.socialIcon img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  -webkit-transition: all 0.2s ease-out;
+  -moz-transition: all 0.2s ease-out;
+  -o-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+  -webkit-transition: all 2;
+  /* Safari */
+  transition: all 2;
+}
+.socialIcon_hover {
+  width: 48%;
+  height: 48%;
+  position: absolute;
+  left: 26%;
+  top: 26%;
+  opacity: 0;
+  -webkit-transition: all 0.2s ease-out;
+  -moz-transition: all 0.2s ease-out;
+  -o-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+  -webkit-transition: all 2;
+  /* Safari */
+  transition: all 2;
+}
+.socialIcon_hover.redBg {
+  background-color: #a40d13;
+}
+.socialIcon_hover.whiteBg {
+  background-color: white;
+}
+.socialIcon_hover.blackBg {
+  background-color: black;
+}
+.socialIcon .primaryIcon {
+  opacity: 1;
+}
+.socialIcon .secondaryIcon {
+  opacity: 0;
+}
+.socialIcon:hover .secondaryIcon,
+.socialIcon:hover .socialIcon_hover {
+  opacity: 1;
 }
 .videoWrapper {
   position: relative;

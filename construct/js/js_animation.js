@@ -20,15 +20,10 @@ Site.animation.projectCards = function(top){
           Site.activeProjects[project].elem,
           1,
           {
-            rotationX:0,
             y: 0,
             opacity: 1,
-            transformOrigin:"center top",
-            transformPerspective: -200
-          },
-          "+=0.5", "sequence"
+          }
         );
-    	// Site.activeProjects[project].elem.style.opacity = 1;
 		}
 	}
 };

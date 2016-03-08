@@ -1,8 +1,11 @@
 {
 	"config": {
-		"availabletags": ["WebDev", "Design", "Multimedia", "ServerSide", "RichMedia", "Management"],
+		"availabletags": ["WebDev", "Design", "Multimedia", "ServerSide", "RichMedia", "Management", "Games"],
 		"headerBlurb": "<p style='font-size: 3.0rem;'>Let's Create Something Together.</p><p style='font-size: 1.6rem;'>Out of code...</p><p style='font-size: 0.7rem;'>because code is awesome</p>",
 		"pageTitle": "Steve Utting"
+	},
+	"now": {
+		"html": "<h2>Hello there</h2>"
 	},
 	"projects":[
 			{
@@ -117,7 +120,7 @@
 				"homeImg": "projects/utopia2/320x320_utopia2.jpg",
 				"homeColorTheme": "darkTheme",
 				"coverImg": "1200x352_utopia2.jpg",
-				"coverImgBgColor": "#ffffff",
+				"coverImgBgColor": "#ffeb00",
 				"pageBgColor": "",
 				"pageCopyColor": "#212121",
 				"pageOrder": [
@@ -125,7 +128,7 @@
 					},{	"video": "https://player.vimeo.com/video/148604579?color=e41969"
 					},{	"copy": "<p>If the task of effectively recreating animation sequences of the eyeball movement created in 3D for HTML5 wasn’t ambitious enough, the interactive HTML5 element known as ‘position detection’ (or unofficially as ‘cursor chase’) was an industry-first and required an intense collaborative effort with the team at Google DoubleClick who helped bring it all together. So excited were they with the outcome that they decided to showcase the creative in their <a href='http://www.richmediagallery.com/detailPage?id=7908'>rich media gallery<a>"
 					},{	"iframe": {"url": "./adSlot_300x250_cursor", "width":"300", "height":"250"}
-					},{	"iframe": {"url": "./adSlot_970x250_cursor", "width":"970", "height":"250"}
+					},{	"iframe": {"url": "./adSlot_900x250", "width":"900", "height":"250"}
 					}	]
 			},
 			{
@@ -137,7 +140,7 @@
 				"homeImg": "projects/drawings/320x320_drawings.jpg",
 				"homeColorTheme": "darkTheme",
 				"coverImg": "1200x352_drawings.jpg",
-				"coverImgBgColor": "#ffffff",
+				"coverImgBgColor": "#f8f8f8",
 				"pageBgColor": "",
 				"pageCopyColor": "#212121",
 				"pageOrder": [
@@ -182,21 +185,22 @@
 			{
 				"projectID":"zombiEvolution",
 				"title": "ZombiEvolution",
-				"tagDots": ["WebDev", "Design", "Multimedia", "ServerSide"],
+				"tagDots": ["Games", "Design", "Multimedia", "ServerSide"],
 				"summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
 				"blockSize": "reg",
 				"homeImg": "projects/zombiEvolution/320x320_zombiEvolution.jpg",
 				"homeColorTheme": "lightTheme",
 				"coverImg": "1200x352_zombiEvolution.jpg",
-				"coverImgBgColor": "#ffffff",
+				"coverImgBgColor": "#000000",
 				"pageBgColor": "",
 				"pageCopyColor": "#212121",
 				"pageOrder": [
 						{ "copy": "<p>ZombiEvolution is a project which was built around the concept of reinvigorating an old game concept, in this case, Zombies. This was a huge learning curve for me as I built this game completely from scratch having never made a 3D game before, nor coded in C#, nor used most of the programs I ended up using.. If anything, this game, while not very good, is a show of just how much I can learn in a short period of time. The game is a 3rd person hack'n'slash style game. The backstory is that the Zompocalypse has occurred and there are no humans left. Zombies must turn to cannibalism or they will inevitably perish. However, due to the biological makeup of the zombies in question, they have gained the ability to tear limbs off other zombies to increase their attack power. This is balanced with a steadily decreasing 'life force', and the more arms you have, the faster it decreases. This is a neverending survival game where you must simply last as long as you can to keep your score high.</p>"
-					},{	"image": "http://lorempixel.com/600/600/cats/"
-					},{	"copy": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>"
-					},{	"video": "https://www.youtube.com/embed/C0DPdy98e4c",		"poster": "http://lorempixel.com/600/600/cats/"
-					},{	"type": "codeSnippet",		"data": ""
+					},{	"image": "./620x400_Zombie4.jpg"
+					},{	"copy": "<p>The game is a 3rd person hack'n'slash style game. The backstory is that the Zompocalypse has occurred and there are no humans left. Zombies must turn to cannibalism or they will inevitably perish. However, due to the biological makeup of the zombies in question, they have gained the ability to tear limbs off other zombies to increase their attack power. This is balanced with a steadily decreasing 'life force', and the more arms you have, the faster it decreases. This is a neverending survival game where you must simply last as long as you can to keep your score high.</p>"
+					},{	"image": "./620x400_Zombie1.jpg"
+					},{	"image": "./620x400_Zombie2.jpg"
+					},{	"image": "./620x400_Zombie3.jpg"
 					}	]
 			}
 		]

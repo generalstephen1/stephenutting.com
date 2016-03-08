@@ -1,22 +1,14 @@
 this is a to do list for the site
 
   ==== TOP 3 ====
-	1) Write creative summaries and
-     design structured layout
+  1) /Now page
 	2) Where to put contact info
   3) Social Integrations on footer:
-      Github, Twitter, Codepen, Vimeo, LinkedIn
+      Github, Twitter, Codepen, LinkedIn
 
-
- - PROJECT PAGES
- 	• Minimalist copy
-	• Follow a structure
-	• Display all appropriate work
-	• Set video sizes
 
  - GLOBAL
   • Secret console log
-  • Footer Element Padding
   • Make Contact a floating box
   • "NOW" page
   • Check Scroll position on load
