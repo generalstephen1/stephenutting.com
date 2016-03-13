@@ -8,7 +8,6 @@ header {
   width: 100%;
   top: 0;
   left: 0;
-  overflow: hidden;
   color: #212121;
   background-color: #212121;
   -webkit-transition: all 0.4s ease-out;
@@ -27,15 +26,52 @@ header {
   height: 3em;
   text-align: center;
   line-height: 3em;
-  opacity: 0.5;
+  opacity: 0.9;
   cursor: pointer;
+  position: relative;
   -webkit-transition: all 0.4s ease-out;
   -moz-transition: all 0.4s ease-out;
   -o-transition: all 0.4s ease-out;
   transition: all 0.4s ease-out;
 }
 .menuBtn:hover {
-  opacity: 0.8;
+  background-color: white;
+}
+.menuBtn:hover .contactExpand {
+  right: 0;
+}
+.contactBtn {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.textCurser {
+  cursor: text;
+}
+.contactExpand {
+  -webkit-transition: all 0.2s ease-out;
+  -moz-transition: all 0.2s ease-out;
+  -o-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+  -webkit-transition: all 2;
+  /* Safari */
+  transition: all 2;
+  text-align: right;
+  position: absolute;
+  background-color: #212121;
+  top: 100%;
+  right: -500%;
+  padding: 1em;
+  overflow: hidden;
+  min-width: 15em;
+  color: white;
+}
+.contactExpand p {
+  padding: 0;
+  margin: 0.1em;
+}
+.contactExpand p.hoverRed:hover {
+  color: #a40d13;
 }
 #siteMain {
   margin-top: 24em;
