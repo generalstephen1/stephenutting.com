@@ -31,11 +31,13 @@
     width: 8em;
   }
   #footer .s4 .socialIcon {
-    height: auto;
-    margin: 0;
-    width: 33%;
+    min-height: 4em;
+    min-width: 4em;
+    margin: 1em 0;
   }
   #footer .s4 .socialIcon-container {
     margin: 5% 15%;
+    min-height: 8em;
+    width: 100%;
   }
 }

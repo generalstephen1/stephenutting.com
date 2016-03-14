@@ -83,32 +83,14 @@
 .tagText.tagServerSide {
   border-left: #0000ff solid 3px;
 }
-.tagText.tagIllustrator {
+.tagText.tagRichMedia {
   border-left: #ffff00 solid 3px;
 }
-.tagText.tagAfterEffects {
+.tagText.tagManagement {
   border-left: #00ffff solid 3px;
 }
-.tagText.tag3DModelling {
-  border-left: #ffffff solid 3px;
-}
-.tagText.tagPhotography {
-  border-left: #dc143c solid 3px;
-}
-.tagText.tagDrawing {
-  border-left: #00008b solid 3px;
-}
-.tagText.tagSketching {
-  border-left: #2e8b57 solid 3px;
-}
-.tagText.tagFlash {
-  border-left: #daa520 solid 3px;
-}
 .tagText.tagGames {
-  border-left: #fffff0 solid 3px;
-}
-.tagText.tagRichMedia {
-  border-left: #a52a2a solid 3px;
+  border-left: #ffffff solid 3px;
 }
 .tagFilter {
   text-align: center;
