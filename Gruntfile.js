@@ -29,7 +29,7 @@ module.exports = function(grunt){
      * CLEAN
      */
     clean: {
-      construct: [ "construct/projects" ],
+      // construct: [ "construct/projects" ],
       release: [ "build" ]
     },
 
@@ -43,8 +43,14 @@ module.exports = function(grunt){
             expand: true,
             flatten: false,
             cwd: "construct",
-            src: ['projects/**/**.*', '**.ico','docs/**.*', 'img/**/*.jpg'],
+            src: ['projects/**/**.*', '**.ico','docs/**.*', 'img/**/**.*', 'img/**.*'],
             dest: 'build/'
+          },{
+            expand: true,
+            flatten: false,
+            cwd: "construct/js/lib",
+            src: ['TweenLite.min.js', 'plugins/CSSPlugin.min.js','TimelineLite.js'],
+            dest: 'build/greensock/'
           },
         ]
       },
@@ -80,9 +86,70 @@ module.exports = function(grunt){
     targethtml: {
       dist: {
         files: {
-          'build/index.html': 'construct/index.html',
-          // 'build/projects/**/*.html': 'build/projects/**/*.html'
+          "build/index.html":"construct/index.html"
         }
+      }
+    },
+
+    cssmin: {
+      options: {
+        shorthandCompacting: false,
+      },
+      target: {
+        files: {
+          'build/All.min.css': [
+            "construct/css/lib/skeleton.css",
+      		  "construct/css/css_globals.css",
+      		  "construct/css/css_projects.css",
+      		  "construct/css/css_siteMain.css",
+      		  "construct/css/css_mediaQueries.css"
+          ]
+        }
+      }
+    },
+
+    uglify: {
+      options: {
+        compress: {
+          drop_console: true
+        }
+      },
+      my_target: {
+        files: {
+          'build/All.min.js': [
+            "construct/js/lib/masonry.min.js",
+
+            // "construct/js/lib/superTween.min.js",
+
+            // "construct/js/lib/TweenLite.min.js",
+            // "construct/js/lib/plugins/CSSPlugin.min.js",
+            // "construct/js/lib/TimelineLite.js",
+
+      			"construct/js/js_utils.js",
+      			"construct/js/js_animation.js",
+      			"construct/js/js_globalListeners.js",
+      			"construct/js/js_headerControl.js",
+      			"construct/js/js_scrollControl.js",
+          ],
+          'build/Main.min.js': [
+            "construct/js/js_projFilter.js",
+            "construct/js/js_siteMain.js"
+          ],
+          'build/Proj.min.js': [
+            "construct/js/js_projectMain.js"
+          ]
+        }
+      }
+    },
+
+    replace: {
+      build: {
+        src: ['build/All.min.css'],             // source files array (supports minimatch)
+        dest: 'build/All.min.css',             // destination directory or file
+        replacements: [{
+          from: '../',                   // string replacement
+          to: './'
+        }]
       }
     }
 
@@ -91,6 +158,10 @@ module.exports = function(grunt){
 
   // define the tasks to run
   var tasks = ["copy:construct", "bake:index", "pngmin" ];
+  var targetList = {
+    'build/index.html': 'construct/index.html',
+  }
+
 
 
   //add bake tasks for each jsonFile item to generate a new page
@@ -109,10 +180,8 @@ module.exports = function(grunt){
     task.files["construct/projects/" + projectName + "/" + projectName + ".html"] = "src/templates/defaultProj.html";
     grunt_config.bake[projectName] = task;
     tasks.push("bake:"+projectName);
-  }
 
-  getTemplate = function(){
-    return "src/templates/projectMain.html"
+    grunt_config.targethtml.dist.files["build/projects/" + projectName + "/" + projectName + ".html"] = "construct/projects/" + projectName + "/" + projectName + ".html"
   }
 
 
@@ -123,9 +192,16 @@ module.exports = function(grunt){
   grunt.loadNpmTasks('grunt-pngmin');
   grunt.loadNpmTasks('grunt-bake');
   grunt.loadNpmTasks('grunt-targethtml');
+  grunt.loadNpmTasks('grunt-contrib-cssmin');
+  grunt.loadNpmTasks('grunt-contrib-uglify');
+  grunt.loadNpmTasks('grunt-text-replace');
 
   grunt.registerTask( "default", tasks);
 
   //this will contain concat and uglify etc
-  grunt.registerTask( "prod", ["clean:release", "copy:release"]);
+  var justProd = ["clean:release", "copy:release", "targethtml", "cssmin", "uglify", "replace"];
+  var prodTasks = tasks.concat(justProd)
+
+  grunt.registerTask( "prod", prodTasks);
+  grunt.registerTask( "justProd", justProd);
 };

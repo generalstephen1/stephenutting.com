@@ -11,6 +11,4 @@ this is a to do list for the site
       - Generic Gyro Proto
       - Font Minifier
 
-  2) Uglification and minification prod version + Secret log.
-
-  3) Auto-update Prod
+  2) Auto-update Prod

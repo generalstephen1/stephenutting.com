@@ -16,6 +16,11 @@ Site.animation.projectCards = function(top){
 		var projectTL = new TimelineLite();
 
 		if(projTop < (top + 150)){
+      // superTween.to(Site.activeProjects[project].elem,  1,
+      //     {
+      //       y: 0,
+      //       opacity: 1,
+      //     })
 			projectTL.to(
           Site.activeProjects[project].elem,
           1,

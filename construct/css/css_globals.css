@@ -12,7 +12,7 @@ body {
   top: 0;
   left: 0;
   background-color: #f6f6f6;
-  background-image: url("../img/bgTile.jpg");
+  /*background-image: url("../img/bgTile.jpg");*/
 }
 a {
   color: inherit;

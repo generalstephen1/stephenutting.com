@@ -6,14 +6,21 @@
 	  <title>Steve Utting</title>
 
 	  <!-- CSS  -->
-		<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300' rel='stylesheet' type='text/css'>
-		
-		<link href="../../css/lib/skeleton.css" type="text/css" rel="stylesheet"/>
-		<link href="../../css/css_globals.css" type="text/css" rel="stylesheet"/>
-		<link href="../../css/css_projects.css" type="text/css" rel="stylesheet"/>
-		<link href="../../css/css_siteMain.css" type="text/css" rel="stylesheet"/>
-		<link href="../../css/css_mediaQueries.css" type="text/css" rel="stylesheet"/>
-		
+
+		<!--(if target dev)><!-->
+			<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300' rel='stylesheet' type='text/css'>
+			
+			<link href="../../css/lib/skeleton.css" type="text/css" rel="stylesheet"/>
+			<link href="../../css/css_globals.css" type="text/css" rel="stylesheet"/>
+			<link href="../../css/css_projects.css" type="text/css" rel="stylesheet"/>
+			<link href="../../css/css_siteMain.css" type="text/css" rel="stylesheet"/>
+			<link href="../../css/css_mediaQueries.css" type="text/css" rel="stylesheet"/>
+			
+		<!--<!(endif)-->
+		<!--(if target dist)>
+			<link rel="stylesheet" href="../../All.min.css">
+		<!(endif)-->
+
 		<style>
 			header{
 				background-color: #e4ffff;
@@ -31,7 +38,6 @@
 		<header id="globalHeader">
 			<div class="container">
 		
-
 				<!-- <a href="/stephenutting.com/construct/">
 					<div class="menuBtn col s4 topset-0"><p>View Work</p></div>
 				</a> -->
@@ -73,29 +79,26 @@
 				<h2 class="projBlurb-home">Humans is set in a parallel present where the latest must-have gadget for any busy family is a ‘Synth’ – a highly-developed robotic servant eerily similar to its live counterpart.</h2>
 
 				
-
 						<p>While working at Super natural, we were comissioned to produce the digital advertising campaign and raise awareness of the show and ultimately drive tune-in to much anticipated first episode.</p>
-				
 				
 				
-
+				
 						<p>With custom sequences shot specifically for digital media, we used the lead character from the show – automaton Anita – to front all communications across a variety of high profile digital media environments including Xbox, Skype, MSN and The Guardian.
-				
+				
 				
 				
 
-				
+				
 				<div class="center">
 					<div class="iframeWrapper">
 						<iframe src="./adSlot_970x250/index.html" width="970" height="250" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 					</div>
 				</div>
-				
 				
 				
-
+				
 						<p>With all ads built in HTML5, we were able to ensure that the eerie, but smooth robotic movements made by the character were visible across all platforms. To bullet proof this approach across the plethora of browsers and operating systems in a graceful way, users exposed to ads on Desktop would see full video sequences of the character while users on Tablet/Mobile devices were exposed to faux-video image sequences.
-				
+				
 				
 				
 
@@ -103,7 +106,7 @@
 				<div class="center">
 				  <img class="projPg-image projPg-chunk" src="./960x540_humans_inPage.jpg"/>
 				</div>
-				
+				
 				
 			</div>
 		</div>
@@ -147,28 +150,38 @@
 				<div class="s12 col">
 					<a href="http://www.richmediagallery.com/tools/certified-users#certifiedUser:5594~" target="_blank">
 						<img class="footerImage" src="" data-src="../../img/QACert.png"/>
-					<a>
+					</a>
 				</div>
 			</div>
 		</footer>
 		
 
-		<!--JS-->
-		<script src="../../js/lib/masonry.min.js" type="text/javascript"></script>
-		<script src="../../js/js_utils.js" type="text/javascript"></script>
-		<script src="../../js/lib/TweenLite.min.js" type="text/javascript"></script>
-		<script src="../../js/lib/plugins/CSSPlugin.min.js" type="text/javascript"></script>
-		<script src="../../js/lib/TimelineLite.js" type="text/javascript"></script>
-		
-		
-		
-		<script src="../../js/js_utils.js" type="text/javascript"></script>
-		<script src="../../js/js_animation.js" type="text/javascript"></script>
-		<script src="../../js/js_globalListeners.js" type="text/javascript"></script>
-		<script src="../../js/js_headerControl.js" type="text/javascript"></script>
-		<script src="../../js/js_scrollControl.js" type="text/javascript"></script>
-		
-		<script src="../../js/js_projectMain.js" type="text/javascript"></script>
+
+		<!--(if target dev)><!-->
+			<!--JS-->
+			<script src="../../js/lib/masonry.min.js" type="text/javascript"></script>
+			<!-- <script src="../../js/lib/superTween.min.js" type="text/javascript"></script> -->
+			
+			<!-- <script src="../../js/lib/TweenLite.min.js" type="text/javascript"></script>
+			<script src="../../js/lib/plugins/CSSPlugin.min.js" type="text/javascript"></script>
+			<script src="../../js/lib/TimelineLite.js" type="text/javascript"></script> -->
+			
+			
+			
+			<script src="../../js/js_utils.js" type="text/javascript"></script>
+			<script src="../../js/js_animation.js" type="text/javascript"></script>
+			<script src="../../js/js_globalListeners.js" type="text/javascript"></script>
+			<script src="../../js/js_headerControl.js" type="text/javascript"></script>
+			<script src="../../js/js_scrollControl.js" type="text/javascript"></script>
+			
+			<script src="../../js/js_projectMain.js" type="text/javascript"></script>
+		<!--<!(endif)-->
+		<!--(if target dist)>
+			<script src="../../All.min.js" type="text/javascript"></script>
+			<script src="../../Proj.min.js" type="text/javascript"></script>
+		<!(endif)-->
+
+
 
 
 	</body>

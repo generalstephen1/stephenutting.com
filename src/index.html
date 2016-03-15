@@ -48,26 +48,42 @@
 
 
 		<!--(if target dev)><!-->
+			<script src="{{scriptPrefix}}js/lib/TweenLite.min.js" type="text/javascript"></script>
+			<script src="{{scriptPrefix}}js/lib/plugins/CSSPlugin.min.js" type="text/javascript"></script>
+			<script src="{{scriptPrefix}}js/lib/TimelineLite.js" type="text/javascript"></script>
+		
 		  <script src="{{scriptPrefix}}js/js_projFilter.js" type="text/javascript"></script>
 			<!--(bake templates/globalScripts.html scriptPrefix="")-->
 			<script src="{{scriptPrefix}}js/js_siteMain.js" type="text/javascript"></script>
 		<!--<!(endif)-->
 		<!--(if target dist)>
-				<script>
-					if (window.console){
-						console.log("///////////////////////////////////////////////////////////////");
-						console.log("");
-						console.log("Hi There, good, you're in the console, so you're taking this seriously");
-						console.log("But I'm afraid you won't find a great deal here, minified and concatenated for prompt delivery and all");
-						console.log("However, you can find all the src files with notations and the Grunt task I used to do all for this");
-						console.log("right here https://github.com/generalstephen1");
-						console.log("");
-						console.log("///////////////////////////////////////////////////////////////");
-					}
-				</script>
+		<script>
+			if (window.console){
+				console.log("///////////////////////////////////////////////////////////////");
+				console.log("");
+				console.log("     //");
+				console.log(" )  ( ')");
+				console.log("(  /  )");
+				console.log(" l(__)|");
+				console.log("");
+				console.log("Hi There,");
+				console.log("Good to see you're in the console,");
+				console.log("But I'm afraid you won't find a great deal here, minified and concatenated for prompt delivery etc");
+				console.log("However, you can find all the src files with notations and the Grunt task I used to do all for this");
+				console.log("right here: https://github.com/generalstephen1");
+				console.log("please flick me an email with any questions or improvements if you think of them: steveo@stephenutting.com");
+				console.log("And a big thank you for visiting!");
+				console.log("");
+				console.log("///////////////////////////////////////////////////////////////");
+			}
+		</script>
+				<script src="greensock/TweenLite.min.js" type="text/javascript"></script>
+				<script src="greensock/plugins/CSSPlugin.min.js" type="text/javascript"></script>
+				<script src="greensock/TimelineLite.js" type="text/javascript"></script>
 
+		  	<script src="./All.min.js" type="text/javascript"></script>
+				<script src="./Main.min.js" type="text/javascript"></script>
 
-		  	<script src="All.min.js" type="text/javascript"></script>
 		<!(endif)-->
 
 
