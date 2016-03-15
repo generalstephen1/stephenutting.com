@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+	<html lang="en">
+	<head>
+		<script src="https://s0.2mdn.net/ads/studio/Enabler.js"></script>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=Edge"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<!--styles-->
+		<link rel=styleSheet href="css_polite.css" type="text/css">
+		<link rel=styleSheet href="css_adMain.css" type="text/css">
+	</head>
+
+	<body>
+		<!--preloader spinner and images that need manual preloading-->
+		<div id="preloader"></div>
+		<img class="preload-img" data-src="img_bg360_160x434_160x13888_32step.jpg" />
+		<div class="border"></div>
+
+		<!--div that shows once ad has loaded-->
+		<div class="adMain" id="adMain">
+			<div class="adBg"></div>
+
+			<div id="coverallBtn" class="btn"></div>
+			<div id="pageAssets" class="fullSize opac0">
+
+					<div id="testVideo_container"></div>
+
+						<div id="bg360container">
+							<div id="bg360Shake_container" class="fullSize"></div>
+							<div id="backup360"></div>
+						</div>
+
+						<div id="titleContainer" class="endAsset">
+							<img id="humans" data-src="img_humans.png">
+						</div>
+
+						<div id="txContainer" class="endAsset">
+							<img id="txTonight" class="tx" data-src="img_tx_tonight.png">
+							<img id="txTomorrow" class="tx" data-src="img_tx_tomorrow.png">
+							<img id="txSunday" class="tx" data-src="img_tx_sunday.png">
+						</div>
+
+						<img id="logo" data-src="img_logo.png">
+					</div>
+
+		</div>
+
+		<!--scripts-->
+		<script src="js_loader.js" type="text/javascript"></script>
+		<script src="js_adMain.js" type="text/javascript"></script>
+		<script src="js_superTween.js" type="text/javascript"></script>
+		<script src="js_dateLogic.js" type="text/javascript"></script>
+		<script src="js_bgVid.js" type="text/javascript"></script>
+		<script src="js_timeline.js" type="text/javascript"></script>
+		<script src="js_utils.js" type="text/javascript"></script>
+		<script src="js_loadedListener.js" type="text/javascript"></script>
+
+	</body>
+</html>

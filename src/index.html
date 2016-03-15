@@ -6,7 +6,15 @@
 	  <title>{{config_vars.pageTitle}}</title>
 
 	  <!-- CSS  -->
-		<!--(bake templates/globalStyles.html stylePrefix="")-->
+
+
+		<!--(if target dev)><!-->
+		  <!--(bake templates/globalStyles.html stylePrefix="")-->
+		<!--<!(endif)-->
+		<!--(if target dist)>
+		  <link rel="stylesheet" href="All.min.css">
+		<!(endif)-->
+
 
 	</head>
 	<body>
@@ -39,10 +47,32 @@
 		<!--(bake templates/pageFooter.html imgPrefix="")-->
 
 
-		<script src="{{scriptPrefix}}js/js_projFilter.js" type="text/javascript"></script>
+		<!--(if target dev)><!-->
+		  <script src="{{scriptPrefix}}js/js_projFilter.js" type="text/javascript"></script>
+			<!--(bake templates/globalScripts.html scriptPrefix="")-->
+			<script src="{{scriptPrefix}}js/js_siteMain.js" type="text/javascript"></script>
+		<!--<!(endif)-->
+		<!--(if target dist)>
+				<script>
+					if (window.console){
+						console.log("///////////////////////////////////////////////////////////////");
+						console.log("");
+						console.log("Hi There, good, you're in the console, so you're taking this seriously");
+						console.log("But I'm afraid you won't find a great deal here, minified and concatenated for prompt delivery and all");
+						console.log("However, you can find all the src files with notations and the Grunt task I used to do all for this");
+						console.log("right here https://github.com/generalstephen1");
+						console.log("");
+						console.log("///////////////////////////////////////////////////////////////");
+					}
+				</script>
 
-		<!--(bake templates/globalScripts.html scriptPrefix="")-->
-		<script src="{{scriptPrefix}}js/js_siteMain.js" type="text/javascript"></script>
+
+		  	<script src="All.min.js" type="text/javascript"></script>
+		<!(endif)-->
+
+
+
+
 
 
 	</body>

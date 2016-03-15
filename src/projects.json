@@ -22,8 +22,7 @@
 				"pageCopyColor": "#212121",
 				"customStyleSheet": "",
 				"pageOrder": [
-				  	{	"copy": "<p>Delving into the world of HTML5 and Twitter related user behaviour, a deceptively simple brief was set. The challenge was to see what useful information we could glean from users’ Twitter accounts WITHOUT user authentication. The output is ‘TweetieByte’ – a super simple social media monitoring tool that spits out user-friendly visual data in easy-to-swallow byte size chunks!</p>"
-					},{	"copy": "<a href='http://www.tweetiebyte.com' target='blank'><div class='projBtn'><p>Go To Site</p></div></a>"
+				  	{	"copy": "<p>Delving into the world of HTML5 and Twitter related user behavior, a deceptively simple brief was set. The challenge was to see what useful information we could glean from users Twitter accounts WITHOUT user authentication. The output is TweetieByte  a super simple social media monitoring tool that spits out user-friendly visual data in easy-to-swallow byte size chunks!</p>"					},{	"copy": "<a href='http://www.tweetiebyte.com' target='blank'><div class='projBtn'><p>Go To Site</p></div></a>"
 					},{ "image": "./928x727_tweetiebyte_inPage.jpg"
 					},{	"copy": "<h3 class='subHeader'>Top 5 skills used:</h3>"
 					},{ "copy":	"<ul>"
@@ -62,7 +61,7 @@
 				"projectID":"humans",
 				"title": "C4 Humans",
 				"tagDots": ["WebDev", "RichMedia"],
-				"summary": "Humans is set in a parallel present where the latest must-have gadget for any busy family is a ‘Synth’ – a highly-developed robotic servant eerily similar to its live counterpart. While working at Super natural, we were comissionded to produce the digital advertising campaign and raise awareness of the show and ultimately drive tune-in to much anticipated first episode.",
+				"summary": "Humans is set in a parallel present where the latest must-have gadget for any busy family is a ‘Synth’ – a highly-developed robotic servant eerily similar to its live counterpart.",
 				"blockSize": "reg",
 				"homeImg": "projects/humans/320x320_humans.jpg",
 				"homeColorTheme": "darkTheme",
@@ -71,9 +70,10 @@
 				"pageBgColor": "",
 				"pageCopyColor": "#212121",
 				"pageOrder": [
-						{ "copy": "<p>With custom sequences shot specifically for digital media, we used the lead character from the show – automaton Anita – to front all communications across a variety of high profile digital media environments including Xbox, Skype, MSN and The Guardian."
+						{ "copy": "<p>While working at Super natural, we were comissioned to produce the digital advertising campaign and raise awareness of the show and ultimately drive tune-in to much anticipated first episode.</p>"
+					},{	"copy": "<p>With custom sequences shot specifically for digital media, we used the lead character from the show – automaton Anita – to front all communications across a variety of high profile digital media environments including Xbox, Skype, MSN and The Guardian."
 					},{	"iframe": {"url": "./adSlot_970x250/index.html", "width":"970", "height":"250"}
-					},{	"copy": "<p>With all ads built in HTML5, we were able to ensure that the eery, but smooth robotic movements made by the character were visible across all platforms. To bullet proof this approach across the plethora of browsers and operating systems in a graceful way, users exposed to ads on Desktop would see full video sequences of the character while users on Tablet/Mobile devices were exposed to faux-video image sequences."
+					},{	"copy": "<p>With all ads built in HTML5, we were able to ensure that the eerie, but smooth robotic movements made by the character were visible across all platforms. To bullet proof this approach across the plethora of browsers and operating systems in a graceful way, users exposed to ads on Desktop would see full video sequences of the character while users on Tablet/Mobile devices were exposed to faux-video image sequences."
 					},{	"image": "./960x540_humans_inPage.jpg"
 					}	]
 			},
@@ -115,7 +115,7 @@
 				"projectID":"utopia2",
 				"title": "Utopia 2",
 				"tagDots": ["WebDev", "Design", "Multimedia", "RichMedia"],
-				"summary": "Runnaing on desktop and device across some very high profile media and designed to drive intrigue around the campaign’s central visual, a series of interactive HTML5 rich media homepage takeovers featured the bloodshot ‘all seeing eye’",
+				"summary": "Running on desktop and device across some very high profile media and designed to drive intrigue around the campaign’s central visual, a series of interactive HTML5 rich media homepage takeovers featured the bloodshot ‘all seeing eye’",
 				"blockSize": "reg",
 				"homeImg": "projects/utopia2/320x320_utopia2.jpg",
 				"homeColorTheme": "darkTheme",
@@ -170,7 +170,7 @@
 					},{	"copy": "<li><strong>Research</strong><p>Of course the first place to start is research into what came before. Looking at famous Chaise designers such as Le Corbusier, The history of the item, how they're intended to be used as well as how they're actually used.</p></li>"
 					},{	"copy": "<li><strong>The drawing board</strong><p>Next came the sketchbook (at least for me) there were pages and pages of ideas both emotive and technical. These went through a screening process both of what I wanted to do as well as various outside opinions as to what looked and felt the best. </p></li>"
 					},{	"copy": "<li><strong>Mock ups</strong><p>A similar process as above except with physical mock-ups, normally made of card and wire, though in this case there were a few paper mache and clay elements to some of the more biological ideas. Once again hundreds of concepts went through a screening process of what I liked, what my peers liked and this time what various members of staff thought were good ideas. It was also where outside experts such as engineers were first asked as to the possibility of these things existing at full size. These ideas were put into more high quality workshop-built mock-ups made of primitive workshop materials. </p></li>"
-					},{	"copy": "<li><strong>Digitalization</strong><p>The model seen in the photos was constructed off digital specifications. Using 3D autoCAD software Solidworks I built each part and assembled them to create renders which are easier to manipulate for small changes, it was at this point that a slight dip was put in the design in which to sit upon. It was also where the aerial view was noticed in it's likeness to a birds wing which eventually led to the name Avian Chaise.</p></li>"
+					},{	"copy": "<li><strong>Digitisation</strong><p>The model seen in the photos was constructed off digital specifications. Using 3D autoCAD software Solidworks I built each part and assembled them to create renders which are easier to manipulate for small changes, it was at this point that a slight dip was put in the design in which to sit upon. It was also where the aerial view was noticed in it's likeness to a birds wing which eventually led to the name Avian Chaise.</p></li>"
 					},{	"copy": "<li><strong>Build and Present</strong><p>The final assessment on this project was on a 1:16 scale model of the Chaise. To make this model as accurate as possible I used a lasercutter machine to get the wooden slats accurate to my digital model. Once again engineers were brought in to check the ideas validity, in the final design the intent was to have no glue whatsoever for ease in dismantling, this proved successful and so in a matter of minutes the 4.5m (4yd 2.7ft) can be dismantled into 42 slats ready to be flat-packed and transported (42 being the answer to everything).</p></li>"
 					},{	"copy": "</ol>"
 					},{	"image": "./620x400_Avian1.jpg"
@@ -186,7 +186,7 @@
 				"projectID":"zombiEvolution",
 				"title": "ZombiEvolution",
 				"tagDots": ["Games", "Design", "Multimedia", "ServerSide"],
-				"summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+				"summary": "ZombiEvolution is a project which was built around the concept of reinvigorating an old game concept, in this case, Zombies. This was a huge learning curve for me as I built this game completely from scratch having never made a 3D game before, nor coded in C#, nor used most of the programs I ended up using.. If anything, this game, while not very good, is a show of just how much I can learn in a short period of time. The game is a 3rd person hack'n'slash style game. The backstory is that the Zompocalypse has occurred and there are no humans left. Zombies must turn to cannibalism or they will inevitably perish. ",
 				"blockSize": "reg",
 				"homeImg": "projects/zombiEvolution/320x320_zombiEvolution.jpg",
 				"homeColorTheme": "lightTheme",
@@ -195,7 +195,7 @@
 				"pageBgColor": "",
 				"pageCopyColor": "#212121",
 				"pageOrder": [
-						{ "copy": "<p>ZombiEvolution is a project which was built around the concept of reinvigorating an old game concept, in this case, Zombies. This was a huge learning curve for me as I built this game completely from scratch having never made a 3D game before, nor coded in C#, nor used most of the programs I ended up using.. If anything, this game, while not very good, is a show of just how much I can learn in a short period of time. The game is a 3rd person hack'n'slash style game. The backstory is that the Zompocalypse has occurred and there are no humans left. Zombies must turn to cannibalism or they will inevitably perish. However, due to the biological makeup of the zombies in question, they have gained the ability to tear limbs off other zombies to increase their attack power. This is balanced with a steadily decreasing 'life force', and the more arms you have, the faster it decreases. This is a neverending survival game where you must simply last as long as you can to keep your score high.</p>"
+						{ "copy": "<p>However, due to the biological makeup of the zombies in question, they have gained the ability to tear limbs off other zombies to increase their attack power. This is balanced with a steadily decreasing 'life force', and the more arms you have, the faster it decreases. This is a neverending survival game where you must simply last as long as you can to keep your score high.</p>"
 					},{	"image": "./620x400_Zombie4.jpg"
 					},{	"copy": "<p>The game is a 3rd person hack'n'slash style game. The backstory is that the Zompocalypse has occurred and there are no humans left. Zombies must turn to cannibalism or they will inevitably perish. However, due to the biological makeup of the zombies in question, they have gained the ability to tear limbs off other zombies to increase their attack power. This is balanced with a steadily decreasing 'life force', and the more arms you have, the faster it decreases. This is a neverending survival game where you must simply last as long as you can to keep your score high.</p>"
 					},{	"image": "./620x400_Zombie1.jpg"

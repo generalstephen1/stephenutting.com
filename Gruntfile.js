@@ -41,8 +41,9 @@ module.exports = function(grunt){
         files: [
           {
             expand: true,
+            flatten: false,
             cwd: "construct",
-            src: ['css/**', 'js/**','img/**'],
+            src: ['projects/**/**.*', '**.ico','docs/**.*', 'img/**/*.jpg'],
             dest: 'build/'
           },
         ]
@@ -73,6 +74,15 @@ module.exports = function(grunt){
             dest: 'construct/img'
           },
         ]
+      }
+    },
+
+    targethtml: {
+      dist: {
+        files: {
+          'build/index.html': 'construct/index.html',
+          // 'build/projects/**/*.html': 'build/projects/**/*.html'
+        }
       }
     }
 
@@ -112,6 +122,7 @@ module.exports = function(grunt){
   grunt.loadNpmTasks('grunt-contrib-copy');
   grunt.loadNpmTasks('grunt-pngmin');
   grunt.loadNpmTasks('grunt-bake');
+  grunt.loadNpmTasks('grunt-targethtml');
 
   grunt.registerTask( "default", tasks);
 

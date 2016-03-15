@@ -1,0 +1,142 @@
+@charset "UTF-8";
+
+/*
+ *
+ * This is the CSS script for the loader and anything else that occurs before
+ * the ad goes into phase 2 and loads the child.
+ *
+ *
+ */
+
+ body, body * {
+	vertical-align: baseline;
+	border: 0 none;
+	outline: 0;
+	padding: 0;
+	margin: 0;
+  position: absolute;
+}
+
+
+.border {
+  width: 970px;
+  height: 250px;
+	overflow: hidden;
+	background: transparent;
+	z-index: 5;
+	border: 1px solid #9b9b9b;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+
+#border:before, *:after {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+
+
+#scrollingAssets{
+  top: 0px;
+  left: 0px;
+}
+
+.adMain {
+  width: 970px;
+  height: 250px;
+  top: 0px;
+  left: 0px;
+	overflow: hidden;
+}
+
+.offScreen{
+  top: -1000px;
+  left: -1000px;
+}
+
+.adBg {
+	top:0px;
+	left:0px;
+	width: 100%;
+	height: 100%;
+	background-color: #fff;
+}
+
+/****************
+  GLOBALS
+****************/
+
+#pageAssets{
+  background-color: #e1fffd;
+}
+
+/*
+ * THESE ARE VERY IMPORTANT< DO NOT TOUCH
+ * without the bg color and opacity fix IE doesn't think it exists and ignores clickthroughs
+*/
+#coverallBtn {
+  width: 100%;
+	height: 100%;
+	overflow: hidden;
+	z-index: 11;
+  background-color: red; /*Do not remove*/
+  opacity: 0; /*Do not remove*/
+}
+
+.btn {
+	cursor: pointer;
+}
+
+.backupGif{
+  background-image: url("4Creative_humans_970x250.jpg");
+  width: 970px;
+  height: 250px;
+}
+
+
+/****************
+  MISC
+****************/
+.hidden {
+	display: none;
+}
+
+.opac0 {
+	opacity: 0;
+}
+
+.fullSize {
+	width: 100%;
+	height: 100%;
+}
+
+
+
+/****************
+  PRELOADER
+****************/
+#preloader {
+	width: 74px;
+	height: 74px;
+	position: absolute;
+	z-index: 1;
+  left: 469px;
+  top: 81px;
+	opacity: 1;
+}
+
+.preloader-stalk {
+	background: black;
+	width: 4px;
+	height: 14px;
+	position: absolute;
+}
+
+.preloader-stalk-active {
+	opacity: 0;
+}
+
+.preload-img {
+	display: none;
+}

@@ -29,6 +29,7 @@
     "grunt-bake": "~0.3.13",
     "grunt-contrib-clean": "~0.6.0",
     "grunt-contrib-copy": "~0.8.0",
-    "grunt-pngmin": "~1.0.2"
+    "grunt-pngmin": "~1.0.2",
+    "grunt-targethtml": "^0.2.6"
   }
 }

@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+	<html lang="en">
+	<head>
+		<meta http-equiv="X-UA-Compatible" content="IE=Edge"/>
+		<script src="https://s0.2mdn.net/ads/studio/Enabler.js"></script>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<!--styles-->
+		<link rel=styleSheet href="css_polite.css" type="text/css">
+		<link rel=styleSheet href="css_dcVid.css" type="text/css">
+		<link rel=styleSheet href="css_adMain.css" type="text/css">
+
+	</head>
+
+	<body>
+		<!--preloader spinner and images that need manual preloading-->
+		<div id="preloader"></div>
+		<img class="preload-img" data-src="img_bg360_300x305_300x9760.jpg"/>
+		<img class="preload-img" data-src="img_vid360.jpg"/>
+		<img class="preload-img" data-src="img_vidPlay.png"/>
+		<img class="preload-img" data-src="img_vidReplay.png"/>
+		<img class="preload-img" data-src="img_vidPlayWithSound.png"/>
+
+
+		<div class="border"></div>
+
+		<!--div that shows once ad has loaded-->
+		<div class="adMain" id="adMain">
+			<div class="adBg"></div>
+
+			<div id="coverallBtn" class="btn"></div>
+			<div id="pageAssets" class="fullSize opac0">
+
+					<!--	->
+					<div id="guideImg"></div>
+					<-  -->
+
+					<div id="testVideo_container"></div>
+					<!-- <video id="testVideo" class="offScreen" preload="none" muted poster="img_poster.jpg">
+						<source src="testVideo.mp4" type="video/mp4"/>
+						<source src="testVideo.ogv" type="video/ogg" />
+						<source src="testVideo.webm" type="video/webm"/>
+					</video> -->
+
+
+					<div id="scrollingAssets">
+
+						<div id="bg360container">
+							<div id="bg360Shake_container" class="fullSize"></div>
+							<!-- <video id="bg360Shake" class="bg360" muted preload="none" poster="img_bg360_shake_poster.jpg">
+								<source src="headTurn_300x250_2.5mbs.mp4" type="video/mp4">
+								<source src="headTurn_300x250_2.5mbs.ogv" type="video/ogg">
+								<source src="headTurn_300x250_2.5mbs.webm" type="video/webm">
+							</video> -->
+							<div id="backup360"></div>
+						</div>
+
+
+						<div id="containerVid" class="containerVid endAsset opac0">
+							<!-- <video id="vidTomorrow" preload="none" controls poster="img_poster.jpg" style="visibility: hidden;">
+								<source src="C4S15C4T21018B_C4_humans_tomorrow_0.3mbs_128kbs.mp4" type="video/mp4"/>
+								<source src="C4S15C4T21018B_C4_humans_tomorrow_0.3mbs_128kbs.ogv" type="video/ogg" />
+								<source src="C4S15C4T21018B_C4_humans_tomorrow_0.3mbs_128kbs.webm" type="video/webm"/>
+							</video>
+							<video id="vidTonight" preload="none" controls poster="img_poster.jpg" style="visibility: hidden;">
+								<source src="C4S15C4T21018C_C4_humans_tonight_0.3mbs_128kbs.mp4" type="video/mp4"/>
+								<source src="C4S15C4T21018C_C4_humans_tonight_0.3mbs_128kbs.ogv" type="video/ogg" />
+								<source src="C4S15C4T21018C_C4_humans_tonight_0.3mbs_128kbs.webm" type="video/webm"/>
+							</video>
+							<video id="vidSunday" preload="none" controls poster="img_poster.jpg" style="visibility: hidden;">
+								<source src="C4S15C4T21018A_C4_humans_sunday_0.3mbs_128kbs.mp4" type="video/mp4"/>
+								<source src="C4S15C4T21018A_C4_humans_sunday_0.3mbs_128kbs.ogv" type="video/ogg" />
+								<source src="C4S15C4T21018A_C4_humans_sunday_0.3mbs_128kbs.webm" type="video/webm"/>
+							</video> -->
+
+							<img id="vidPoster" data-src="img_poster.jpg">
+							<div id="vid360"></div>
+							<div id="tint"></div>
+							<div id="ctaVid"></div>
+						</div>
+
+
+						<div id="titleContainer" class="endAsset opac0">
+							<img id="humans" data-src="img_humans.png">
+						</div>
+
+						<div id="txContainer" class="endAsset opac0">
+							<img id="txTonight" class="tx" data-src="img_tx_tonight.png">
+							<img id="txTomorrow" class="tx" data-src="img_tx_tomorrow.png">
+							<img id="txSunday" class="tx" data-src="img_tx_sunday.png">
+						</div>
+
+						<img id="logo" data-src="img_logo.png" class="opac0">
+					</div>
+				</div>
+
+		</div>
+
+		<!--scripts-->
+		<script src="js_loader.js" type="text/javascript"></script>
+		<script src="js_adMain.js" type="text/javascript"></script>
+		<script src="js_dcVid.js" type="text/javascript"></script>
+		<script src="js_superTween.js" type="text/javascript"></script>
+		<script src="js_dateLogic.js" type="text/javascript"></script>
+		<script src="js_bgVid.js" type="text/javascript"></script>
+		<script src="js_timeline.js" type="text/javascript"></script>
+		<script src="js_utils.js" type="text/javascript"></script>
+		<script src="js_loadedListener.js" type="text/javascript"></script>
+
+	</body>
+</html>
