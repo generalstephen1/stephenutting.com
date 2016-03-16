@@ -1,7 +1,7 @@
 {
 	"config": {
 		"availabletags": ["WebDev", "Design", "Multimedia", "ServerSide", "RichMedia", "Management", "Games"],
-		"headerBlurb": "<p style='font-size: 3.0rem;'>Let's Create Something Together.</p><p style='font-size: 1.6rem;'>Out of code...</p><p style='font-size: 0.7rem;'>because code is awesome</p>",
+		"headerBlurb": "<p style='font-size: 3.0rem;'>Hi, I'm Steve</p><p style='font-size: 1.6rem;'>Let's create something together</p><p style='font-size: 0.7rem;'>Out of code... because code is awesome</p>",
 		"pageTitle": "Steve Utting"
 	},
 	"now": {

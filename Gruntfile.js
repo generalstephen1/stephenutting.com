@@ -164,22 +164,11 @@ module.exports = function(grunt){
         current_symlink: 'html',
         deploy_path: '/var/www/stephenutting.com'
       },
-      work: {
+      prod: {
         options: {
             host: topSecret.host,
             username: topSecret.username,
-            privateKey: fs.readFileSync(topSecret.workSSHLocation),
-            password: topSecret.passwd,
-            port: topSecret.port,
-            releases_to_keep: '5',
-            // release_subdir: 'myapp'
-          }
-      },
-      home: {
-        options: {
-            host: topSecret.host,
-            username: topSecret.username,
-            privateKey: fs.readFileSync(topSecret.homeSSHLocation),
+            privateKey: fs.readFileSync(topSecret.SSHLocation),
             password: topSecret.passwd,
             port: topSecret.port,
             releases_to_keep: '5',
