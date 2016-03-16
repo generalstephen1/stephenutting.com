@@ -2,8 +2,6 @@ this is a to do list for the site
 
   ==== TOP 3 ====
   1) add more projects:
-      - SuperTween
-      - DEUTSCHLAND’83
       - ITV HUB
       - Hunted
       - InternetMatters
