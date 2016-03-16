@@ -9,12 +9,40 @@
 	},
 	"projects":[
 			{
+				"projectID":"superTween",
+				"title": "SuperTween",
+				"tagDots": ["WebDev", "Multimedia", "RichMedia"],
+				"summary": "This is a teeny tiny animation engine I built to work with no dependencies on all browsers specifically for those super strict file weight limits. The whole library comes to 11kb when minified",
+				"blockSize": "xLrg",
+				"homeImg": "projects/superTween/960x320_superTween.jpg",
+				"homeColorTheme": "darkTheme",
+				"coverImg": "1200x352_superTween.jpg",
+				"coverImgBgColor": "#f2f2f2",
+				"pageBgColor": "",
+				"pageCopyColor": "#212121",
+				"customStyleSheet": "",
+				"pageOrder": [
+						{	"copy": "<p data-height='655' data-theme-id='0' data-slug-hash='mVMzpZ' data-default-tab='result' data-user='generalstephen1' class='codepen'>See the Pen <a href='http://codepen.io/generalstephen1/pen/mVMzpZ/'>SuperTween Example</a> by Steve Utting (<a href='http://codepen.io/generalstephen1'>@generalstephen1</a>) on <a href='http://codepen.io'>CodePen</a>.</p><script async src='//assets.codepen.io/assets/embed/ei.js'></script>"
+					},{	"copy": "<a href='https://github.com/Super-natural/superTween' target='blank'><div class='projBtn'><p>Check it out on GitHub</p></div></a>"
+					},{	"copy": "<h3 class='subHeader'>Reasons to love it:</h3>"
+					},{ "copy":	"<ul>"
+					},{	"copy": "<li>Teeny Tiny (with capitals) fileweight</li>"
+					},{	"copy": "<li>Built to work on all browsers (IE8+)</li>"
+					},{	"copy": "<li>Uses CSS if supported</li>"
+					},{	"copy": "<li>Has a secondary function of superLoops (which I'll explain in a minute)</li>"
+					},{	"copy": "<li>Syntax is modelled on GSAP, easy to transition between the two</li>"
+					},{ "copy":	"</ul>"
+					},{	"copy": "<h3 class='subHeader'>So What's a SuperLoop?</h3>"
+					},{ "copy": "<p>These are a custom fix to create more engaging videos on devices that do not allow autoplaying video. It requires a spritesheet of frames stitched together vertically. The superTween command that launches one of these incrementally jumps the image a set distance on a specified interval allowing a short preview of a video the be autoplayed and looped for a more engaging experience.</p>"
+					}	]
+			},
+			{
 				"projectID":"tweetiebyte",
 				"title": "TweetieByte",
 				"tagDots": ["WebDev", "ServerSide"],
 				"summary": "Tweetiebyte is a Twitter scanning infographic generator from pre Twitter analytics days (circa 2014) you can put in any Twitter handle and it will return some handy data in the form of a cute infographic",
-				"blockSize": "xLrg",
-				"homeImg": "projects/tweetiebyte/960x320_tweetiebyte.jpg",
+				"blockSize": "lrg",
+				"homeImg": "projects/tweetiebyte/640x320_tweetiebyte.jpg",
 				"homeColorTheme": "darkTheme",
 				"coverImg": "1200x352_tweetiebyte.jpg",
 				"coverImgBgColor": "#ffffff",
@@ -32,6 +60,26 @@
 					},{	"copy": "<li>Heavy collaboration with designers</li>"
 					},{	"copy": "<li>Extensive CSS styling</li>"
 					},{ "copy":	"</ul>"
+					}	]
+			},
+			{
+				"projectID":"humans",
+				"title": "C4 Humans",
+				"tagDots": ["WebDev", "RichMedia"],
+				"summary": "Humans is set in a parallel present where the latest must-have gadget for any busy family is a ‘Synth’ – a highly-developed robotic servant eerily similar to its live counterpart.",
+				"blockSize": "reg",
+				"homeImg": "projects/humans/320x320_humans.jpg",
+				"homeColorTheme": "darkTheme",
+				"coverImg": "1200x352_humans.jpg",
+				"coverImgBgColor": "#e4ffff",
+				"pageBgColor": "",
+				"pageCopyColor": "#212121",
+				"pageOrder": [
+						{ "copy": "<p>While working at Super natural, we were comissioned to produce the digital advertising campaign and raise awareness of the show and ultimately drive tune-in to much anticipated first episode.</p>"
+					},{	"copy": "<p>With custom sequences shot specifically for digital media, we used the lead character from the show – automaton Anita – to front all communications across a variety of high profile digital media environments including Xbox, Skype, MSN and The Guardian."
+					},{	"iframe": {"url": "./adSlot_970x250/index.html", "width":"970", "height":"250"}
+					},{	"copy": "<p>With all ads built in HTML5, we were able to ensure that the eerie, but smooth robotic movements made by the character were visible across all platforms. To bullet proof this approach across the plethora of browsers and operating systems in a graceful way, users exposed to ads on Desktop would see full video sequences of the character while users on Tablet/Mobile devices were exposed to faux-video image sequences."
+					},{	"image": "./960x540_humans_inPage.jpg"
 					}	]
 			},
 			{
@@ -66,26 +114,6 @@
 					},{	"copy": "<h3 class='subHeader'>Previsualisation development</h3>"
 					},{	"copy": "<p class='copy'>Creating photoshop assets specifically for presentations, conceptualising what products would look like in their intended environments. outputted as both still images and videos.</p>"
 					},{	"type": "codeSnippet",	"data": ""
-					}	]
-			},
-			{
-				"projectID":"humans",
-				"title": "C4 Humans",
-				"tagDots": ["WebDev", "RichMedia"],
-				"summary": "Humans is set in a parallel present where the latest must-have gadget for any busy family is a ‘Synth’ – a highly-developed robotic servant eerily similar to its live counterpart.",
-				"blockSize": "reg",
-				"homeImg": "projects/humans/320x320_humans.jpg",
-				"homeColorTheme": "darkTheme",
-				"coverImg": "1200x352_humans.jpg",
-				"coverImgBgColor": "#e4ffff",
-				"pageBgColor": "",
-				"pageCopyColor": "#212121",
-				"pageOrder": [
-						{ "copy": "<p>While working at Super natural, we were comissioned to produce the digital advertising campaign and raise awareness of the show and ultimately drive tune-in to much anticipated first episode.</p>"
-					},{	"copy": "<p>With custom sequences shot specifically for digital media, we used the lead character from the show – automaton Anita – to front all communications across a variety of high profile digital media environments including Xbox, Skype, MSN and The Guardian."
-					},{	"iframe": {"url": "./adSlot_970x250/index.html", "width":"970", "height":"250"}
-					},{	"copy": "<p>With all ads built in HTML5, we were able to ensure that the eerie, but smooth robotic movements made by the character were visible across all platforms. To bullet proof this approach across the plethora of browsers and operating systems in a graceful way, users exposed to ads on Desktop would see full video sequences of the character while users on Tablet/Mobile devices were exposed to faux-video image sequences."
-					},{	"image": "./960x540_humans_inPage.jpg"
 					}	]
 			},
 			{

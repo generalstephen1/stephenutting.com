@@ -1,3 +1,8 @@
+
+
+var topSecret = require("./topSecret");
+var fs = require('fs');
+
 module.exports = function(grunt){
 
   // get the jsonFile data from external json file
@@ -151,7 +156,37 @@ module.exports = function(grunt){
           to: './'
         }]
       }
-    }
+    },
+
+    environments: {
+      options: {
+        local_path: 'build',
+        current_symlink: 'html',
+        deploy_path: '/var/www/stephenutting.com'
+      },
+      work: {
+        options: {
+            host: topSecret.host,
+            username: topSecret.username,
+            privateKey: fs.readFileSync(topSecret.workSSHLocation),
+            password: topSecret.passwd,
+            port: topSecret.port,
+            releases_to_keep: '5',
+            // release_subdir: 'myapp'
+          }
+      },
+      home: {
+        options: {
+            host: topSecret.host,
+            username: topSecret.username,
+            privateKey: fs.readFileSync(topSecret.homeSSHLocation),
+            password: topSecret.passwd,
+            port: topSecret.port,
+            releases_to_keep: '5',
+            // release_subdir: 'myapp'
+          }
+      }
+    },
 
   }
 
@@ -195,6 +230,7 @@ module.exports = function(grunt){
   grunt.loadNpmTasks('grunt-contrib-cssmin');
   grunt.loadNpmTasks('grunt-contrib-uglify');
   grunt.loadNpmTasks('grunt-text-replace');
+  grunt.loadNpmTasks('grunt-ssh-deploy');
 
   grunt.registerTask( "default", tasks);
 
@@ -203,5 +239,7 @@ module.exports = function(grunt){
   var prodTasks = tasks.concat(justProd)
 
   grunt.registerTask( "prod", prodTasks);
+  // grunt.registerTask( "deploy", ["environments:production"]);
+
   grunt.registerTask( "justProd", justProd);
 };
