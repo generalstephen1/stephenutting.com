@@ -8,5 +8,3 @@ this is a to do list for the site
       - Super natural
       - Generic Gyro Proto
       - Font Minifier
-
-  2) Auto-update Prod
