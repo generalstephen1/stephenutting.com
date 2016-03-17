@@ -7,10 +7,19 @@
 
 	  <!-- CSS  -->
 
-		
-		
+		<!--(if target dev)><!-->
+			<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300' rel='stylesheet' type='text/css'>
+			
+			<link href="../../css/lib/skeleton.css" type="text/css" rel="stylesheet"/>
+			<link href="../../css/css_globals.css" type="text/css" rel="stylesheet"/>
+			<link href="../../css/css_projects.css" type="text/css" rel="stylesheet"/>
+			<link href="../../css/css_siteMain.css" type="text/css" rel="stylesheet"/>
+			<link href="../../css/css_mediaQueries.css" type="text/css" rel="stylesheet"/>
+			
+		<!--<!(endif)-->
+		<!--(if target dist)>
 			<link rel="stylesheet" href="../../All.min.css">
-		
+		<!(endif)-->
 
 		<style>
 			header{
@@ -193,11 +202,29 @@
 		
 
 
-		
-		
+		<!--(if target dev)><!-->
+			<!--JS-->
+			<script src="../../js/lib/masonry.min.js" type="text/javascript"></script>
+			<!-- <script src="../../js/lib/superTween.min.js" type="text/javascript"></script> -->
+			
+			<!-- <script src="../../js/lib/TweenLite.min.js" type="text/javascript"></script>
+			<script src="../../js/lib/plugins/CSSPlugin.min.js" type="text/javascript"></script>
+			<script src="../../js/lib/TimelineLite.js" type="text/javascript"></script> -->
+			
+			
+			
+			<script src="../../js/js_utils.js" type="text/javascript"></script>
+			<script src="../../js/js_animation.js" type="text/javascript"></script>
+			<script src="../../js/js_globalListeners.js" type="text/javascript"></script>
+			<script src="../../js/js_headerControl.js" type="text/javascript"></script>
+			<script src="../../js/js_scrollControl.js" type="text/javascript"></script>
+			
+			<script src="../../js/js_projectMain.js" type="text/javascript"></script>
+		<!--<!(endif)-->
+		<!--(if target dist)>
 			<script src="../../All.min.js" type="text/javascript"></script>
 			<script src="../../Proj.min.js" type="text/javascript"></script>
-		
+		<!(endif)-->
 
 
 
