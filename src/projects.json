@@ -65,6 +65,57 @@
 					}	]
 			},
 			{
+				"projectID":"fontMinify",
+				"title": "Font Minifier",
+				"tagDots": ["WebDev", "Multimedia", "ServerSide"],
+				"summary": "A small python script that creates 'minified' font files in various web-ready formats. It does this by utilising the python FontForge API.",
+				"blockSize": "reg",
+				"homeImg": "projects/fontMinify/320x320_fontMinify.jpg",
+				"homeColorTheme": "lightTheme",
+				"coverImg": "1200x352_fontMinify.jpg",
+				"coverImgBgColor": "#0d0d0d",
+				"headerCopyColour": "#ffffff",
+				"pageBgColor": "",
+				"pageCopyColor": "#212121",
+				"pageOrder": [
+						{ "copy": "<p>Very simple little tool that with takes all the glyphs in a font, extracts the ones you want and creates a new font with them.</p>"
+						},{	"copy": "<p>very useful for those projects that have a very small file-size limit.</p>"
+						},{	"copy": "<a href='https://github.com/Super-natural/SuperFont' target='_blank'><p>Check it out on Gihub by clicking here</p></a>"
+					}	]
+			},
+			{
+				"projectID":"supernatural",
+				"title": "Super natural",
+				"tagDots": ["WebDev", "Multimedia", "ServerSide", "RichMedia"],
+				"summary": "Super natural is an award-winning, independent digital production agency specialising in cross-platform rich media advertising and web development. Working with some of the world’s best agencies as well as brands directly, we blend powerful creative ideas with an intelligent application of technology. Naturally.",
+				"blockSize": "xLrg",
+				"homeImg": "projects/supernatural/960x320_supernatural.jpg",
+				"homeColorTheme": "lightTheme",
+				"coverImg": "1200x352_supernatural.jpg",
+				"coverImgBgColor": "#f2f2f2",
+				"headerCopyColour": "#ffffff",
+				"pageBgColor": "",
+				"pageCopyColor": "#212121",
+				"customStyleSheet": "",
+				"pageOrder": [
+				  	{	"copy": "<p>My primary role at Super Natural is that of front-end developer, however I have also worked on full-stack projects both within the digital marketing sphere and as a prototyper. Skills learned are extensive and varied, including mobile and mobile-web development, social media integration, Mac App development, server setup, running and maintenance. All this in a host of languages including JavaScript, Python, PHP and NodeJS.</p>"
+					},{ "video": "http://player.vimeo.com/video/109836047?color=e41969"
+					},{	"copy": "<p>Beyond technical skills, working at Super Natural has taught me how to work in a fast-paced environment yet ensuring a very high standard of output. This is thanks to following a very strict internal process, as well as working in a logical a clearly defined way so as to make my scripting both readable and clear as to its function.</p>"
+					},{	"copy": "<h3 class='subHeader'>Key Skills Learnt:</h3>"
+					},{ "copy":	"<ul>"
+					},{	"copy": "<li>Automation, reusable code</li>"
+					},{	"copy": "<li>HTML, CSS, JS, PHP, NodeJS and Python</li>"
+					},{	"copy": "<li>Responsive and dynamic front-end web development</li>"
+					},{	"copy": "<li>Adobe Suite: Photoshop, Illustrator, After Effects, Animate</li>"
+					},{	"copy": "<li>Efficient time management</li>"
+					},{	"copy": "<li>Technical consulting in meetings</li>"
+					},{	"copy": "<li>SSH, SEO, local testing environments</li>"
+					},{	"copy": "<li>Gulp, Grunt, LESS, SASS, and other pre and post processors</li>"
+					},{	"copy": "<li>Adserver functionality, Doubleclick, Flashtalking, etc</li>"
+					},{ "copy":	"</ul>"
+					}	]
+			},
+			{
 				"projectID":"humans",
 				"title": "C4 Humans",
 				"tagDots": ["WebDev", "RichMedia"],
@@ -79,9 +130,9 @@
 				"pageCopyColor": "#212121",
 				"pageOrder": [
 						{ "copy": "<p>While working at Super natural, we were comissioned to produce the digital advertising campaign and raise awareness of the show and ultimately drive tune-in to much anticipated first episode.</p>"
-					},{	"copy": "<p>With custom sequences shot specifically for digital media, we used the lead character from the show – automaton Anita – to front all communications across a variety of high profile digital media environments including Xbox, Skype, MSN and The Guardian."
+					},{	"copy": "<p>With custom sequences shot specifically for digital media, we used the lead character from the show – automaton Anita – to front all communications across a variety of high profile digital media environments including Xbox, Skype, MSN and The Guardian.</p>"
 					},{	"iframe": {"url": "./adSlot_970x250/index.html", "width":"970", "height":"250"}
-					},{	"copy": "<p>With all ads built in HTML5, we were able to ensure that the eerie, but smooth robotic movements made by the character were visible across all platforms. To bullet proof this approach across the plethora of browsers and operating systems in a graceful way, users exposed to ads on Desktop would see full video sequences of the character while users on Tablet/Mobile devices were exposed to faux-video image sequences."
+					},{	"copy": "<p>With all ads built in HTML5, we were able to ensure that the eerie, but smooth robotic movements made by the character were visible across all platforms. To bullet proof this approach across the plethora of browsers and operating systems in a graceful way, users exposed to ads on Desktop would see full video sequences of the character while users on Tablet/Mobile devices were exposed to faux-video image sequences.</p>"
 					},{	"image": "./960x540_humans_inPage.jpg"
 					}	]
 			},
@@ -156,7 +207,7 @@
 				"pageCopyColor": "#212121",
 				"pageOrder": [
 						{	"copy": "<p>The Datavore project was a group effort attempting to research and come up with a scenario of what the city of Wellington, New Zealand would be like in the year 2040. with this we were in partnership with members of the Science department of the university. Our group concentrated on the existence of drones as helping hands paralleled with the development of both internet and biological materials. The idea of being data consumers is where the name Datavores originated. The projects roots were derived from the concept of overpopulation, the decline of the natural environment and rising water levels. The 'Bloom' is essentially a floating suburb built of bio-matter and houses self-sustaining communities. the full process can be found on the <a href='http://datavores.tumblr.com/'>group blog on tumblr.</a></p>"
-					},{	"video": "https://vimeo.com/video/62995940"
+					},{	"video": "https://player.vimeo.com/video/62995940"
 					},{	"copy": "<ol>"
 					},{	"copy": "<li>Research<p>A HUGE part of this project was directed to research, looking at existing technologies and predictions of the future. Ongoing trends such as Moores law of increasing computer power and the development of thought controlled objects were also major players in the research. What I can definitely say now is that the next 30 years are going to be both very very scary and very exciting. </p></li>"
 					},{	"copy": "<li>Idea Development and Roles <p>Specifying first what direction we wanted to go in then what we each wanted to do for that direction proved very difficult. Each member of the group came from a different discipline and therefore communication was very important. Once this was established it became more about honing ideas down as the areas we were looking into were so rich with concepts and idea. We soon worked out achievable goals however. This part of the process tied closely with the research aspect of the project and there was a lot of going back and forth. </p></li>"
