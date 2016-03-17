@@ -221,14 +221,13 @@ module.exports = function(grunt){
   grunt.loadNpmTasks('grunt-text-replace');
   grunt.loadNpmTasks('grunt-ssh-deploy');
 
-  grunt.registerTask( "default", tasks);
+
 
   //this will contain concat and uglify etc
   var justProd = ["clean:release", "copy:release", "targethtml", "cssmin", "uglify", "replace"];
   var prodTasks = tasks.concat(justProd)
 
+  grunt.registerTask( "default", tasks);
   grunt.registerTask( "prod", prodTasks);
-  // grunt.registerTask( "deploy", ["environments:production"]);
-
   grunt.registerTask( "justProd", justProd);
 };

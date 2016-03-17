@@ -93,7 +93,8 @@ Site.siteMain.loadDom = function(){
     "projectCards",
     "globalHeader",
     "globalLogoLrg",
-    "globalLogoSml"
+    "globalLogoSml",
+    "headerTitleContainer"
 	];
 
   var classes = [

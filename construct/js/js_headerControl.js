@@ -4,12 +4,14 @@ var Site = Site || {};
 
 Site.headerControl.shrinkHeader = function(){
 	Site.dom.globalHeader.style.height = "50px";
-	Site.dom.globalLogoLrg.style.display = "none";
+	// Site.dom.globalLogoLrg.style.display = "none";
+  Site.dom.headerTitleContainer.style.display = "none";
 	Site.dom.globalLogoSml.style.opacity = "1";
 };
 
 Site.headerControl.enlargeHeader = function(){
 	Site.dom.globalHeader.style.height = "22em";
-	Site.dom.globalLogoLrg.style.display = "inline-block";
+	// Site.dom.globalLogoLrg.style.display = "inline-block";
+  Site.dom.headerTitleContainer.style.display = "block";
 	Site.dom.globalLogoSml.style.opacity = "0";
 };

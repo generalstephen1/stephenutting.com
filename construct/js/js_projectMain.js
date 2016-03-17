@@ -44,7 +44,8 @@ Site.projectMain.loadDom = function(){
 	var elems = [
     "globalHeader",
     "globalLogoLrg",
-    "globalLogoSml"
+    "globalLogoSml",
+    "headerTitleContainer"
 	];
 
   var classes = [

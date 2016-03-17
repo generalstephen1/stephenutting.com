@@ -21,6 +21,29 @@ header {
 .headerLockup {
   margin-top: 3em;
 }
+#headerTitleContainer {
+  margin-right: -100px;
+  color: #f6f6f6;
+}
+.headerCopy {
+  display: inline-block;
+  float: right;
+}
+.headerTitle,
+.headerSubtitle {
+  position: relative;
+  text-align: right;
+  color: #ffffff;
+}
+.headerTitle {
+  font-size: 3rem;
+}
+.headerSubtitle {
+  font-size: 1.5rem;
+}
+#globalLogoLrg {
+  float: right;
+}
 .menuBtn {
   background-color: #f6f6f6;
   height: 3em;

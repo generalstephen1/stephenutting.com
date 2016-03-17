@@ -18,6 +18,7 @@
 				"homeColorTheme": "darkTheme",
 				"coverImg": "1200x352_superTween.jpg",
 				"coverImgBgColor": "#f2f2f2",
+				"headerCopyColour": "#212121",
 				"pageBgColor": "",
 				"pageCopyColor": "#212121",
 				"customStyleSheet": "",
@@ -46,6 +47,7 @@
 				"homeColorTheme": "darkTheme",
 				"coverImg": "1200x352_tweetiebyte.jpg",
 				"coverImgBgColor": "#ffffff",
+				"headerCopyColour": "#212121",
 				"pageBgColor": "",
 				"pageCopyColor": "#212121",
 				"customStyleSheet": "",
@@ -72,6 +74,7 @@
 				"homeColorTheme": "darkTheme",
 				"coverImg": "1200x352_humans.jpg",
 				"coverImgBgColor": "#e4ffff",
+				"headerCopyColour": "#212121",
 				"pageBgColor": "",
 				"pageCopyColor": "#212121",
 				"pageOrder": [
@@ -92,6 +95,7 @@
 				"homeColorTheme": "darkTheme",
 				"coverImg": "1200x352_makelight.jpg",
 				"coverImgBgColor": "#000000",
+				"headerCopyColour": "#ffffff",
 				"pageBgColor": "",
 				"pageCopyColor": "#212121",
 				"pageOrder": [
@@ -126,6 +130,7 @@
 				"homeColorTheme": "darkTheme",
 				"coverImg": "1200x352_utopia2.jpg",
 				"coverImgBgColor": "#ffeb00",
+				"headerCopyColour": "#212121",
 				"pageBgColor": "",
 				"pageCopyColor": "#212121",
 				"pageOrder": [
@@ -146,6 +151,7 @@
 				"homeColorTheme": "darkTheme",
 				"coverImg": "1200x352_datavores.jpg",
 				"coverImgBgColor": "#000000",
+				"headerCopyColour": "#ffffff",
 				"pageBgColor": "",
 				"pageCopyColor": "#212121",
 				"pageOrder": [
@@ -180,6 +186,7 @@
 				"homeColorTheme": "darkTheme",
 				"coverImg": "1200x352_drawings.jpg",
 				"coverImgBgColor": "#f8f8f8",
+				"headerCopyColour": "#212121",
 				"pageBgColor": "",
 				"pageCopyColor": "#212121",
 				"pageOrder": [
@@ -201,6 +208,7 @@
 				"homeColorTheme": "darkTheme",
 				"coverImg": "1200x352_avian.jpg",
 				"coverImgBgColor": "#ffffff",
+				"headerCopyColour": "#212121",
 				"pageBgColor": "",
 				"pageCopyColor": "#212121",
 				"pageOrder": [
@@ -231,6 +239,7 @@
 				"homeColorTheme": "lightTheme",
 				"coverImg": "1200x352_zombiEvolution.jpg",
 				"coverImgBgColor": "#000000",
+				"headerCopyColour": "#ffffff",
 				"pageBgColor": "",
 				"pageCopyColor": "#212121",
 				"pageOrder": [

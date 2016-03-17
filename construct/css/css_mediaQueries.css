@@ -13,8 +13,31 @@
   .socialIcon#githubBtn {
     margin-top: 34px;
   }
+  .headerTitle {
+    font-size: 2rem;
+  }
+  .headerSubtitle {
+    font-size: 1rem;
+  }
 }
 @media screen and (max-width: 600px) {
+  .headerTitle,
+  .headerSubtitle {
+    text-align: center;
+  }
+  .headerCopy,
+  #globalLogoLrg {
+    float: none;
+  }
+  .headerCopy {
+    width: 100%;
+  }
+  #headerTitleContainer {
+    margin: 0;
+  }
+  .headerLockup {
+    width: 100%;
+  }
   #footer {
     background-image: none;
     height: 33em;

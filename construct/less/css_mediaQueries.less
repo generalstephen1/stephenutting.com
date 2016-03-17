@@ -27,11 +27,16 @@
     margin-right: -((@socialBtn800/2) - @socialMar800);
     &#githubBtn{      margin-top: (@socialBtn800/2) + @socialMar800; }
   }
+  .headerTitle {    font-size: 2rem;}
+  .headerSubtitle{  font-size: 1rem;}
+
 
 }
 
 // 400 -> 600
 @media screen and (max-width: 600px) {
+
+
   // .socialIcon{
   //   width: @socialBtn600;
   //   height: @socialBtn600;
@@ -41,6 +46,13 @@
   .projBody{
     // padding-bottom:  33em;
   }
+
+  .headerTitle,
+  .headerSubtitle{ text-align: center  }
+  .headerCopy, #globalLogoLrg {float: none}
+  .headerCopy { width: 100%;}
+  #headerTitleContainer { margin: 0; }
+  .headerLockup {width: 100%;}
 
   #footer {
     background-image: none;
