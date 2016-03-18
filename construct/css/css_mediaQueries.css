@@ -21,6 +21,9 @@
   }
 }
 @media screen and (max-width: 600px) {
+  .skillname {
+    font-size: 0.5rem;
+  }
   .headerTitle,
   .headerSubtitle {
     text-align: center;

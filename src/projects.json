@@ -1,8 +1,41 @@
 {
 	"config": {
 		"availabletags": ["WebDev", "Design", "Multimedia", "ServerSide", "RichMedia", "Management", "Games"],
-		"headerBlurb": "<p style='font-size: 3.0rem;'>Hi, I'm Steve</p><p style='font-size: 1.6rem;'>Let's create something together</p><p style='font-size: 0.7rem;'>Out of code... because code is awesome</p>",
-		"pageTitle": "Steve Utting"
+		"headerBlurb": "<p style='font-size: 3.0rem;'>Let's Create Something Together</p>",
+		"pageTitle": "Steve Utting",
+		"skillset": {
+
+			"FrontEnd": [
+					{		"n": "Javascript", 		"s": "<img src='./img/global/skillDot.png'/><img src='./img/global/skillDot.png'/><img src='./img/global/skillDot.png'/><img src='./img/global/skillDot.png'/><img src='./img/global/skillDot.png'/>"},
+					{		"n": "HTML5", 		 		"s": "<img src='./img/global/skillDot.png'/><img src='./img/global/skillDot.png'/><img src='./img/global/skillDot.png'/><img src='./img/global/skillDot.png'/>"},
+					{		"n": "CSS3", 			 		"s": "<img src='./img/global/skillDot.png'/><img src='./img/global/skillDot.png'/><img src='./img/global/skillDot.png'/><img src='./img/global/skillDot.png'/>"		},
+					{		"n": "Gulp/Grunt", 		"s": "<img src='./img/global/skillDot.png'/><img src='./img/global/skillDot.png'/><img src='./img/global/skillDot.png'/><img src='./img/global/skillDot.png'/>"		},
+					{		"n": "MV* Frameworks","s": "<img src='./img/global/skillDot.png'/><img src='./img/global/skillDot.png'/><img src='./img/global/skillDot.png'/>"		},
+					{		"n": "Git", 			 		"s": "<img src='./img/global/skillDot.png'/><img src='./img/global/skillDot.png'/><img src='./img/global/skillDot.png'/>"		},
+					{		"n": "WebGL", 		 		"s": "<img src='./img/global/skillDot.png'/><img src='./img/global/skillDot.png'/><img src='./img/global/skillDot.png'/>"		},
+					{		"n": "SEO", 			 		"s": "<img src='./img/global/skillDot.png'/><img src='./img/global/skillDot.png'/>"		}
+				],
+			"DesignManagement": [
+					{		"n": "Communication", 				"s": "<img src='./img/global/skillDot.png'/><img src='./img/global/skillDot.png'/><img src='./img/global/skillDot.png'/><img src='./img/global/skillDot.png'/><img src='./img/global/skillDot.png'/>"		},
+					{		"n": "Following Process", 		"s": "<img src='./img/global/skillDot.png'/><img src='./img/global/skillDot.png'/><img src='./img/global/skillDot.png'/><img src='./img/global/skillDot.png'/><img src='./img/global/skillDot.png'/>"		},
+					{		"n": "Learning New Skills",	 	"s": "<img src='./img/global/skillDot.png'/><img src='./img/global/skillDot.png'/><img src='./img/global/skillDot.png'/><img src='./img/global/skillDot.png'/><img src='./img/global/skillDot.png'/>"		},
+					{		"n": "Work Ownership", 				"s": "<img src='./img/global/skillDot.png'/><img src='./img/global/skillDot.png'/><img src='./img/global/skillDot.png'/><img src='./img/global/skillDot.png'/>"		},
+					{		"n": "Time Management", 			"s": "<img src='./img/global/skillDot.png'/><img src='./img/global/skillDot.png'/><img src='./img/global/skillDot.png'/><img src='./img/global/skillDot.png'/>"		},
+					{		"n": "Teamwork", 			 				"s": "<img src='./img/global/skillDot.png'/><img src='./img/global/skillDot.png'/><img src='./img/global/skillDot.png'/><img src='./img/global/skillDot.png'/>"		},
+					{		"n": "Adobe Suite", 		 			"s": "<img src='./img/global/skillDot.png'/><img src='./img/global/skillDot.png'/><img src='./img/global/skillDot.png'/>"		},
+					{		"n": "Design", 			 					"s": "<img src='./img/global/skillDot.png'/><img src='./img/global/skillDot.png'/><img src='./img/global/skillDot.png'/>"		}
+				],
+			"OtherDevelopment": [
+					{		"n": "NodeJS", 		"s": "<img src='./img/global/skillDot.png'/><img src='./img/global/skillDot.png'/><img src='./img/global/skillDot.png'/><img src='./img/global/skillDot.png'/>"		},
+					{		"n": "Testing", 	"s": "<img src='./img/global/skillDot.png'/><img src='./img/global/skillDot.png'/><img src='./img/global/skillDot.png'/><img src='./img/global/skillDot.png'/>"		},
+					{		"n": "Automation","s": "<img src='./img/global/skillDot.png'/><img src='./img/global/skillDot.png'/><img src='./img/global/skillDot.png'/>"		},
+					{		"n": "UX/UI", 		"s": "<img src='./img/global/skillDot.png'/><img src='./img/global/skillDot.png'/>"		},
+					{		"n": "Python", 		"s": "<img src='./img/global/skillDot.png'/><img src='./img/global/skillDot.png'/>"		},
+					{		"n": "PHP", 			"s": "<img src='./img/global/skillDot.png'/><img src='./img/global/skillDot.png'/>"		},
+					{		"n": "C#", 		 		"s": "<img src='./img/global/skillDot.png'/>"		},
+					{		"n": "Unity3D", 	"s": "<img src='./img/global/skillDot.png'/>"		}
+				]
+		}
 	},
 	"now": {
 		"html": "<h2>Hello there</h2>"
@@ -172,6 +205,26 @@
 					}	]
 			},
 			{
+				"projectID":"itvhub",
+				"title": "ITV Hub",
+				"tagDots": ["WebDev", "Multimedia", "RichMedia"],
+				"summary": "ITV’s latest digital platform release, the ITV Hub, brings together all the best bits from all of their channels.",
+				"blockSize": "reg",
+				"homeImg": "projects/itvhub/320x320_itvhub.jpg",
+				"homeColorTheme": "darkTheme",
+				"coverImg": "1200x352_itvhub.jpg",
+				"coverImgBgColor": "#ededed",
+				"headerCopyColour": "#212121",
+				"pageBgColor": "",
+				"pageCopyColor": "#212121",
+				"pageOrder": [
+						{	"copy": "<p>Possibly one of the biggest test of my animation library SuperTween, Almost everything in this campaign was made in CSS and animated with said Library</p>"
+					},{	"video": "https://player.vimeo.com/video/148607991?color=e41969"
+					},{	"copy": "<p>And below you can find the Ipad interstitial:</p>"
+					},{	"iframe": {"url": "./adSlot_1024x768/", "width":"1024", "height":"768"}
+					}	]
+			},
+			{
 				"projectID":"utopia2",
 				"title": "Utopia 2",
 				"tagDots": ["WebDev", "Multimedia", "RichMedia"],
@@ -207,9 +260,9 @@
 				"pageCopyColor": "#212121",
 				"pageOrder": [
 						{	"copy": "<p>The cross-platform, dynamic digital campaign used genre-based keyword re-targeting across a programmatic network of potentially 4,000 websites to deliver a series of fairly dark and highly contextual messaging relevant to the specific content a person was viewing. Animation effects utilise modern HTML5 technologies to individualise and randomise animation effects on every page-load causing every impression to be dynamic and unique.</p>"
-					},{	"iframe": {"url": "./adSlot_970x250", "width":"970", "height":"250"}
+					},{	"iframe": {"url": "./adSlot_970x250/index.html", "width":"970", "height":"250"}
 					},{	"copy": "<p>For example, gaming websites stated ‘pause is not an option’, visitors to finance websites read ‘Forget your savings. All your card purchases leave a trail’, and ads on sport related sites told readers that ‘The only one on your side is you’. Geo-targeted ads served location-specific information to people browsing the internet on their phones – e.g. a person in or around Liverpool Street train station saw an ad stating ‘Liverpool Street is the first place they’ll look for you’ and commuters using Victoria station were told ‘Victoria is not a station, it’s a trap.’</p>"
-					},{	"iframe": {"url": "./adSlot_300x250", "width":"300", "height":"250"}
+					},{	"iframe": {"url": "./adSlot_300x250/index.html", "width":"300", "height":"250"}
 					},{ "copy": "<p>The campaign also comprised a high profile, cross-platform takeover on The Guardian homepage on the day of the show’s launch which includes a series of three mock commercials aimed at subverting users’ expectations further and dramatizing the reality of going on the run.</p>"
 					}	]
 			},

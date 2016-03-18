@@ -107,6 +107,41 @@ header {
 .introduction {
   text-align: center;
 }
+.skillModule {
+  float: left;
+  margin: 0 1%;
+}
+.skillname {
+  font-size: 0.7rem;
+}
+.skillSet .skill,
+.skillSet h2 {
+  width: 85%;
+  margin-left: 7%;
+  display: inline-block;
+}
+.skillSet span {
+  margin-top: 6px;
+}
+.skillSet span p,
+.skillSet span .inlSpan {
+  margin: 0;
+  display: inline-block;
+  float: left;
+}
+.skillSet span .inlSpan {
+  float: right;
+}
+.skillSet span .inlSpan img {
+  width: 9px;
+  height: 9px;
+  margin-bottom: 7px;
+  margin-left: 4px;
+}
+.skillSet h2 {
+  text-align: center;
+  font-size: 1.1rem;
+}
 #footer {
   height: 22em;
   margin-top: 10em;
