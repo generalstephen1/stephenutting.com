@@ -84,38 +84,6 @@
 					}	]
 			},
 			{
-				"projectID":"supernatural",
-				"title": "Super natural",
-				"tagDots": ["WebDev", "Multimedia", "ServerSide", "RichMedia"],
-				"summary": "Super natural is an award-winning, independent digital production agency specialising in cross-platform rich media advertising and web development. Working with some of the world’s best agencies as well as brands directly, we blend powerful creative ideas with an intelligent application of technology. Naturally.",
-				"blockSize": "xLrg",
-				"homeImg": "projects/supernatural/960x320_supernatural.jpg",
-				"homeColorTheme": "lightTheme",
-				"coverImg": "1200x352_supernatural.jpg",
-				"coverImgBgColor": "#f2f2f2",
-				"headerCopyColour": "#ffffff",
-				"pageBgColor": "",
-				"pageCopyColor": "#212121",
-				"customStyleSheet": "",
-				"pageOrder": [
-				  	{	"copy": "<p>My primary role at Super Natural is that of front-end developer, however I have also worked on full-stack projects both within the digital marketing sphere and as a prototyper. Skills learned are extensive and varied, including mobile and mobile-web development, social media integration, Mac App development, server setup, running and maintenance. All this in a host of languages including JavaScript, Python, PHP and NodeJS.</p>"
-					},{ "video": "http://player.vimeo.com/video/109836047?color=e41969"
-					},{	"copy": "<p>Beyond technical skills, working at Super Natural has taught me how to work in a fast-paced environment yet ensuring a very high standard of output. This is thanks to following a very strict internal process, as well as working in a logical a clearly defined way so as to make my scripting both readable and clear as to its function.</p>"
-					},{	"copy": "<h3 class='subHeader'>Key Skills Learnt:</h3>"
-					},{ "copy":	"<ul>"
-					},{	"copy": "<li>Automation, reusable code</li>"
-					},{	"copy": "<li>HTML, CSS, JS, PHP, NodeJS and Python</li>"
-					},{	"copy": "<li>Responsive and dynamic front-end web development</li>"
-					},{	"copy": "<li>Adobe Suite: Photoshop, Illustrator, After Effects, Animate</li>"
-					},{	"copy": "<li>Efficient time management</li>"
-					},{	"copy": "<li>Technical consulting in meetings</li>"
-					},{	"copy": "<li>SSH, SEO, local testing environments</li>"
-					},{	"copy": "<li>Gulp, Grunt, LESS, SASS, and other pre and post processors</li>"
-					},{	"copy": "<li>Adserver functionality, Doubleclick, Flashtalking, etc</li>"
-					},{ "copy":	"</ul>"
-					}	]
-			},
-			{
 				"projectID":"humans",
 				"title": "C4 Humans",
 				"tagDots": ["WebDev", "RichMedia"],

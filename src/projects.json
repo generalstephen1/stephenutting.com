@@ -84,6 +84,38 @@
 					}	]
 			},
 			{
+				"projectID":"supernatural",
+				"title": "Super natural",
+				"tagDots": ["WebDev", "Multimedia", "ServerSide", "RichMedia"],
+				"summary": "Super natural is an award-winning, independent digital production agency specialising in cross-platform rich media advertising and web development. Working with some of the world’s best agencies as well as brands directly, we blend powerful creative ideas with an intelligent application of technology. Naturally.",
+				"blockSize": "xLrg",
+				"homeImg": "projects/supernatural/960x320_supernatural.jpg",
+				"homeColorTheme": "lightTheme",
+				"coverImg": "1200x352_supernatural.jpg",
+				"coverImgBgColor": "#f2f2f2",
+				"headerCopyColour": "#ffffff",
+				"pageBgColor": "",
+				"pageCopyColor": "#212121",
+				"customStyleSheet": "",
+				"pageOrder": [
+				  	{	"copy": "<p>My primary role at Super Natural is that of front-end developer, however I have also worked on full-stack projects both within the digital marketing sphere and as a prototyper. Skills learned are extensive and varied, including mobile and mobile-web development, social media integration, Mac App development, server setup, running and maintenance. All this in a host of languages including JavaScript, Python, PHP and NodeJS.</p>"
+					},{ "video": "http://player.vimeo.com/video/109836047?color=e41969"
+					},{	"copy": "<p>Beyond technical skills, working at Super Natural has taught me how to work in a fast-paced environment yet ensuring a very high standard of output. This is thanks to following a very strict internal process, as well as working in a logical a clearly defined way so as to make my scripting both readable and clear as to its function.</p>"
+					},{	"copy": "<h3 class='subHeader'>Key Skills Learnt:</h3>"
+					},{ "copy":	"<ul>"
+					},{	"copy": "<li>Automation, reusable code</li>"
+					},{	"copy": "<li>HTML, CSS, JS, PHP, NodeJS and Python</li>"
+					},{	"copy": "<li>Responsive and dynamic front-end web development</li>"
+					},{	"copy": "<li>Adobe Suite: Photoshop, Illustrator, After Effects, Animate</li>"
+					},{	"copy": "<li>Efficient time management</li>"
+					},{	"copy": "<li>Technical consulting in meetings</li>"
+					},{	"copy": "<li>SSH, SEO, local testing environments</li>"
+					},{	"copy": "<li>Gulp, Grunt, LESS, SASS, and other pre and post processors</li>"
+					},{	"copy": "<li>Adserver functionality, Doubleclick, Flashtalking, etc</li>"
+					},{ "copy":	"</ul>"
+					}	]
+			},
+			{
 				"projectID":"humans",
 				"title": "C4 Humans",
 				"tagDots": ["WebDev", "RichMedia"],
@@ -158,6 +190,27 @@
 					},{	"copy": "<p>If the task of effectively recreating animation sequences of the eyeball movement created in 3D for HTML5 wasn’t ambitious enough, the interactive HTML5 element known as ‘position detection’ (or unofficially as ‘cursor chase’) was an industry-first and required an intense collaborative effort with the team at Google DoubleClick who helped bring it all together. So excited were they with the outcome that they decided to showcase the creative in their <a href='http://www.richmediagallery.com/detailPage?id=7908'>rich media gallery<a>"
 					},{	"iframe": {"url": "./adSlot_300x250_cursor", "width":"300", "height":"250"}
 					},{	"iframe": {"url": "./adSlot_900x250", "width":"900", "height":"250"}
+					}	]
+			},
+			{
+				"projectID":"hunted",
+				"title": "Hunted",
+				"tagDots": ["WebDev", "Multimedia", "RichMedia"],
+				"summary": "‘Hunted’ saw a group of ordinary Brits attempt to go off the grid whilst being tracked by a team of expert Hunters. With creative messaging across the campaign designed to subvert the media it’s in, all ads used the same gritty and distressed typography from the offline campaign and utilised a tip-based format taking inspiration from the question “is it ever possible to slip through the net in a surveillance nation?”",
+				"blockSize": "reg",
+				"homeImg": "projects/hunted/320x320_hunted.jpg",
+				"homeColorTheme": "darkTheme",
+				"coverImg": "1200x352_hunted.jpg",
+				"coverImgBgColor": "#ffeb00",
+				"headerCopyColour": "#ffffff",
+				"pageBgColor": "",
+				"pageCopyColor": "#212121",
+				"pageOrder": [
+						{	"copy": "<p>The cross-platform, dynamic digital campaign used genre-based keyword re-targeting across a programmatic network of potentially 4,000 websites to deliver a series of fairly dark and highly contextual messaging relevant to the specific content a person was viewing. Animation effects utilise modern HTML5 technologies to individualise and randomise animation effects on every page-load causing every impression to be dynamic and unique.</p>"
+					},{	"iframe": {"url": "./adSlot_970x250", "width":"970", "height":"250"}
+					},{	"copy": "<p>For example, gaming websites stated ‘pause is not an option’, visitors to finance websites read ‘Forget your savings. All your card purchases leave a trail’, and ads on sport related sites told readers that ‘The only one on your side is you’. Geo-targeted ads served location-specific information to people browsing the internet on their phones – e.g. a person in or around Liverpool Street train station saw an ad stating ‘Liverpool Street is the first place they’ll look for you’ and commuters using Victoria station were told ‘Victoria is not a station, it’s a trap.’</p>"
+					},{	"iframe": {"url": "./adSlot_300x250", "width":"300", "height":"250"}
+					},{ "copy": "<p>The campaign also comprised a high profile, cross-platform takeover on The Guardian homepage on the day of the show’s launch which includes a series of three mock commercials aimed at subverting users’ expectations further and dramatizing the reality of going on the run.</p>"
 					}	]
 			},
 			{
