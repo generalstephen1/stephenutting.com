@@ -68,7 +68,7 @@ module.exports = function(grunt){
             dest: 'construct/'
           },
         ]
-      }
+      },
     },
 
     pngmin: {
