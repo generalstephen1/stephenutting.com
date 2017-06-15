@@ -7,33 +7,33 @@
 
 			"FrontEnd": [
 					{		"n": "Javascript", 		"s": "<img src='./img/global/skillDot.png'/><img src='./img/global/skillDot.png'/><img src='./img/global/skillDot.png'/><img src='./img/global/skillDot.png'/><img src='./img/global/skillDot.png'/>"},
-					{		"n": "HTML5", 		 		"s": "<img src='./img/global/skillDot.png'/><img src='./img/global/skillDot.png'/><img src='./img/global/skillDot.png'/><img src='./img/global/skillDot.png'/>"},
-					{		"n": "CSS3", 			 		"s": "<img src='./img/global/skillDot.png'/><img src='./img/global/skillDot.png'/><img src='./img/global/skillDot.png'/><img src='./img/global/skillDot.png'/>"		},
-					{		"n": "Gulp/Grunt", 		"s": "<img src='./img/global/skillDot.png'/><img src='./img/global/skillDot.png'/><img src='./img/global/skillDot.png'/><img src='./img/global/skillDot.png'/>"		},
-					{		"n": "MV* Frameworks","s": "<img src='./img/global/skillDot.png'/><img src='./img/global/skillDot.png'/><img src='./img/global/skillDot.png'/>"		},
-					{		"n": "Git", 			 		"s": "<img src='./img/global/skillDot.png'/><img src='./img/global/skillDot.png'/><img src='./img/global/skillDot.png'/>"		},
-					{		"n": "WebGL", 		 		"s": "<img src='./img/global/skillDot.png'/><img src='./img/global/skillDot.png'/><img src='./img/global/skillDot.png'/>"		},
-					{		"n": "SEO", 			 		"s": "<img src='./img/global/skillDot.png'/><img src='./img/global/skillDot.png'/>"		}
+					{		"n": "HTML5", 		 	"s": "<img src='./img/global/skillDot.png'/><img src='./img/global/skillDot.png'/><img src='./img/global/skillDot.png'/><img src='./img/global/skillDot.png'/>"},
+					{		"n": "CSS3", 	 		"s": "<img src='./img/global/skillDot.png'/><img src='./img/global/skillDot.png'/><img src='./img/global/skillDot.png'/><img src='./img/global/skillDot.png'/>"		},
+					{		"n": "React", 			"s": "<img src='./img/global/skillDot.png'/><img src='./img/global/skillDot.png'/><img src='./img/global/skillDot.png'/>"		},
+					{		"n": "Git",				"s": "<img src='./img/global/skillDot.png'/><img src='./img/global/skillDot.png'/><img src='./img/global/skillDot.png'/>"		},
+					{		"n": "API Design", 		"s": "<img src='./img/global/skillDot.png'/><img src='./img/global/skillDot.png'/><img src='./img/global/skillDot.png'/>"		},
+					{		"n": "WebGL", 		 	"s": "<img src='./img/global/skillDot.png'/><img src='./img/global/skillDot.png'/><img src='./img/global/skillDot.png'/>"		},
+					{		"n": "SEO", 			"s": "<img src='./img/global/skillDot.png'/><img src='./img/global/skillDot.png'/>"		}
 				],
 			"DesignManagement": [
-					{		"n": "Communication", 				"s": "<img src='./img/global/skillDot.png'/><img src='./img/global/skillDot.png'/><img src='./img/global/skillDot.png'/><img src='./img/global/skillDot.png'/><img src='./img/global/skillDot.png'/>"		},
-					{		"n": "Following Process", 		"s": "<img src='./img/global/skillDot.png'/><img src='./img/global/skillDot.png'/><img src='./img/global/skillDot.png'/><img src='./img/global/skillDot.png'/><img src='./img/global/skillDot.png'/>"		},
-					{		"n": "Learning New Skills",	 	"s": "<img src='./img/global/skillDot.png'/><img src='./img/global/skillDot.png'/><img src='./img/global/skillDot.png'/><img src='./img/global/skillDot.png'/><img src='./img/global/skillDot.png'/>"		},
-					{		"n": "Work Ownership", 				"s": "<img src='./img/global/skillDot.png'/><img src='./img/global/skillDot.png'/><img src='./img/global/skillDot.png'/><img src='./img/global/skillDot.png'/>"		},
-					{		"n": "Time Management", 			"s": "<img src='./img/global/skillDot.png'/><img src='./img/global/skillDot.png'/><img src='./img/global/skillDot.png'/><img src='./img/global/skillDot.png'/>"		},
-					{		"n": "Teamwork", 			 				"s": "<img src='./img/global/skillDot.png'/><img src='./img/global/skillDot.png'/><img src='./img/global/skillDot.png'/><img src='./img/global/skillDot.png'/>"		},
-					{		"n": "Adobe Suite", 		 			"s": "<img src='./img/global/skillDot.png'/><img src='./img/global/skillDot.png'/><img src='./img/global/skillDot.png'/>"		},
-					{		"n": "Design", 			 					"s": "<img src='./img/global/skillDot.png'/><img src='./img/global/skillDot.png'/><img src='./img/global/skillDot.png'/>"		}
+					{		"n": "Communication", 		"s": "<img src='./img/global/skillDot.png'/><img src='./img/global/skillDot.png'/><img src='./img/global/skillDot.png'/><img src='./img/global/skillDot.png'/><img src='./img/global/skillDot.png'/>"		},
+					{		"n": "Agile Development", 	"s": "<img src='./img/global/skillDot.png'/><img src='./img/global/skillDot.png'/><img src='./img/global/skillDot.png'/><img src='./img/global/skillDot.png'/><img src='./img/global/skillDot.png'/>"		},
+					{		"n": "Leadership",			"s": "<img src='./img/global/skillDot.png'/><img src='./img/global/skillDot.png'/><img src='./img/global/skillDot.png'/><img src='./img/global/skillDot.png'/>"		},
+					{		"n": "TDD", 				"s": "<img src='./img/global/skillDot.png'/><img src='./img/global/skillDot.png'/><img src='./img/global/skillDot.png'/><img src='./img/global/skillDot.png'/>"		},
+					{		"n": "Time Management", 	"s": "<img src='./img/global/skillDot.png'/><img src='./img/global/skillDot.png'/><img src='./img/global/skillDot.png'/><img src='./img/global/skillDot.png'/>"		},
+					{		"n": "Teamwork", 			"s": "<img src='./img/global/skillDot.png'/><img src='./img/global/skillDot.png'/><img src='./img/global/skillDot.png'/><img src='./img/global/skillDot.png'/>"		},
+					{		"n": "Remote Work", 		"s": "<img src='./img/global/skillDot.png'/><img src='./img/global/skillDot.png'/><img src='./img/global/skillDot.png'/>"		},
+					{		"n": "UI Design", 		 	"s": "<img src='./img/global/skillDot.png'/><img src='./img/global/skillDot.png'/><img src='./img/global/skillDot.png'/>"		}
 				],
 			"OtherDevelopment": [
-					{		"n": "NodeJS", 		"s": "<img src='./img/global/skillDot.png'/><img src='./img/global/skillDot.png'/><img src='./img/global/skillDot.png'/><img src='./img/global/skillDot.png'/>"		},
-					{		"n": "Testing", 	"s": "<img src='./img/global/skillDot.png'/><img src='./img/global/skillDot.png'/><img src='./img/global/skillDot.png'/><img src='./img/global/skillDot.png'/>"		},
-					{		"n": "Automation","s": "<img src='./img/global/skillDot.png'/><img src='./img/global/skillDot.png'/><img src='./img/global/skillDot.png'/>"		},
-					{		"n": "UX/UI", 		"s": "<img src='./img/global/skillDot.png'/><img src='./img/global/skillDot.png'/>"		},
-					{		"n": "Python", 		"s": "<img src='./img/global/skillDot.png'/><img src='./img/global/skillDot.png'/>"		},
-					{		"n": "PHP", 			"s": "<img src='./img/global/skillDot.png'/><img src='./img/global/skillDot.png'/>"		},
-					{		"n": "C#", 		 		"s": "<img src='./img/global/skillDot.png'/>"		},
-					{		"n": "Unity3D", 	"s": "<img src='./img/global/skillDot.png'/>"		}
+					{		"n": "NodeJS", 			"s": "<img src='./img/global/skillDot.png'/><img src='./img/global/skillDot.png'/><img src='./img/global/skillDot.png'/><img src='./img/global/skillDot.png'/>"		},
+					{		"n": "Python", 			"s": "<img src='./img/global/skillDot.png'/><img src='./img/global/skillDot.png'/><img src='./img/global/skillDot.png'/><img src='./img/global/skillDot.png'/>"		},
+					{		"n": "Automation",		"s": "<img src='./img/global/skillDot.png'/><img src='./img/global/skillDot.png'/><img src='./img/global/skillDot.png'/><img src='./img/global/skillDot.png'/>"		},
+					{		"n": "Testing", 		"s": "<img src='./img/global/skillDot.png'/><img src='./img/global/skillDot.png'/><img src='./img/global/skillDot.png'/>"		},
+					{		"n": "Work Projection", "s": "<img src='./img/global/skillDot.png'/><img src='./img/global/skillDot.png'/><img src='./img/global/skillDot.png'/>"		},
+					{		"n": "Django", 			"s": "<img src='./img/global/skillDot.png'/><img src='./img/global/skillDot.png'/><img src='./img/global/skillDot.png'/>"		},
+					{		"n": "DevOps",			"s": "<img src='./img/global/skillDot.png'/><img src='./img/global/skillDot.png'/>"		},
+					{		"n": "Unity3D", 		"s": "<img src='./img/global/skillDot.png'/>"		}
 				]
 		}
 	},
