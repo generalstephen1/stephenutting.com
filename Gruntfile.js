@@ -1,15 +1,10 @@
-
-
-var topSecret = require("./topSecret");
-var fs = require('fs');
-
 module.exports = function(grunt){
 
   // get the jsonFile data from external json file
   var jsonFile = grunt.file.readJSON("src/projects.json");
-  var base_url = "/Users/SuperMac3/Desktop/_localjsonFile/stephenutting.com/build";
+  var base_url = "~/projects/_personal/stephenutting.com/docs";
 
-  // set up preset grunt config - bake on index.html, build folder clean and assets copying
+  // set up preset grunt config - bake on index.html, docs folder clean and assets copying
   var grunt_config = {
 
     /*
@@ -34,8 +29,8 @@ module.exports = function(grunt){
      * CLEAN
      */
     clean: {
-      // construct: [ "construct/projects" ],
-      release: [ "build" ]
+      construct: [ "construct/projects" ],
+      release: [ "docs" ]
     },
 
     /*
@@ -49,13 +44,13 @@ module.exports = function(grunt){
             flatten: false,
             cwd: "construct",
             src: ['projects/**/**.*', '**.ico','docs/**.*', 'img/**/**.*', 'img/**.*'],
-            dest: 'build/'
+            dest: 'docs/'
           },{
             expand: true,
             flatten: false,
             cwd: "construct/js/lib",
             src: ['TweenLite.min.js', 'plugins/CSSPlugin.min.js','TimelineLite.js'],
-            dest: 'build/greensock/'
+            dest: 'docs/greensock/'
           },
         ]
       },
@@ -91,7 +86,7 @@ module.exports = function(grunt){
     targethtml: {
       dist: {
         files: {
-          "build/index.html":"construct/index.html"
+          "docs/index.html":"construct/index.html"
         }
       }
     },
@@ -102,7 +97,7 @@ module.exports = function(grunt){
       },
       target: {
         files: {
-          'build/All.min.css': [
+          'docs/All.min.css': [
             "construct/css/lib/skeleton.css",
       		  "construct/css/css_globals.css",
       		  "construct/css/css_projects.css",
@@ -121,7 +116,7 @@ module.exports = function(grunt){
       },
       my_target: {
         files: {
-          'build/All.min.js': [
+          'docs/All.min.js': [
             "construct/js/lib/masonry.min.js",
 
             // "construct/js/lib/superTween.min.js",
@@ -136,11 +131,11 @@ module.exports = function(grunt){
       			"construct/js/js_headerControl.js",
       			"construct/js/js_scrollControl.js",
           ],
-          'build/Main.min.js': [
+          'docs/Main.min.js': [
             "construct/js/js_projFilter.js",
             "construct/js/js_siteMain.js"
           ],
-          'build/Proj.min.js': [
+          'docs/Proj.min.js': [
             "construct/js/js_projectMain.js"
           ]
         }
@@ -149,46 +144,26 @@ module.exports = function(grunt){
 
     replace: {
       build: {
-        src: ['build/All.min.css'],             // source files array (supports minimatch)
-        dest: 'build/All.min.css',             // destination directory or file
+        src: ['docs/All.min.css'],             // source files array (supports minimatch)
+        dest: 'docs/All.min.css',             // destination directory or file
         replacements: [{
           from: '../',                   // string replacement
           to: './'
         }]
       }
     },
-
-    environments: {
-      options: {
-        local_path: 'build',
-        current_symlink: 'html',
-        deploy_path: '/var/www/stephenutting.com'
-      },
-      prod: {
-        options: {
-            host: topSecret.host,
-            username: topSecret.username,
-            privateKey: fs.readFileSync(topSecret.SSHLocation),
-            password: topSecret.passwd,
-            port: topSecret.port,
-            releases_to_keep: '5',
-            // release_subdir: 'myapp'
-          }
-      }
-    },
-
   }
 
 
   // define the tasks to run
   var tasks = ["copy:construct", "bake:index", "pngmin" ];
   var targetList = {
-    'build/index.html': 'construct/index.html',
+    'docs/index.html': 'construct/index.html',
   }
 
 
 
-  //add bake tasks for each jsonFile item to generate a new page
+  // add bake tasks for each jsonFile item to generate a new page
   for(var i = 0; i < jsonFile.projects.length; i++){
     var task = {
       options: {
@@ -205,21 +180,24 @@ module.exports = function(grunt){
     grunt_config.bake[projectName] = task;
     tasks.push("bake:"+projectName);
 
-    grunt_config.targethtml.dist.files["build/projects/" + projectName + "/" + projectName + ".html"] = "construct/projects/" + projectName + "/" + projectName + ".html"
+    grunt_config.targethtml.dist.files["docs/projects/" + projectName + "/" + projectName + ".html"] = "construct/projects/" + projectName + "/" + projectName + ".html"
   }
-
-
   grunt.initConfig(grunt_config);
 
-  grunt.loadNpmTasks('grunt-contrib-clean');
-  grunt.loadNpmTasks('grunt-contrib-copy');
-  grunt.loadNpmTasks('grunt-pngmin');
-  grunt.loadNpmTasks('grunt-bake');
-  grunt.loadNpmTasks('grunt-targethtml');
-  grunt.loadNpmTasks('grunt-contrib-cssmin');
-  grunt.loadNpmTasks('grunt-contrib-uglify');
-  grunt.loadNpmTasks('grunt-text-replace');
-  grunt.loadNpmTasks('grunt-ssh-deploy');
+ var npmTasks = [
+   'grunt-bake',
+   'grunt-contrib-clean',
+   'grunt-contrib-copy',
+   'grunt-pngmin',
+   'grunt-targethtml',
+   'grunt-contrib-cssmin',
+   'grunt-contrib-uglify',
+   'grunt-text-replace',
+   ]
+
+for (var i = 0; i < npmTasks.length; i++){
+  grunt.loadNpmTasks(npmTasks[i]);
+}
 
 
 
