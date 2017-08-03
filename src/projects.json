@@ -42,6 +42,45 @@
 	},
 	"projects":[
 			{
+				"projectID":"cadmus",
+				"title": "Cadmus",
+				"tagDots": ["WebDev", "React", "Git", "Javascript", "Python"],
+				"summary": "An internal CMS system for Global Media and entertainment, written in React using Redux among other modern web technologies",
+				"blockSize": "lrg",
+				"homeImg": "projects/cadmus/960x320_cadmus.jpg",
+				"homeColorTheme": "darkTheme",
+				"coverImg": "1200x352_cadmus.jpg",
+				"coverImgBgColor": "#D2D2D2",
+				"headerCopyColour": "#212121",
+				"pageBgColor": "",
+				"pageCopyColor": "#212121",
+				"customStyleSheet": "",
+				"pageOrder": [
+					{	"copy": "<h3 class='subHeader'>Technology In Cadmus</h3>"
+					}	]
+			},
+			{
+				"projectID":"global",
+				"title": "Global Radio",
+				"tagDots": ["WebDev", "React", "Git", "Javascript", "Python"],
+				"summary": "Home to some of the UK's best-loved radio stations such as Heart, Capital and Classic FM, to name a few, Global keeps 24.4 million listeners tuned in and entertained each week.",
+				"blockSize": "xLrg",
+				"homeImg": "projects/global/960x320_global.jpg",
+				"homeColorTheme": "darkTheme",
+				"coverImg": "1200x352_global.jpg",
+				"coverImgBgColor": "#D2D2D2",
+				"headerCopyColour": "#212121",
+				"pageBgColor": "",
+				"pageCopyColor": "#212121",
+				"customStyleSheet": "",
+				"pageOrder": [
+					{	"image": "./620x400_global.jpg"
+					},{	"copy": "<h3 class='subHeader'>Working at Global</h3>"
+					},{ "copy": "<p>At Global I am part of an agile digital team that builds and maintains all the radio shows websites. While working primarily in HTML, SASS and Javascript, there is a large portion of Python I'm learning alongside the many tools and softwares of Global digital.</p>"
+					},{ "copy": "<p>Recently we have been working on an internal CMS build in React with Redux among other things. For details check out <a href='./../../cadmus/cadmus.html'>my Cadmus writeup</a></p>"
+					}	]
+			},
+			{
 				"projectID":"superTween",
 				"title": "SuperTween",
 				"tagDots": ["WebDev", "Multimedia", "RichMedia"],
