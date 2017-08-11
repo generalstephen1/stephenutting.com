@@ -152,6 +152,23 @@ module.exports = function(grunt){
         }]
       }
     },
+
+  less: {
+      normal: {
+        options: {
+          paths: ['construct/css'],
+        modifyVars: {
+          imgPath: '"http://mycdn.com/path/to/images"',
+          bgColor: 'red'
+        }
+      },
+      files: {
+        'construct/css/*.css': 'construct/less/*.less'
+      }
+    }
+  }
+
+
   }
 
 

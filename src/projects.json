@@ -42,27 +42,9 @@
 	},
 	"projects":[
 			{
-				"projectID":"cadmus",
-				"title": "Cadmus",
-				"tagDots": ["WebDev", "React", "Git", "Javascript", "Python"],
-				"summary": "An internal CMS system for Global Media and entertainment, written in React using Redux among other modern web technologies",
-				"blockSize": "lrg",
-				"homeImg": "projects/cadmus/960x320_cadmus.jpg",
-				"homeColorTheme": "darkTheme",
-				"coverImg": "1200x352_cadmus.jpg",
-				"coverImgBgColor": "#D2D2D2",
-				"headerCopyColour": "#212121",
-				"pageBgColor": "",
-				"pageCopyColor": "#212121",
-				"customStyleSheet": "",
-				"pageOrder": [
-					{	"copy": "<h3 class='subHeader'>Technology In Cadmus</h3>"
-					}	]
-			},
-			{
 				"projectID":"global",
 				"title": "Global Radio",
-				"tagDots": ["WebDev", "React", "Git", "Javascript", "Python"],
+				"tagDots": ["WebDev", "React", "Git", "Python"],
 				"summary": "Home to some of the UK's best-loved radio stations such as Heart, Capital and Classic FM, to name a few, Global keeps 24.4 million listeners tuned in and entertained each week.",
 				"blockSize": "xLrg",
 				"homeImg": "projects/global/960x320_global.jpg",
