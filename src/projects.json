@@ -185,7 +185,7 @@
 				"pageOrder": [
 						{ "copy": "<p>While working at Super natural, we were comissioned to produce the digital advertising campaign and raise awareness of the show and ultimately drive tune-in to much anticipated first episode.</p>"
 					},{	"copy": "<p>With custom sequences shot specifically for digital media, we used the lead character from the show – automaton Anita – to front all communications across a variety of high profile digital media environments including Xbox, Skype, MSN and The Guardian.</p>"
-					},{	"iframe": {"url": "./adSlot_970x250/index.html", "width":"970", "height":"250"}
+					},{	"iframe": {"url": "http://steveutting.com/projects/humans/adslot_970x250/index.html", "width":"970", "height":"250"}
 					},{	"copy": "<p>With all ads built in HTML5, we were able to ensure that the eerie, but smooth robotic movements made by the character were visible across all platforms. To bullet proof this approach across the plethora of browsers and operating systems in a graceful way, users exposed to ads on Desktop would see full video sequences of the character while users on Tablet/Mobile devices were exposed to faux-video image sequences.</p>"
 					},{	"image": "./960x540_humans_inPage.jpg"
 					}	]
@@ -242,7 +242,7 @@
 						{	"copy": "<p>Possibly one of the biggest test of my animation library SuperTween, Almost everything in this campaign was made in CSS and animated with said Library</p>"
 					},{	"video": "https://player.vimeo.com/video/148607991?color=e41969"
 					},{	"copy": "<p>And below you can find the Ipad interstitial:</p>"
-					},{	"iframe": {"url": "./adSlot_1024x768/", "width":"1024", "height":"768"}
+					},{	"iframe": {"url": "http://steveutting.com/projects/itvhub/adslot_1024x768/", "width":"1024", "height":"768"}
 					}	]
 			},
 			{
@@ -262,8 +262,8 @@
 						{	"copy": "<p>In keeping with the eerie and dark themes of the show, the advertising concept leveraged the sense of being watched in a very literal way. Whilst the campaign creative featured the iconic and arresting yellow that was an emblem of Series 1, the sense of paranoia was turned up a notch with the eyeball creepily responding to users’ mouse movements on the page reinforcing “the network is watching” campaign strap line.</p>"
 					},{	"video": "https://player.vimeo.com/video/148604579?color=e41969"
 					},{	"copy": "<p>If the task of effectively recreating animation sequences of the eyeball movement created in 3D for HTML5 wasn’t ambitious enough, the interactive HTML5 element known as ‘position detection’ (or unofficially as ‘cursor chase’) was an industry-first and required an intense collaborative effort with the team at Google DoubleClick who helped bring it all together. So excited were they with the outcome that they decided to showcase the creative in their <a href='http://www.richmediagallery.com/detailPage?id=7908'>rich media gallery<a>"
-					},{	"iframe": {"url": "./adSlot_300x250_cursor", "width":"300", "height":"250"}
-					},{	"iframe": {"url": "./adSlot_900x250", "width":"900", "height":"250"}
+					},{	"iframe": {"url": "http://steveutting.com/projects/utopia2/adslot_300x250_cursor", "width":"300", "height":"250"}
+					},{	"iframe": {"url": "http://steveutting.com/projects/utopia2/adslot_900x250", "width":"900", "height":"250"}
 					}	]
 			},
 			{
@@ -281,9 +281,9 @@
 				"pageCopyColor": "#212121",
 				"pageOrder": [
 						{	"copy": "<p>The cross-platform, dynamic digital campaign used genre-based keyword re-targeting across a programmatic network of potentially 4,000 websites to deliver a series of fairly dark and highly contextual messaging relevant to the specific content a person was viewing. Animation effects utilise modern HTML5 technologies to individualise and randomise animation effects on every page-load causing every impression to be dynamic and unique.</p>"
-					},{	"iframe": {"url": "./adSlot_970x250/index.html", "width":"970", "height":"250"}
+					},{	"iframe": {"url": "http://steveutting.com/projects/hunted/adslot_970x250/index.html", "width":"970", "height":"250"}
 					},{	"copy": "<p>For example, gaming websites stated ‘pause is not an option’, visitors to finance websites read ‘Forget your savings. All your card purchases leave a trail’, and ads on sport related sites told readers that ‘The only one on your side is you’. Geo-targeted ads served location-specific information to people browsing the internet on their phones – e.g. a person in or around Liverpool Street train station saw an ad stating ‘Liverpool Street is the first place they’ll look for you’ and commuters using Victoria station were told ‘Victoria is not a station, it’s a trap.’</p>"
-					},{	"iframe": {"url": "./adSlot_300x250/index.html", "width":"300", "height":"250"}
+					},{	"iframe": {"url": "http://steveutting.com/projects/hunted/adslot_300x250/index.html", "width":"300", "height":"250"}
 					},{ "copy": "<p>The campaign also comprised a high profile, cross-platform takeover on The Guardian homepage on the day of the show’s launch which includes a series of three mock commercials aimed at subverting users’ expectations further and dramatizing the reality of going on the run.</p>"
 					}	]
 			},
